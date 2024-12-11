@@ -33,8 +33,11 @@ Partial Class frmSignInPage
         Me.lblClock = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2Shapes1 = New Guna.UI2.WinForms.Guna2Shapes()
+        Me.Guna2Shapes2 = New Guna.UI2.WinForms.Guna2Shapes()
+        Me.payrollTxtBx = New System.Windows.Forms.TextBox()
+        Me.passTxtBx = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
         CType(Me.picLoginLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -57,7 +60,7 @@ Partial Class frmSignInPage
         Me.lblSignInDot.BackColor = System.Drawing.Color.Transparent
         Me.lblSignInDot.Font = New System.Drawing.Font("Century Gothic", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSignInDot.ForeColor = System.Drawing.Color.FromArgb(CType(CType(78, Byte), Integer), CType(CType(149, Byte), Integer), CType(CType(217, Byte), Integer))
-        Me.lblSignInDot.Location = New System.Drawing.Point(272, 146)
+        Me.lblSignInDot.Location = New System.Drawing.Point(273, 146)
         Me.lblSignInDot.Name = "lblSignInDot"
         Me.lblSignInDot.Size = New System.Drawing.Size(51, 77)
         Me.lblSignInDot.TabIndex = 12
@@ -79,11 +82,11 @@ Partial Class frmSignInPage
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
         Me.Label1.Location = New System.Drawing.Point(98, 350)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(58, 16)
+        Me.Label1.Size = New System.Drawing.Size(58, 15)
         Me.Label1.TabIndex = 10
         Me.Label1.Text = "Password"
         '
@@ -91,11 +94,11 @@ Partial Class frmSignInPage
         '
         Me.lblPayrollNo.AutoSize = True
         Me.lblPayrollNo.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.lblPayrollNo.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPayrollNo.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblPayrollNo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
         Me.lblPayrollNo.Location = New System.Drawing.Point(98, 271)
         Me.lblPayrollNo.Name = "lblPayrollNo"
-        Me.lblPayrollNo.Size = New System.Drawing.Size(88, 16)
+        Me.lblPayrollNo.Size = New System.Drawing.Size(90, 15)
         Me.lblPayrollNo.TabIndex = 8
         Me.lblPayrollNo.Text = "Payroll Number"
         '
@@ -142,63 +145,82 @@ Partial Class frmSignInPage
         Me.Guna2Button1.TabIndex = 16
         Me.Guna2Button1.Text = "LOG IN"
         '
-        'Guna2TextBox1
+        'Guna2Shapes1
         '
-        Me.Guna2TextBox1.Animated = True
-        Me.Guna2TextBox1.AutoRoundedCorners = True
-        Me.Guna2TextBox1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2TextBox1.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2TextBox1.BorderRadius = 27
-        Me.Guna2TextBox1.BorderThickness = 0
-        Me.Guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox1.DefaultText = ""
-        Me.Guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox1.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox1.Location = New System.Drawing.Point(75, 268)
-        Me.Guna2TextBox1.Name = "Guna2TextBox1"
-        Me.Guna2TextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.Guna2TextBox1.PlaceholderText = ""
-        Me.Guna2TextBox1.SelectedText = ""
-        Me.Guna2TextBox1.Size = New System.Drawing.Size(344, 57)
-        Me.Guna2TextBox1.TabIndex = 17
+        Me.Guna2Shapes1.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Shapes1.BorderColor = System.Drawing.Color.Transparent
+        Me.Guna2Shapes1.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.Guna2Shapes1.Location = New System.Drawing.Point(35, 338)
+        Me.Guna2Shapes1.Name = "Guna2Shapes1"
+        Me.Guna2Shapes1.PolygonSkip = 1
+        Me.Guna2Shapes1.Rotate = 0!
+        Me.Guna2Shapes1.RoundedRadius = 25
+        Me.Guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rounded
+        Me.Guna2Shapes1.Size = New System.Drawing.Size(419, 76)
+        Me.Guna2Shapes1.TabIndex = 19
+        Me.Guna2Shapes1.Text = "Guna2Shapes1"
+        Me.Guna2Shapes1.Zoom = 80
         '
-        'Guna2TextBox2
+        'Guna2Shapes2
         '
-        Me.Guna2TextBox2.Animated = True
-        Me.Guna2TextBox2.AutoRoundedCorners = True
-        Me.Guna2TextBox2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2TextBox2.BorderRadius = 27
-        Me.Guna2TextBox2.BorderThickness = 0
-        Me.Guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox2.DefaultText = ""
-        Me.Guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox2.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox2.Location = New System.Drawing.Point(75, 347)
-        Me.Guna2TextBox2.Name = "Guna2TextBox2"
-        Me.Guna2TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.Guna2TextBox2.PlaceholderText = ""
-        Me.Guna2TextBox2.SelectedText = ""
-        Me.Guna2TextBox2.Size = New System.Drawing.Size(344, 57)
-        Me.Guna2TextBox2.TabIndex = 18
+        Me.Guna2Shapes2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Shapes2.BorderColor = System.Drawing.Color.Transparent
+        Me.Guna2Shapes2.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.Guna2Shapes2.Location = New System.Drawing.Point(35, 261)
+        Me.Guna2Shapes2.Name = "Guna2Shapes2"
+        Me.Guna2Shapes2.PolygonSkip = 1
+        Me.Guna2Shapes2.Rotate = 0!
+        Me.Guna2Shapes2.RoundedRadius = 25
+        Me.Guna2Shapes2.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rounded
+        Me.Guna2Shapes2.Size = New System.Drawing.Size(419, 76)
+        Me.Guna2Shapes2.TabIndex = 20
+        Me.Guna2Shapes2.Text = "Guna2Shapes2"
+        Me.Guna2Shapes2.Zoom = 80
+        '
+        'payrollTxtBx
+        '
+        Me.payrollTxtBx.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.payrollTxtBx.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.payrollTxtBx.Font = New System.Drawing.Font("Century Gothic", 10.0!)
+        Me.payrollTxtBx.ForeColor = System.Drawing.Color.White
+        Me.payrollTxtBx.Location = New System.Drawing.Point(101, 295)
+        Me.payrollTxtBx.Name = "payrollTxtBx"
+        Me.payrollTxtBx.Size = New System.Drawing.Size(287, 17)
+        Me.payrollTxtBx.TabIndex = 21
+        '
+        'passTxtBx
+        '
+        Me.passTxtBx.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.passTxtBx.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.passTxtBx.Font = New System.Drawing.Font("Century Gothic", 10.0!)
+        Me.passTxtBx.ForeColor = System.Drawing.Color.White
+        Me.passTxtBx.Location = New System.Drawing.Point(101, 373)
+        Me.passTxtBx.Name = "passTxtBx"
+        Me.passTxtBx.Size = New System.Drawing.Size(287, 17)
+        Me.passTxtBx.TabIndex = 22
+        Me.passTxtBx.UseSystemPasswordChar = True
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(162, Byte), Integer), CType(CType(162, Byte), Integer), CType(CType(162, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(135, 410)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(220, 15)
+        Me.Label2.TabIndex = 23
+        Me.Label2.Text = "*If new account, password not required."
         '
         'frmSignInPage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(971, 614)
+        Me.ClientSize = New System.Drawing.Size(974, 611)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.passTxtBx)
+        Me.Controls.Add(Me.payrollTxtBx)
         Me.Controls.Add(Me.Guna2Button1)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.picLoginLogo)
@@ -206,8 +228,8 @@ Partial Class frmSignInPage
         Me.Controls.Add(Me.lblSignIn)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lblPayrollNo)
-        Me.Controls.Add(Me.Guna2TextBox1)
-        Me.Controls.Add(Me.Guna2TextBox2)
+        Me.Controls.Add(Me.Guna2Shapes1)
+        Me.Controls.Add(Me.Guna2Shapes2)
         Me.Name = "frmSignInPage"
         Me.Text = "frmSignInPage"
         CType(Me.picLoginLogo, System.ComponentModel.ISupportInitialize).EndInit()
@@ -227,6 +249,9 @@ Partial Class frmSignInPage
     Friend WithEvents lblClock As Label
     Friend WithEvents Timer1 As Timer
     Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox2 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Guna2Shapes1 As Guna.UI2.WinForms.Guna2Shapes
+    Friend WithEvents Guna2Shapes2 As Guna.UI2.WinForms.Guna2Shapes
+    Friend WithEvents payrollTxtBx As TextBox
+    Friend WithEvents passTxtBx As TextBox
+    Friend WithEvents Label2 As Label
 End Class
