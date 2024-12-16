@@ -20,7 +20,8 @@ Public Class frmSignInPage
     End Sub
 
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
-        frmClockPage.Show()
+        MainDesign.Show()
+        Me.Hide() ' make it delete it
     End Sub
 
     Private Sub passTxtBx_TextChanged(sender As Object, e As EventArgs) Handles passTxtBx.TextChanged
