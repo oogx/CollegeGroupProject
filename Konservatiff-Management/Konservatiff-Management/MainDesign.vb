@@ -36,4 +36,16 @@ Public Class MainDesign
     Private Sub PayslipButton_Click(sender As Object, e As EventArgs) Handles PayslipButton.Click
         OpenChildForm(New PayslipSubform)
     End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub IconButton1_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Label3_Click_1(sender As Object, e As EventArgs)
+
+    End Sub
 End Class

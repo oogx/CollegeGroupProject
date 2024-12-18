@@ -87,30 +87,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmAddMember.Designer.vb">
-      <DependentUpon>frmAddMember.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmAddMember.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmClockPage.Designer.vb">
-      <DependentUpon>frmClockPage.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmClockPage.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMembersPage.Designer.vb">
-      <DependentUpon>frmMembersPage.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmMembersPage.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmReportsPage.Designer.vb">
-      <DependentUpon>frmReportsPage.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmReportsPage.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="frmSignInPage.Designer.vb">
       <DependentUpon>frmSignInPage.vb</DependentUpon>
     </Compile>
@@ -176,9 +152,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmClockPage.resx">
-      <DependentUpon>frmClockPage.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmSignInPage.resx">
       <DependentUpon>frmSignInPage.vb</DependentUpon>
     </EmbeddedResource>
