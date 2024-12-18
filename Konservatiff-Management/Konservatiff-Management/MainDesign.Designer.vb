@@ -23,49 +23,85 @@ Partial Class MainDesign
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.KMText = New System.Windows.Forms.Label()
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.User_Desktop_Panel = New System.Windows.Forms.Panel()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.PayslipButton = New FontAwesome.Sharp.IconButton()
         Me.ClockInButton = New FontAwesome.Sharp.IconButton()
-        Me.Panel1.SuspendLayout()
-        Me.Panel2.SuspendLayout()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.KMText = New System.Windows.Forms.Label()
+        Me.lblClock = New System.Windows.Forms.Label()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel3.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Panel1
+        'User_Desktop_Panel
         '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Location = New System.Drawing.Point(-106, -80)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1012, 46)
-        Me.Panel1.TabIndex = 27
+        Me.User_Desktop_Panel.Location = New System.Drawing.Point(207, 45)
+        Me.User_Desktop_Panel.Name = "User_Desktop_Panel"
+        Me.User_Desktop_Panel.Size = New System.Drawing.Size(766, 554)
+        Me.User_Desktop_Panel.TabIndex = 33
         '
-        'Label1
+        'Panel3
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(26, 6)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(526, 32)
-        Me.Label1.TabIndex = 15
-        Me.Label1.Text = "Konservatiff Management | Time Clock"
+        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.Panel3.Controls.Add(Me.PayslipButton)
+        Me.Panel3.Controls.Add(Me.ClockInButton)
+        Me.Panel3.Location = New System.Drawing.Point(0, 56)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(210, 555)
+        Me.Panel3.TabIndex = 32
         '
-        'Panel2
+        'PayslipButton
         '
-        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.Panel2.Controls.Add(Me.KMText)
-        Me.Panel2.Location = New System.Drawing.Point(-19, 0)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1012, 50)
-        Me.Panel2.TabIndex = 31
+        Me.PayslipButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PayslipButton.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PayslipButton.FlatAppearance.BorderSize = 0
+        Me.PayslipButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.PayslipButton.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.PayslipButton.IconChar = FontAwesome.Sharp.IconChar.MoneyBill
+        Me.PayslipButton.IconColor = System.Drawing.SystemColors.ButtonFace
+        Me.PayslipButton.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.PayslipButton.IconSize = 30
+        Me.PayslipButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.PayslipButton.Location = New System.Drawing.Point(0, 50)
+        Me.PayslipButton.Name = "PayslipButton"
+        Me.PayslipButton.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
+        Me.PayslipButton.Size = New System.Drawing.Size(210, 50)
+        Me.PayslipButton.TabIndex = 3
+        Me.PayslipButton.Text = "Payslip"
+        Me.PayslipButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.PayslipButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.PayslipButton.UseVisualStyleBackColor = True
+        '
+        'ClockInButton
+        '
+        Me.ClockInButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ClockInButton.Dock = System.Windows.Forms.DockStyle.Top
+        Me.ClockInButton.FlatAppearance.BorderSize = 0
+        Me.ClockInButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ClockInButton.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.ClockInButton.IconChar = FontAwesome.Sharp.IconChar.ClockFour
+        Me.ClockInButton.IconColor = System.Drawing.SystemColors.ButtonFace
+        Me.ClockInButton.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.ClockInButton.IconSize = 30
+        Me.ClockInButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.ClockInButton.Location = New System.Drawing.Point(0, 0)
+        Me.ClockInButton.Name = "ClockInButton"
+        Me.ClockInButton.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
+        Me.ClockInButton.Size = New System.Drawing.Size(210, 50)
+        Me.ClockInButton.TabIndex = 2
+        Me.ClockInButton.Text = "Clock In"
+        Me.ClockInButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.ClockInButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.ClockInButton.UseVisualStyleBackColor = True
+        '
+        'Timer1
+        '
         '
         'KMText
         '
@@ -79,47 +115,59 @@ Partial Class MainDesign
         Me.KMText.TabIndex = 15
         Me.KMText.Text = "Konservatiff Management | "
         '
-        'Panel3
+        'lblClock
         '
-        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.Panel3.Controls.Add(Me.ClockInButton)
-        Me.Panel3.Controls.Add(Me.Label2)
-        Me.Panel3.Location = New System.Drawing.Point(0, 45)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(210, 566)
-        Me.Panel3.TabIndex = 32
+        Me.lblClock.AutoSize = True
+        Me.lblClock.BackColor = System.Drawing.Color.Transparent
+        Me.lblClock.Font = New System.Drawing.Font("Century Gothic", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblClock.ForeColor = System.Drawing.Color.White
+        Me.lblClock.Location = New System.Drawing.Point(664, 6)
+        Me.lblClock.Name = "lblClock"
+        Me.lblClock.Size = New System.Drawing.Size(328, 32)
+        Me.lblClock.TabIndex = 25
+        Me.lblClock.Text = "DD/MM/YYYY HH:MM:SS"
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.Panel2.Controls.Add(Me.lblClock)
+        Me.Panel2.Controls.Add(Me.KMText)
+        Me.Panel2.Controls.Add(Me.Label2)
+        Me.Panel2.Location = New System.Drawing.Point(-19, 0)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(1012, 62)
+        Me.Panel2.TabIndex = 31
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(12, 20)
+        Me.Label2.Location = New System.Drawing.Point(31, 45)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(60, 13)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Main Menu"
         '
-        'User_Desktop_Panel
+        'Label1
         '
-        Me.User_Desktop_Panel.Location = New System.Drawing.Point(207, 45)
-        Me.User_Desktop_Panel.Name = "User_Desktop_Panel"
-        Me.User_Desktop_Panel.Size = New System.Drawing.Size(766, 554)
-        Me.User_Desktop_Panel.TabIndex = 33
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(26, 6)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(526, 32)
+        Me.Label1.TabIndex = 15
+        Me.Label1.Text = "Konservatiff Management | Time Clock"
         '
-        'ClockInButton
+        'Panel1
         '
-        Me.ClockInButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.ClockInButton.ForeColor = System.Drawing.Color.White
-        Me.ClockInButton.IconChar = FontAwesome.Sharp.IconChar.MaskVentilator
-        Me.ClockInButton.IconColor = System.Drawing.Color.White
-        Me.ClockInButton.IconFont = FontAwesome.Sharp.IconFont.[Auto]
-        Me.ClockInButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.ClockInButton.Location = New System.Drawing.Point(12, 36)
-        Me.ClockInButton.Name = "ClockInButton"
-        Me.ClockInButton.Size = New System.Drawing.Size(142, 38)
-        Me.ClockInButton.TabIndex = 1
-        Me.ClockInButton.Text = "Clock In"
-        Me.ClockInButton.UseVisualStyleBackColor = False
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Location = New System.Drawing.Point(-106, -80)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(1012, 46)
+        Me.Panel1.TabIndex = 27
         '
         'MainDesign
         '
@@ -133,22 +181,24 @@ Partial Class MainDesign
         Me.Controls.Add(Me.Panel1)
         Me.Name = "MainDesign"
         Me.Text = "MainDesign"
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
+        Me.Panel3.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
-        Me.Panel3.ResumeLayout(False)
-        Me.Panel3.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Panel2 As Panel
-    Friend WithEvents KMText As Label
-    Friend WithEvents Timer1 As Timer
-    Friend WithEvents Panel3 As Panel
+
     Friend WithEvents User_Desktop_Panel As Panel
+    Friend WithEvents Panel3 As Panel
     Friend WithEvents Label2 As Label
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents KMText As Label
+    Friend WithEvents lblClock As Label
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Panel1 As Panel
     Friend WithEvents ClockInButton As FontAwesome.Sharp.IconButton
+    Friend WithEvents PayslipButton As FontAwesome.Sharp.IconButton
 End Class

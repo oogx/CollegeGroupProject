@@ -31,3 +31,8 @@ C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konse
 C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\obj\Debug\Konservatiff_Management.MainDesign.resources
 C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\obj\Debug\Konservatiff_Management.ClockInSubform.resources
 C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\obj\Debug\Konservatiff_Management.PayslipSubform.resources
+C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\obj\Debug\Konservatiff_Management.AddStaffSubform.resources
+C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\obj\Debug\Konservatiff_Management.MembersSubform.resources
+C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\obj\Debug\Konservatiff_Management.OptionsSubforms.resources
+C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\obj\Debug\Konservatiff_Management.ReportsSubform.resources
