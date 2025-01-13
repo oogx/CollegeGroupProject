@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\q2656\\OneDrive - St John Rigby College\\GitHub\\CollegeGroupProject\\Konservatiff-Management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87FD0F62-0F12-4FB6-909B-8A9BC861CFCB}|Konservatiff-Management\\Konservatiff-Management.vbproj|c:\\users\\q2656\\onedrive - st john rigby college\\github\\collegegroupproject\\konservatiff-management\\konservatiff-management\\frmsigninpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{87FD0F62-0F12-4FB6-909B-8A9BC861CFCB}|Konservatiff-Management\\Konservatiff-Management.vbproj|solutionrelative:konservatiff-management\\frmsigninpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{87FD0F62-0F12-4FB6-909B-8A9BC861CFCB}|Konservatiff-Management\\Konservatiff-Management.vbproj|c:\\users\\q2656\\onedrive - st john rigby college\\github\\collegegroupproject\\konservatiff-management\\konservatiff-management\\maindesign.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{87FD0F62-0F12-4FB6-909B-8A9BC861CFCB}|Konservatiff-Management\\Konservatiff-Management.vbproj|solutionrelative:konservatiff-management\\maindesign.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87FD0F62-0F12-4FB6-909B-8A9BC861CFCB}|Konservatiff-Management\\Konservatiff-Management.vbproj|c:\\users\\q2656\\onedrive - st john rigby college\\github\\collegegroupproject\\konservatiff-management\\konservatiff-management\\maindesign.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
@@ -23,14 +23,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmSignInPage.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\q2656\\OneDrive - St John Rigby College\\GitHub\\CollegeGroupProject\\Konservatiff-Management\\Konservatiff-Management\\frmSignInPage.vb",
-              "RelativeDocumentMoniker": "Konservatiff-Management\\frmSignInPage.vb",
-              "ToolTip": "C:\\Users\\q2656\\OneDrive - St John Rigby College\\GitHub\\CollegeGroupProject\\Konservatiff-Management\\Konservatiff-Management\\frmSignInPage.vb [Design]",
-              "RelativeToolTip": "Konservatiff-Management\\frmSignInPage.vb [Design]",
+              "Title": "MainDesign.vb",
+              "DocumentMoniker": "C:\\Users\\q2656\\OneDrive - St John Rigby College\\GitHub\\CollegeGroupProject\\Konservatiff-Management\\Konservatiff-Management\\MainDesign.vb",
+              "RelativeDocumentMoniker": "Konservatiff-Management\\MainDesign.vb",
+              "ToolTip": "C:\\Users\\q2656\\OneDrive - St John Rigby College\\GitHub\\CollegeGroupProject\\Konservatiff-Management\\Konservatiff-Management\\MainDesign.vb",
+              "RelativeToolTip": "Konservatiff-Management\\MainDesign.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-01-13T09:43:30.536Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-13T10:22:28.675Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -41,7 +42,7 @@
               "ToolTip": "C:\\Users\\q2656\\OneDrive - St John Rigby College\\GitHub\\CollegeGroupProject\\Konservatiff-Management\\Konservatiff-Management\\MainDesign.vb [Design]",
               "RelativeToolTip": "Konservatiff-Management\\MainDesign.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-12-18T11:57:29.183Z",
+              "WhenOpened": "2025-01-13T10:22:16.737Z",
               "EditorCaption": " [Design]"
             }
           ]

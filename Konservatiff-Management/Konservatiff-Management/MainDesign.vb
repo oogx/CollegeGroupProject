@@ -3,6 +3,7 @@ Imports FontAwesome.Sharp
 Public Class MainDesign
     Dim currentChildForm As Form
     Dim strTime As System.DateTime
+    Dim CurrentLevel As Int64
     Sub OpenChildForm(childForm As Form)
         currentChildForm = childForm
         childForm.TopLevel = False
@@ -23,8 +24,15 @@ Public Class MainDesign
     End Sub
 
     Private Sub MainDesign_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        CurrentLevel = 1  'Change this to more than 2 to get access to admin
         OpenChildForm(New ClockInSubform)
         Timer1.Start()
+        If CurrentLevel = 1 Then
+            AdminLabel.Visible = False
+            MembersBtn.Visible = False
+            AddStaffBtn.Visible = False
+            ReportsBtn.Visible = False
+        End If
     End Sub
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         lblClock.Text = Format(strTime.Now)
@@ -37,15 +45,5 @@ Public Class MainDesign
         OpenChildForm(New PayslipSubform)
     End Sub
 
-    Private Sub Label3_Click(sender As Object, e As EventArgs)
 
-    End Sub
-
-    Private Sub IconButton1_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label3_Click_1(sender As Object, e As EventArgs)
-
-    End Sub
 End Class
