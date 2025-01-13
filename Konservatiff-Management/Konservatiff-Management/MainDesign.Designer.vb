@@ -25,28 +25,28 @@ Partial Class MainDesign
         Me.components = New System.ComponentModel.Container()
         Me.User_Desktop_Panel = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.IconButton4 = New FontAwesome.Sharp.IconButton()
+        Me.IconButton3 = New FontAwesome.Sharp.IconButton()
+        Me.IconButton1 = New FontAwesome.Sharp.IconButton()
+        Me.IconButton2 = New FontAwesome.Sharp.IconButton()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.PayslipButton = New FontAwesome.Sharp.IconButton()
         Me.ClockInButton = New FontAwesome.Sharp.IconButton()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.KMText = New System.Windows.Forms.Label()
         Me.lblClock = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.IconButton2 = New FontAwesome.Sharp.IconButton()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.IconButton1 = New FontAwesome.Sharp.IconButton()
-        Me.IconButton3 = New FontAwesome.Sharp.IconButton()
-        Me.IconButton4 = New FontAwesome.Sharp.IconButton()
         Me.Panel3.SuspendLayout()
-        Me.Panel2.SuspendLayout()
-        Me.Panel1.SuspendLayout()
         Me.Panel4.SuspendLayout()
         Me.Panel5.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'User_Desktop_Panel
@@ -67,6 +67,136 @@ Partial Class MainDesign
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(210, 582)
         Me.Panel3.TabIndex = 32
+        '
+        'Panel4
+        '
+        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.Panel4.Controls.Add(Me.Label4)
+        Me.Panel4.Controls.Add(Me.Panel5)
+        Me.Panel4.Controls.Add(Me.IconButton2)
+        Me.Panel4.Location = New System.Drawing.Point(-1, 106)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(210, 469)
+        Me.Panel4.TabIndex = 33
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.ForeColor = System.Drawing.Color.White
+        Me.Label4.Location = New System.Drawing.Point(12, 49)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(36, 13)
+        Me.Label4.TabIndex = 27
+        Me.Label4.Text = "Admin"
+        '
+        'Panel5
+        '
+        Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.Panel5.Controls.Add(Me.IconButton4)
+        Me.Panel5.Controls.Add(Me.IconButton3)
+        Me.Panel5.Controls.Add(Me.IconButton1)
+        Me.Panel5.Location = New System.Drawing.Point(2, 66)
+        Me.Panel5.Name = "Panel5"
+        Me.Panel5.Size = New System.Drawing.Size(210, 421)
+        Me.Panel5.TabIndex = 34
+        '
+        'IconButton4
+        '
+        Me.IconButton4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.IconButton4.Dock = System.Windows.Forms.DockStyle.Top
+        Me.IconButton4.FlatAppearance.BorderSize = 0
+        Me.IconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.IconButton4.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.IconButton4.IconChar = FontAwesome.Sharp.IconChar.ChartBar
+        Me.IconButton4.IconColor = System.Drawing.SystemColors.ButtonFace
+        Me.IconButton4.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.IconButton4.IconSize = 30
+        Me.IconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.IconButton4.Location = New System.Drawing.Point(0, 100)
+        Me.IconButton4.Name = "IconButton4"
+        Me.IconButton4.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
+        Me.IconButton4.Size = New System.Drawing.Size(210, 50)
+        Me.IconButton4.TabIndex = 4
+        Me.IconButton4.Text = "Reports"
+        Me.IconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.IconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.IconButton4.UseVisualStyleBackColor = True
+        '
+        'IconButton3
+        '
+        Me.IconButton3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.IconButton3.Dock = System.Windows.Forms.DockStyle.Top
+        Me.IconButton3.FlatAppearance.BorderSize = 0
+        Me.IconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.IconButton3.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.IconButton3.IconChar = FontAwesome.Sharp.IconChar.Plus
+        Me.IconButton3.IconColor = System.Drawing.SystemColors.ButtonFace
+        Me.IconButton3.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.IconButton3.IconSize = 30
+        Me.IconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.IconButton3.Location = New System.Drawing.Point(0, 50)
+        Me.IconButton3.Name = "IconButton3"
+        Me.IconButton3.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
+        Me.IconButton3.Size = New System.Drawing.Size(210, 50)
+        Me.IconButton3.TabIndex = 3
+        Me.IconButton3.Text = "Add Staff"
+        Me.IconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.IconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.IconButton3.UseVisualStyleBackColor = True
+        '
+        'IconButton1
+        '
+        Me.IconButton1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.IconButton1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.IconButton1.FlatAppearance.BorderSize = 0
+        Me.IconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.IconButton1.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.IconButton1.IconChar = FontAwesome.Sharp.IconChar.User
+        Me.IconButton1.IconColor = System.Drawing.SystemColors.ButtonFace
+        Me.IconButton1.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.IconButton1.IconSize = 30
+        Me.IconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.IconButton1.Location = New System.Drawing.Point(0, 0)
+        Me.IconButton1.Name = "IconButton1"
+        Me.IconButton1.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
+        Me.IconButton1.Size = New System.Drawing.Size(210, 50)
+        Me.IconButton1.TabIndex = 2
+        Me.IconButton1.Text = "Members"
+        Me.IconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.IconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.IconButton1.UseVisualStyleBackColor = True
+        '
+        'IconButton2
+        '
+        Me.IconButton2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.IconButton2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.IconButton2.FlatAppearance.BorderSize = 0
+        Me.IconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.IconButton2.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.IconButton2.IconChar = FontAwesome.Sharp.IconChar.User
+        Me.IconButton2.IconColor = System.Drawing.SystemColors.ButtonFace
+        Me.IconButton2.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.IconButton2.IconSize = 30
+        Me.IconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.IconButton2.Location = New System.Drawing.Point(0, 0)
+        Me.IconButton2.Name = "IconButton2"
+        Me.IconButton2.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
+        Me.IconButton2.Size = New System.Drawing.Size(210, 50)
+        Me.IconButton2.TabIndex = 2
+        Me.IconButton2.Text = "Options"
+        Me.IconButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.IconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.IconButton2.UseVisualStyleBackColor = True
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.ForeColor = System.Drawing.Color.White
+        Me.Label3.Location = New System.Drawing.Point(10, 95)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(29, 13)
+        Me.Label3.TabIndex = 27
+        Me.Label3.Text = "User"
         '
         'PayslipButton
         '
@@ -150,6 +280,16 @@ Partial Class MainDesign
         Me.Panel2.Size = New System.Drawing.Size(1012, 62)
         Me.Panel2.TabIndex = 31
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(31, 49)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(60, 13)
+        Me.Label2.TabIndex = 26
+        Me.Label2.Text = "Main Menu"
+        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -171,146 +311,6 @@ Partial Class MainDesign
         Me.Panel1.Size = New System.Drawing.Size(1012, 46)
         Me.Panel1.TabIndex = 27
         '
-        'Panel4
-        '
-        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.Panel4.Controls.Add(Me.Label4)
-        Me.Panel4.Controls.Add(Me.Panel5)
-        Me.Panel4.Controls.Add(Me.IconButton2)
-        Me.Panel4.Location = New System.Drawing.Point(-1, 106)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(210, 469)
-        Me.Panel4.TabIndex = 33
-        '
-        'IconButton2
-        '
-        Me.IconButton2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.IconButton2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.IconButton2.FlatAppearance.BorderSize = 0
-        Me.IconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.IconButton2.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.IconButton2.IconChar = FontAwesome.Sharp.IconChar.User
-        Me.IconButton2.IconColor = System.Drawing.SystemColors.ButtonFace
-        Me.IconButton2.IconFont = FontAwesome.Sharp.IconFont.[Auto]
-        Me.IconButton2.IconSize = 30
-        Me.IconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton2.Location = New System.Drawing.Point(0, 0)
-        Me.IconButton2.Name = "IconButton2"
-        Me.IconButton2.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
-        Me.IconButton2.Size = New System.Drawing.Size(210, 50)
-        Me.IconButton2.TabIndex = 2
-        Me.IconButton2.Text = "Options"
-        Me.IconButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.IconButton2.UseVisualStyleBackColor = True
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(31, 49)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(60, 13)
-        Me.Label2.TabIndex = 26
-        Me.Label2.Text = "Main Menu"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(10, 95)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(29, 13)
-        Me.Label3.TabIndex = 27
-        Me.Label3.Text = "User"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(12, 49)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(36, 13)
-        Me.Label4.TabIndex = 27
-        Me.Label4.Text = "Admin"
-        '
-        'Panel5
-        '
-        Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.Panel5.Controls.Add(Me.IconButton4)
-        Me.Panel5.Controls.Add(Me.IconButton3)
-        Me.Panel5.Controls.Add(Me.IconButton1)
-        Me.Panel5.Location = New System.Drawing.Point(2, 66)
-        Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(210, 421)
-        Me.Panel5.TabIndex = 34
-        '
-        'IconButton1
-        '
-        Me.IconButton1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.IconButton1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.IconButton1.FlatAppearance.BorderSize = 0
-        Me.IconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.IconButton1.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.IconButton1.IconChar = FontAwesome.Sharp.IconChar.User
-        Me.IconButton1.IconColor = System.Drawing.SystemColors.ButtonFace
-        Me.IconButton1.IconFont = FontAwesome.Sharp.IconFont.[Auto]
-        Me.IconButton1.IconSize = 30
-        Me.IconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton1.Location = New System.Drawing.Point(0, 0)
-        Me.IconButton1.Name = "IconButton1"
-        Me.IconButton1.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
-        Me.IconButton1.Size = New System.Drawing.Size(210, 50)
-        Me.IconButton1.TabIndex = 2
-        Me.IconButton1.Text = "Members"
-        Me.IconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.IconButton1.UseVisualStyleBackColor = True
-        '
-        'IconButton3
-        '
-        Me.IconButton3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.IconButton3.Dock = System.Windows.Forms.DockStyle.Top
-        Me.IconButton3.FlatAppearance.BorderSize = 0
-        Me.IconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.IconButton3.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.IconButton3.IconChar = FontAwesome.Sharp.IconChar.Plus
-        Me.IconButton3.IconColor = System.Drawing.SystemColors.ButtonFace
-        Me.IconButton3.IconFont = FontAwesome.Sharp.IconFont.[Auto]
-        Me.IconButton3.IconSize = 30
-        Me.IconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton3.Location = New System.Drawing.Point(0, 50)
-        Me.IconButton3.Name = "IconButton3"
-        Me.IconButton3.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
-        Me.IconButton3.Size = New System.Drawing.Size(210, 50)
-        Me.IconButton3.TabIndex = 3
-        Me.IconButton3.Text = "Add Staff"
-        Me.IconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.IconButton3.UseVisualStyleBackColor = True
-        '
-        'IconButton4
-        '
-        Me.IconButton4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.IconButton4.Dock = System.Windows.Forms.DockStyle.Top
-        Me.IconButton4.FlatAppearance.BorderSize = 0
-        Me.IconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.IconButton4.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.IconButton4.IconChar = FontAwesome.Sharp.IconChar.ChartBar
-        Me.IconButton4.IconColor = System.Drawing.SystemColors.ButtonFace
-        Me.IconButton4.IconFont = FontAwesome.Sharp.IconFont.[Auto]
-        Me.IconButton4.IconSize = 30
-        Me.IconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton4.Location = New System.Drawing.Point(0, 100)
-        Me.IconButton4.Name = "IconButton4"
-        Me.IconButton4.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
-        Me.IconButton4.Size = New System.Drawing.Size(210, 50)
-        Me.IconButton4.TabIndex = 4
-        Me.IconButton4.Text = "Reports"
-        Me.IconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.IconButton4.UseVisualStyleBackColor = True
-        '
         'MainDesign
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -321,17 +321,19 @@ Partial Class MainDesign
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel1)
+        Me.MaximizeBox = False
         Me.Name = "MainDesign"
         Me.Text = "MainDesign"
+        Me.TopMost = True
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
+        Me.Panel4.ResumeLayout(False)
+        Me.Panel4.PerformLayout()
+        Me.Panel5.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        Me.Panel4.ResumeLayout(False)
-        Me.Panel4.PerformLayout()
-        Me.Panel5.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub

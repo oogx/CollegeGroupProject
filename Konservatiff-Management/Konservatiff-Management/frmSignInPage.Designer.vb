@@ -230,8 +230,10 @@ Partial Class frmSignInPage
         Me.Controls.Add(Me.lblPayrollNo)
         Me.Controls.Add(Me.Guna2Shapes1)
         Me.Controls.Add(Me.Guna2Shapes2)
+        Me.MaximizeBox = False
         Me.Name = "frmSignInPage"
         Me.Text = "frmSignInPage"
+        Me.TopMost = True
         CType(Me.picLoginLogo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

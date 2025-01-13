@@ -18,7 +18,6 @@ C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konse
 C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\bin\Debug\Konservatiff-Management.xml
 C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\bin\Debug\Guna.UI2.dll
 C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\obj\Debug\Konservatiff-Management.vbproj.AssemblyReference.cache
-C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\obj\Debug\Konservatiff_Management.frmClockPage.resources
 C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\obj\Debug\Konservatiff_Management.frmSignInPage.resources
 C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\obj\Debug\Konservatiff_Management.Resources.resources
 C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\obj\Debug\Konservatiff-Management.vbproj.GenerateResource.cache
