@@ -231,6 +231,7 @@ Partial Class frmSignInPage
         Me.Controls.Add(Me.Guna2Shapes1)
         Me.Controls.Add(Me.Guna2Shapes2)
         Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "frmSignInPage"
         Me.Text = "frmSignInPage"
         Me.TopMost = True

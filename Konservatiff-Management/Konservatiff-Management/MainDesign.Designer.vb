@@ -322,6 +322,7 @@ Partial Class MainDesign
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel1)
         Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "MainDesign"
         Me.Text = "MainDesign"
         Me.TopMost = True
