@@ -115,7 +115,7 @@ Partial Class MainDesign
         Me.UserTypeLbl.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.UserTypeLbl.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UserTypeLbl.ForeColor = System.Drawing.Color.FromArgb(CType(CType(78, Byte), Integer), CType(CType(149, Byte), Integer), CType(CType(217, Byte), Integer))
-        Me.UserTypeLbl.Location = New System.Drawing.Point(10, 344)
+        Me.UserTypeLbl.Location = New System.Drawing.Point(13, 345)
         Me.UserTypeLbl.Name = "UserTypeLbl"
         Me.UserTypeLbl.Size = New System.Drawing.Size(65, 16)
         Me.UserTypeLbl.TabIndex = 28
@@ -127,7 +127,7 @@ Partial Class MainDesign
         Me.UsersNameLbl.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.UsersNameLbl.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UsersNameLbl.ForeColor = System.Drawing.Color.White
-        Me.UsersNameLbl.Location = New System.Drawing.Point(10, 316)
+        Me.UsersNameLbl.Location = New System.Drawing.Point(11, 314)
         Me.UsersNameLbl.Name = "UsersNameLbl"
         Me.UsersNameLbl.Size = New System.Drawing.Size(58, 19)
         Me.UsersNameLbl.TabIndex = 27
@@ -135,8 +135,9 @@ Partial Class MainDesign
         '
         'ExitBtn
         '
-        Me.ExitBtn.BackColor = System.Drawing.Color.Transparent
+        Me.ExitBtn.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.ExitBtn.BorderRadius = 20
+        Me.ExitBtn.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.ExitBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.ExitBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
         Me.ExitBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
@@ -144,9 +145,9 @@ Partial Class MainDesign
         Me.ExitBtn.FillColor = System.Drawing.Color.Red
         Me.ExitBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.ExitBtn.ForeColor = System.Drawing.Color.White
-        Me.ExitBtn.Location = New System.Drawing.Point(153, 311)
+        Me.ExitBtn.Location = New System.Drawing.Point(150, 312)
         Me.ExitBtn.Name = "ExitBtn"
-        Me.ExitBtn.Size = New System.Drawing.Size(50, 64)
+        Me.ExitBtn.Size = New System.Drawing.Size(46, 57)
         Me.ExitBtn.TabIndex = 0
         Me.ExitBtn.Text = "Exit"
         '
@@ -154,12 +155,12 @@ Partial Class MainDesign
         '
         Me.Guna2Shapes1.BorderColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.Guna2Shapes1.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Guna2Shapes1.Location = New System.Drawing.Point(-20, 303)
+        Me.Guna2Shapes1.Location = New System.Drawing.Point(-22, 292)
         Me.Guna2Shapes1.Name = "Guna2Shapes1"
         Me.Guna2Shapes1.PolygonSkip = 1
         Me.Guna2Shapes1.Rotate = 0!
         Me.Guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rounded
-        Me.Guna2Shapes1.Size = New System.Drawing.Size(248, 81)
+        Me.Guna2Shapes1.Size = New System.Drawing.Size(248, 92)
         Me.Guna2Shapes1.TabIndex = 5
         Me.Guna2Shapes1.Text = "Guna2Shapes1"
         Me.Guna2Shapes1.Zoom = 80
@@ -312,6 +313,9 @@ Partial Class MainDesign
         Me.ClockInBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ClockInBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.ClockInBtn.UseVisualStyleBackColor = True
+        '
+        'Timer1
+        '
         '
         'KMText
         '

@@ -90,9 +90,7 @@
     <Compile Include="frmSignInPage.Designer.vb">
       <DependentUpon>frmSignInPage.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmSignInPage.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmSignInPage.vb" />
     <Compile Include="MainDesign.Designer.vb">
       <DependentUpon>MainDesign.vb</DependentUpon>
     </Compile>
