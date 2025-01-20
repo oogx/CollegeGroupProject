@@ -1,5 +1,4 @@
 ﻿Public Class ClockInSubform
-    Dim strTime As System.DateTime
     Private Sub ClockInSubform_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Start()
     End Sub

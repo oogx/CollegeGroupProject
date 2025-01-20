@@ -1,9 +1,6 @@
 ﻿Imports System.Web.UI.HtmlControls
 Imports FontAwesome.Sharp
 Public Class MainDesign
-    Dim currentChildForm As Form
-    Dim strTime As System.DateTime
-    Dim CurrentLevel As Int64
     Sub OpenChildForm(childForm As Form)
         currentChildForm = childForm
         childForm.TopLevel = False
@@ -24,14 +21,22 @@ Public Class MainDesign
     End Sub
 
     Private Sub MainDesign_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
         CurrentLevel = 2  'Change this to more than 2 to get access to admin
         OpenChildForm(New ClockInSubform)
         Timer1.Start()
+
+        UsersNameLbl.Text = Username
+
+
         If CurrentLevel = 1 Then
             AdminLabel.Visible = False
             MembersBtn.Visible = False
             AddStaffBtn.Visible = False
             ReportsBtn.Visible = False
+            UserTypeLbl.Text = "User"
+        Else
+            UserTypeLbl.Text = "Admin"
         End If
     End Sub
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
@@ -59,5 +64,10 @@ Public Class MainDesign
 
     Private Sub ReportsBtn_Click(sender As Object, e As EventArgs) Handles ReportsBtn.Click
         OpenChildForm(New ReportsSubform)
+    End Sub
+    Private Sub ExitBtn_Click(sender As Object, e As EventArgs) Handles ExitBtn.Click
+        Me.Hide()
+        Connection.Close()
+        frmSignInPage.Show()
     End Sub
 End Class

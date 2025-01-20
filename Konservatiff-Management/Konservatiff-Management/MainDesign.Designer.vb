@@ -28,6 +28,10 @@ Partial Class MainDesign
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.AdminLabel = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.UserTypeLbl = New System.Windows.Forms.Label()
+        Me.UsersNameLbl = New System.Windows.Forms.Label()
+        Me.ExitBtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Shapes1 = New Guna.UI2.WinForms.Guna2Shapes()
         Me.ReportsBtn = New FontAwesome.Sharp.IconButton()
         Me.AddStaffBtn = New FontAwesome.Sharp.IconButton()
         Me.MembersBtn = New FontAwesome.Sharp.IconButton()
@@ -82,16 +86,21 @@ Partial Class MainDesign
         'AdminLabel
         '
         Me.AdminLabel.AutoSize = True
+        Me.AdminLabel.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AdminLabel.ForeColor = System.Drawing.Color.White
         Me.AdminLabel.Location = New System.Drawing.Point(12, 49)
         Me.AdminLabel.Name = "AdminLabel"
-        Me.AdminLabel.Size = New System.Drawing.Size(36, 13)
+        Me.AdminLabel.Size = New System.Drawing.Size(41, 15)
         Me.AdminLabel.TabIndex = 27
         Me.AdminLabel.Text = "Admin"
         '
         'Panel5
         '
         Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.Panel5.Controls.Add(Me.UserTypeLbl)
+        Me.Panel5.Controls.Add(Me.UsersNameLbl)
+        Me.Panel5.Controls.Add(Me.ExitBtn)
+        Me.Panel5.Controls.Add(Me.Guna2Shapes1)
         Me.Panel5.Controls.Add(Me.ReportsBtn)
         Me.Panel5.Controls.Add(Me.AddStaffBtn)
         Me.Panel5.Controls.Add(Me.MembersBtn)
@@ -100,12 +109,68 @@ Partial Class MainDesign
         Me.Panel5.Size = New System.Drawing.Size(210, 421)
         Me.Panel5.TabIndex = 34
         '
+        'UserTypeLbl
+        '
+        Me.UserTypeLbl.AutoSize = True
+        Me.UserTypeLbl.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.UserTypeLbl.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UserTypeLbl.ForeColor = System.Drawing.Color.FromArgb(CType(CType(78, Byte), Integer), CType(CType(149, Byte), Integer), CType(CType(217, Byte), Integer))
+        Me.UserTypeLbl.Location = New System.Drawing.Point(10, 344)
+        Me.UserTypeLbl.Name = "UserTypeLbl"
+        Me.UserTypeLbl.Size = New System.Drawing.Size(65, 16)
+        Me.UserTypeLbl.TabIndex = 28
+        Me.UserTypeLbl.Text = "UserType"
+        '
+        'UsersNameLbl
+        '
+        Me.UsersNameLbl.AutoSize = True
+        Me.UsersNameLbl.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.UsersNameLbl.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UsersNameLbl.ForeColor = System.Drawing.Color.White
+        Me.UsersNameLbl.Location = New System.Drawing.Point(10, 316)
+        Me.UsersNameLbl.Name = "UsersNameLbl"
+        Me.UsersNameLbl.Size = New System.Drawing.Size(58, 19)
+        Me.UsersNameLbl.TabIndex = 27
+        Me.UsersNameLbl.Text = "Name"
+        '
+        'ExitBtn
+        '
+        Me.ExitBtn.BackColor = System.Drawing.Color.Transparent
+        Me.ExitBtn.BorderRadius = 20
+        Me.ExitBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.ExitBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.ExitBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.ExitBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.ExitBtn.FillColor = System.Drawing.Color.Red
+        Me.ExitBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.ExitBtn.ForeColor = System.Drawing.Color.White
+        Me.ExitBtn.Location = New System.Drawing.Point(153, 311)
+        Me.ExitBtn.Name = "ExitBtn"
+        Me.ExitBtn.Size = New System.Drawing.Size(50, 64)
+        Me.ExitBtn.TabIndex = 0
+        Me.ExitBtn.Text = "Exit"
+        '
+        'Guna2Shapes1
+        '
+        Me.Guna2Shapes1.BorderColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.Guna2Shapes1.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.Guna2Shapes1.Location = New System.Drawing.Point(-20, 303)
+        Me.Guna2Shapes1.Name = "Guna2Shapes1"
+        Me.Guna2Shapes1.PolygonSkip = 1
+        Me.Guna2Shapes1.Rotate = 0!
+        Me.Guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rounded
+        Me.Guna2Shapes1.Size = New System.Drawing.Size(248, 81)
+        Me.Guna2Shapes1.TabIndex = 5
+        Me.Guna2Shapes1.Text = "Guna2Shapes1"
+        Me.Guna2Shapes1.Zoom = 80
+        '
         'ReportsBtn
         '
         Me.ReportsBtn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ReportsBtn.Dock = System.Windows.Forms.DockStyle.Top
         Me.ReportsBtn.FlatAppearance.BorderSize = 0
         Me.ReportsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ReportsBtn.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ReportsBtn.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.ReportsBtn.IconChar = FontAwesome.Sharp.IconChar.ChartBar
         Me.ReportsBtn.IconColor = System.Drawing.SystemColors.ButtonFace
@@ -128,6 +193,7 @@ Partial Class MainDesign
         Me.AddStaffBtn.Dock = System.Windows.Forms.DockStyle.Top
         Me.AddStaffBtn.FlatAppearance.BorderSize = 0
         Me.AddStaffBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.AddStaffBtn.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AddStaffBtn.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.AddStaffBtn.IconChar = FontAwesome.Sharp.IconChar.Plus
         Me.AddStaffBtn.IconColor = System.Drawing.SystemColors.ButtonFace
@@ -150,6 +216,7 @@ Partial Class MainDesign
         Me.MembersBtn.Dock = System.Windows.Forms.DockStyle.Top
         Me.MembersBtn.FlatAppearance.BorderSize = 0
         Me.MembersBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.MembersBtn.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MembersBtn.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.MembersBtn.IconChar = FontAwesome.Sharp.IconChar.User
         Me.MembersBtn.IconColor = System.Drawing.SystemColors.ButtonFace
@@ -172,6 +239,7 @@ Partial Class MainDesign
         Me.OptionsBtn.Dock = System.Windows.Forms.DockStyle.Top
         Me.OptionsBtn.FlatAppearance.BorderSize = 0
         Me.OptionsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.OptionsBtn.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OptionsBtn.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.OptionsBtn.IconChar = FontAwesome.Sharp.IconChar.User
         Me.OptionsBtn.IconColor = System.Drawing.SystemColors.ButtonFace
@@ -191,10 +259,11 @@ Partial Class MainDesign
         'Label3
         '
         Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(10, 95)
+        Me.Label3.Location = New System.Drawing.Point(10, 94)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(29, 13)
+        Me.Label3.Size = New System.Drawing.Size(30, 15)
         Me.Label3.TabIndex = 27
         Me.Label3.Text = "User"
         '
@@ -204,6 +273,7 @@ Partial Class MainDesign
         Me.PayslipBtn.Dock = System.Windows.Forms.DockStyle.Top
         Me.PayslipBtn.FlatAppearance.BorderSize = 0
         Me.PayslipBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.PayslipBtn.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PayslipBtn.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.PayslipBtn.IconChar = FontAwesome.Sharp.IconChar.MoneyBill
         Me.PayslipBtn.IconColor = System.Drawing.SystemColors.ButtonFace
@@ -226,6 +296,7 @@ Partial Class MainDesign
         Me.ClockInBtn.Dock = System.Windows.Forms.DockStyle.Top
         Me.ClockInBtn.FlatAppearance.BorderSize = 0
         Me.ClockInBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ClockInBtn.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ClockInBtn.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.ClockInBtn.IconChar = FontAwesome.Sharp.IconChar.ClockFour
         Me.ClockInBtn.IconColor = System.Drawing.SystemColors.ButtonFace
@@ -241,9 +312,6 @@ Partial Class MainDesign
         Me.ClockInBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.ClockInBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.ClockInBtn.UseVisualStyleBackColor = True
-        '
-        'Timer1
-        '
         '
         'KMText
         '
@@ -283,10 +351,11 @@ Partial Class MainDesign
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(31, 49)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(60, 13)
+        Me.Label2.Size = New System.Drawing.Size(68, 15)
         Me.Label2.TabIndex = 26
         Me.Label2.Text = "Main Menu"
         '
@@ -331,6 +400,7 @@ Partial Class MainDesign
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
         Me.Panel5.ResumeLayout(False)
+        Me.Panel5.PerformLayout()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         Me.Panel1.ResumeLayout(False)
@@ -358,4 +428,8 @@ Partial Class MainDesign
     Friend WithEvents MembersBtn As FontAwesome.Sharp.IconButton
     Friend WithEvents ReportsBtn As FontAwesome.Sharp.IconButton
     Friend WithEvents AddStaffBtn As FontAwesome.Sharp.IconButton
+    Friend WithEvents UserTypeLbl As Label
+    Friend WithEvents UsersNameLbl As Label
+    Friend WithEvents ExitBtn As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2Shapes1 As Guna.UI2.WinForms.Guna2Shapes
 End Class

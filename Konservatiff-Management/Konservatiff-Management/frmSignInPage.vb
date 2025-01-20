@@ -1,13 +1,8 @@
 ﻿Imports System.Threading
+Imports System.Data.OleDb
+
 Public Class frmSignInPage
-    Public Connection As New OleDb.OleDbConnection
-    Public SQL As String
-    Public DataSet As New DataSet
-    Public DataAdapt As OleDb.OleDbDataAdapter
-    Public CurrentRows As Integer
-    Public MaxRows As Integer
-    Dim strTime As System.DateTime
-    Public Sub frmSignInPage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub frmSignInPage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Interval = 1000
         Timer1.Start()
     End Sub
@@ -17,25 +12,33 @@ Public Class frmSignInPage
     End Sub
 
     Private Sub LogInBtn_Click(sender As Object, e As EventArgs) Handles LogInBtn.Click
-        Connection.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=database.accdb"
+        Dim connectionString As String = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=database.accdb"
+        Dim sql As String = "SELECT Forename, Surname FROM tblMembers WHERE MemberID = @MemberID AND Password = @Password"
 
-        Connection.Open()
-        SQL = "SELECT * FROM tblMembers WHERE MemberID = @MemberID AND Password = @Password"
+        Using connection As New OleDbConnection(connectionString)
+            Using command As New OleDbCommand(sql, connection)
+                command.Parameters.AddWithValue("@MemberID", payrollTxtBx.Text)
+                command.Parameters.AddWithValue("@Password", passTxtBx.Text)
 
-        Dim Command As New OleDb.OleDbCommand(SQL, Connection)
-        Command.Parameters.AddWithValue("@MemberID", payrollTxtBx.Text)
-        Command.Parameters.AddWithValue("@Password", passTxtBx.Text)
+                Dim adapter As New OleDbDataAdapter(command)
+                Dim dataSet As New DataSet()
 
-        DataAdapt = New OleDb.OleDbDataAdapter(Command)
-        DataAdapt.Fill(DataSet, "MembersData")
-        Connection.Close()
+                connection.Open()
+                adapter.Fill(dataSet, "MembersData")
+                connection.Close()
 
-        If DataSet.Tables("MembersData").Rows.Count > 0 Then
-            MainDesign.Show()
-            Me.Hide()
-        Else
-            MessageBox.Show("Invalid MemberID or Password")
-        End If
+                If dataSet.Tables("MembersData").Rows.Count > 0 Then
+                    Dim row As DataRow = dataSet.Tables("MembersData").Rows(0)
+                    Username = $"{row("Forename")} {row("Surname")}"
+
+                    MainDesign.Show()
+                    Me.Hide()
+                    payrollTxtBx.Text = ""
+                    passTxtBx.Text = ""
+                Else
+                    MessageBox.Show("Invalid MemberID or Password")
+                End If
+            End Using
+        End Using
     End Sub
-
 End Class
