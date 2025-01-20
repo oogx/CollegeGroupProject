@@ -13,7 +13,7 @@ Public Class frmSignInPage
 
     Private Sub LogInBtn_Click(sender As Object, e As EventArgs) Handles LogInBtn.Click
         Dim connectionString As String = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=database.accdb"
-        Dim sql As String = "SELECT Forename, Surname FROM tblMembers WHERE MemberID = @MemberID AND Password = @Password"
+        Dim sql As String = "SELECT Forename, Surname, AdminStatus FROM tblMembers WHERE MemberID = @MemberID AND Password = @Password"
 
         Using connection As New OleDbConnection(connectionString)
             Using command As New OleDbCommand(sql, connection)
@@ -30,6 +30,7 @@ Public Class frmSignInPage
                 If dataSet.Tables("MembersData").Rows.Count > 0 Then
                     Dim row As DataRow = dataSet.Tables("MembersData").Rows(0)
                     Username = $"{row("Forename")} {row("Surname")}"
+                    AccessLevel = row("AdminStatus")
 
                     MainDesign.Show()
                     Me.Hide()

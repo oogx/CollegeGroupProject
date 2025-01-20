@@ -21,15 +21,10 @@ Public Class MainDesign
     End Sub
 
     Private Sub MainDesign_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-        CurrentLevel = 2  'Change this to more than 2 to get access to admin
         OpenChildForm(New ClockInSubform)
         Timer1.Start()
-
         UsersNameLbl.Text = Username
-
-
-        If CurrentLevel = 1 Then
+        If Not AccessLevel Then
             AdminLabel.Visible = False
             MembersBtn.Visible = False
             AddStaffBtn.Visible = False

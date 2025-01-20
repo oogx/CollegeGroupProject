@@ -11,4 +11,6 @@
     Public CurrentLevel As Int64
 
     Public Username As String
+    Public AccessLevel As Boolean
+
 End Module
