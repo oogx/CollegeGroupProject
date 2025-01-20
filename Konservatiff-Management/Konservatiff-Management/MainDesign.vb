@@ -24,7 +24,7 @@ Public Class MainDesign
     End Sub
 
     Private Sub MainDesign_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        CurrentLevel = 1  'Change this to more than 2 to get access to admin
+        CurrentLevel = 2  'Change this to more than 2 to get access to admin
         OpenChildForm(New ClockInSubform)
         Timer1.Start()
         If CurrentLevel = 1 Then
@@ -37,13 +37,27 @@ Public Class MainDesign
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         lblClock.Text = Format(strTime.Now)
     End Sub
-    Private Sub ClockInButton_Click_1(sender As Object, e As EventArgs) Handles ClockInButton.Click
+    Private Sub ClockInBtn_Click_1(sender As Object, e As EventArgs) Handles ClockInBtn.Click
         OpenChildForm(New ClockInSubform)
     End Sub
 
-    Private Sub PayslipButton_Click(sender As Object, e As EventArgs) Handles PayslipButton.Click
+    Private Sub PayslipBtn_Click(sender As Object, e As EventArgs) Handles PayslipBtn.Click
         OpenChildForm(New PayslipSubform)
     End Sub
 
+    Private Sub OptionsBtn_Click(sender As Object, e As EventArgs) Handles OptionsBtn.Click
+        OpenChildForm(New OptionsSubforms)
+    End Sub
 
+    Private Sub MembersBtn_Click(sender As Object, e As EventArgs) Handles MembersBtn.Click
+        OpenChildForm(New MembersSubform)
+    End Sub
+
+    Private Sub AddStaffBtn_Click(sender As Object, e As EventArgs) Handles AddStaffBtn.Click
+        OpenChildForm(New AddStaffSubform)
+    End Sub
+
+    Private Sub ReportsBtn_Click(sender As Object, e As EventArgs) Handles ReportsBtn.Click
+        OpenChildForm(New ReportsSubform)
+    End Sub
 End Class

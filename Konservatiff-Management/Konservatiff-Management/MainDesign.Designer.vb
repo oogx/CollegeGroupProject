@@ -31,10 +31,10 @@ Partial Class MainDesign
         Me.ReportsBtn = New FontAwesome.Sharp.IconButton()
         Me.AddStaffBtn = New FontAwesome.Sharp.IconButton()
         Me.MembersBtn = New FontAwesome.Sharp.IconButton()
-        Me.IconButton2 = New FontAwesome.Sharp.IconButton()
+        Me.OptionsBtn = New FontAwesome.Sharp.IconButton()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.PayslipButton = New FontAwesome.Sharp.IconButton()
-        Me.ClockInButton = New FontAwesome.Sharp.IconButton()
+        Me.PayslipBtn = New FontAwesome.Sharp.IconButton()
+        Me.ClockInBtn = New FontAwesome.Sharp.IconButton()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.KMText = New System.Windows.Forms.Label()
         Me.lblClock = New System.Windows.Forms.Label()
@@ -61,8 +61,8 @@ Partial Class MainDesign
         Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.Panel3.Controls.Add(Me.Panel4)
         Me.Panel3.Controls.Add(Me.Label3)
-        Me.Panel3.Controls.Add(Me.PayslipButton)
-        Me.Panel3.Controls.Add(Me.ClockInButton)
+        Me.Panel3.Controls.Add(Me.PayslipBtn)
+        Me.Panel3.Controls.Add(Me.ClockInBtn)
         Me.Panel3.Location = New System.Drawing.Point(0, 56)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(210, 582)
@@ -73,7 +73,7 @@ Partial Class MainDesign
         Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.Panel4.Controls.Add(Me.AdminLabel)
         Me.Panel4.Controls.Add(Me.Panel5)
-        Me.Panel4.Controls.Add(Me.IconButton2)
+        Me.Panel4.Controls.Add(Me.OptionsBtn)
         Me.Panel4.Location = New System.Drawing.Point(-1, 106)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(210, 469)
@@ -166,27 +166,27 @@ Partial Class MainDesign
         Me.MembersBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.MembersBtn.UseVisualStyleBackColor = True
         '
-        'IconButton2
+        'OptionsBtn
         '
-        Me.IconButton2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.IconButton2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.IconButton2.FlatAppearance.BorderSize = 0
-        Me.IconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.IconButton2.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.IconButton2.IconChar = FontAwesome.Sharp.IconChar.User
-        Me.IconButton2.IconColor = System.Drawing.SystemColors.ButtonFace
-        Me.IconButton2.IconFont = FontAwesome.Sharp.IconFont.[Auto]
-        Me.IconButton2.IconSize = 30
-        Me.IconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton2.Location = New System.Drawing.Point(0, 0)
-        Me.IconButton2.Name = "IconButton2"
-        Me.IconButton2.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
-        Me.IconButton2.Size = New System.Drawing.Size(210, 50)
-        Me.IconButton2.TabIndex = 2
-        Me.IconButton2.Text = "Options"
-        Me.IconButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.IconButton2.UseVisualStyleBackColor = True
+        Me.OptionsBtn.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.OptionsBtn.Dock = System.Windows.Forms.DockStyle.Top
+        Me.OptionsBtn.FlatAppearance.BorderSize = 0
+        Me.OptionsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.OptionsBtn.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.OptionsBtn.IconChar = FontAwesome.Sharp.IconChar.User
+        Me.OptionsBtn.IconColor = System.Drawing.SystemColors.ButtonFace
+        Me.OptionsBtn.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.OptionsBtn.IconSize = 30
+        Me.OptionsBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.OptionsBtn.Location = New System.Drawing.Point(0, 0)
+        Me.OptionsBtn.Name = "OptionsBtn"
+        Me.OptionsBtn.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
+        Me.OptionsBtn.Size = New System.Drawing.Size(210, 50)
+        Me.OptionsBtn.TabIndex = 2
+        Me.OptionsBtn.Text = "Options"
+        Me.OptionsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.OptionsBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.OptionsBtn.UseVisualStyleBackColor = True
         '
         'Label3
         '
@@ -198,49 +198,49 @@ Partial Class MainDesign
         Me.Label3.TabIndex = 27
         Me.Label3.Text = "User"
         '
-        'PayslipButton
+        'PayslipBtn
         '
-        Me.PayslipButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PayslipButton.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PayslipButton.FlatAppearance.BorderSize = 0
-        Me.PayslipButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.PayslipButton.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.PayslipButton.IconChar = FontAwesome.Sharp.IconChar.MoneyBill
-        Me.PayslipButton.IconColor = System.Drawing.SystemColors.ButtonFace
-        Me.PayslipButton.IconFont = FontAwesome.Sharp.IconFont.[Auto]
-        Me.PayslipButton.IconSize = 30
-        Me.PayslipButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.PayslipButton.Location = New System.Drawing.Point(0, 50)
-        Me.PayslipButton.Name = "PayslipButton"
-        Me.PayslipButton.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
-        Me.PayslipButton.Size = New System.Drawing.Size(210, 50)
-        Me.PayslipButton.TabIndex = 3
-        Me.PayslipButton.Text = "Payslip"
-        Me.PayslipButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.PayslipButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.PayslipButton.UseVisualStyleBackColor = True
+        Me.PayslipBtn.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PayslipBtn.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PayslipBtn.FlatAppearance.BorderSize = 0
+        Me.PayslipBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.PayslipBtn.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.PayslipBtn.IconChar = FontAwesome.Sharp.IconChar.MoneyBill
+        Me.PayslipBtn.IconColor = System.Drawing.SystemColors.ButtonFace
+        Me.PayslipBtn.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.PayslipBtn.IconSize = 30
+        Me.PayslipBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.PayslipBtn.Location = New System.Drawing.Point(0, 50)
+        Me.PayslipBtn.Name = "PayslipBtn"
+        Me.PayslipBtn.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
+        Me.PayslipBtn.Size = New System.Drawing.Size(210, 50)
+        Me.PayslipBtn.TabIndex = 3
+        Me.PayslipBtn.Text = "Payslip"
+        Me.PayslipBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.PayslipBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.PayslipBtn.UseVisualStyleBackColor = True
         '
-        'ClockInButton
+        'ClockInBtn
         '
-        Me.ClockInButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ClockInButton.Dock = System.Windows.Forms.DockStyle.Top
-        Me.ClockInButton.FlatAppearance.BorderSize = 0
-        Me.ClockInButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ClockInButton.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.ClockInButton.IconChar = FontAwesome.Sharp.IconChar.ClockFour
-        Me.ClockInButton.IconColor = System.Drawing.SystemColors.ButtonFace
-        Me.ClockInButton.IconFont = FontAwesome.Sharp.IconFont.[Auto]
-        Me.ClockInButton.IconSize = 30
-        Me.ClockInButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.ClockInButton.Location = New System.Drawing.Point(0, 0)
-        Me.ClockInButton.Name = "ClockInButton"
-        Me.ClockInButton.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
-        Me.ClockInButton.Size = New System.Drawing.Size(210, 50)
-        Me.ClockInButton.TabIndex = 2
-        Me.ClockInButton.Text = "Time Clock"
-        Me.ClockInButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.ClockInButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.ClockInButton.UseVisualStyleBackColor = True
+        Me.ClockInBtn.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ClockInBtn.Dock = System.Windows.Forms.DockStyle.Top
+        Me.ClockInBtn.FlatAppearance.BorderSize = 0
+        Me.ClockInBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ClockInBtn.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.ClockInBtn.IconChar = FontAwesome.Sharp.IconChar.ClockFour
+        Me.ClockInBtn.IconColor = System.Drawing.SystemColors.ButtonFace
+        Me.ClockInBtn.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.ClockInBtn.IconSize = 30
+        Me.ClockInBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.ClockInBtn.Location = New System.Drawing.Point(0, 0)
+        Me.ClockInBtn.Name = "ClockInBtn"
+        Me.ClockInBtn.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
+        Me.ClockInBtn.Size = New System.Drawing.Size(210, 50)
+        Me.ClockInBtn.TabIndex = 2
+        Me.ClockInBtn.Text = "Time Clock"
+        Me.ClockInBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.ClockInBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.ClockInBtn.UseVisualStyleBackColor = True
         '
         'Timer1
         '
@@ -347,10 +347,10 @@ Partial Class MainDesign
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Label1 As Label
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents ClockInButton As FontAwesome.Sharp.IconButton
-    Friend WithEvents PayslipButton As FontAwesome.Sharp.IconButton
+    Friend WithEvents ClockInBtn As FontAwesome.Sharp.IconButton
+    Friend WithEvents PayslipBtn As FontAwesome.Sharp.IconButton
     Friend WithEvents Panel4 As Panel
-    Friend WithEvents IconButton2 As FontAwesome.Sharp.IconButton
+    Friend WithEvents OptionsBtn As FontAwesome.Sharp.IconButton
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Panel5 As Panel

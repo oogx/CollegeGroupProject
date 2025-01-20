@@ -32,7 +32,7 @@ Partial Class frmSignInPage
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.lblClock = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
+        Me.LogInBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Shapes1 = New Guna.UI2.WinForms.Guna2Shapes()
         Me.Guna2Shapes2 = New Guna.UI2.WinForms.Guna2Shapes()
         Me.payrollTxtBx = New System.Windows.Forms.TextBox()
@@ -126,24 +126,24 @@ Partial Class frmSignInPage
         'Timer1
         '
         '
-        'Guna2Button1
+        'LogInBtn
         '
-        Me.Guna2Button1.Animated = True
-        Me.Guna2Button1.AutoRoundedCorners = True
-        Me.Guna2Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button1.BorderRadius = 21
-        Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button1.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Guna2Button1.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
-        Me.Guna2Button1.Location = New System.Drawing.Point(156, 429)
-        Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.Size = New System.Drawing.Size(180, 45)
-        Me.Guna2Button1.TabIndex = 16
-        Me.Guna2Button1.Text = "LOG IN"
+        Me.LogInBtn.Animated = True
+        Me.LogInBtn.AutoRoundedCorners = True
+        Me.LogInBtn.BackColor = System.Drawing.Color.Transparent
+        Me.LogInBtn.BorderRadius = 21
+        Me.LogInBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.LogInBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.LogInBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.LogInBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.LogInBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.LogInBtn.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LogInBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
+        Me.LogInBtn.Location = New System.Drawing.Point(156, 429)
+        Me.LogInBtn.Name = "LogInBtn"
+        Me.LogInBtn.Size = New System.Drawing.Size(180, 45)
+        Me.LogInBtn.TabIndex = 16
+        Me.LogInBtn.Text = "LOG IN"
         '
         'Guna2Shapes1
         '
@@ -221,7 +221,7 @@ Partial Class frmSignInPage
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.passTxtBx)
         Me.Controls.Add(Me.payrollTxtBx)
-        Me.Controls.Add(Me.Guna2Button1)
+        Me.Controls.Add(Me.LogInBtn)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.picLoginLogo)
         Me.Controls.Add(Me.lblSignInDot)
@@ -251,7 +251,7 @@ Partial Class frmSignInPage
     Friend WithEvents Panel1 As Panel
     Friend WithEvents lblClock As Label
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents LogInBtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Shapes1 As Guna.UI2.WinForms.Guna2Shapes
     Friend WithEvents Guna2Shapes2 As Guna.UI2.WinForms.Guna2Shapes
     Friend WithEvents payrollTxtBx As TextBox
