@@ -117,9 +117,9 @@ Partial Class MainDesign
         Me.UserTypeLbl.ForeColor = System.Drawing.Color.FromArgb(CType(CType(78, Byte), Integer), CType(CType(149, Byte), Integer), CType(CType(217, Byte), Integer))
         Me.UserTypeLbl.Location = New System.Drawing.Point(13, 345)
         Me.UserTypeLbl.Name = "UserTypeLbl"
-        Me.UserTypeLbl.Size = New System.Drawing.Size(65, 16)
+        Me.UserTypeLbl.Size = New System.Drawing.Size(69, 16)
         Me.UserTypeLbl.TabIndex = 28
-        Me.UserTypeLbl.Text = "UserType"
+        Me.UserTypeLbl.Text = "User Type"
         '
         'UsersNameLbl
         '
@@ -242,7 +242,7 @@ Partial Class MainDesign
         Me.OptionsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.OptionsBtn.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OptionsBtn.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.OptionsBtn.IconChar = FontAwesome.Sharp.IconChar.User
+        Me.OptionsBtn.IconChar = FontAwesome.Sharp.IconChar.Cog
         Me.OptionsBtn.IconColor = System.Drawing.SystemColors.ButtonFace
         Me.OptionsBtn.IconFont = FontAwesome.Sharp.IconFont.[Auto]
         Me.OptionsBtn.IconSize = 30
@@ -383,6 +383,7 @@ Partial Class MainDesign
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1012, 46)
         Me.Panel1.TabIndex = 27
+        '
         '
         'MainDesign
         '

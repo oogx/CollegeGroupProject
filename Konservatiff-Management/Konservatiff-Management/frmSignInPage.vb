@@ -11,6 +11,7 @@ Public Class frmSignInPage
         lblClock.Text = Format(strTime.Now)
     End Sub
 
+
     Private Sub LogInBtn_Click(sender As Object, e As EventArgs) Handles LogInBtn.Click
         Dim connectionString As String = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=database.accdb"
         Dim sql As String = "SELECT Forename, Surname, AdminStatus FROM tblMembers WHERE MemberID = @MemberID AND Password = @Password"
