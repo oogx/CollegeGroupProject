@@ -49,6 +49,10 @@ Public Class MainDesign
         OpenChildForm(New OptionsSubforms)
     End Sub
 
+    Private Sub MembersBtn_Click(sender As Object, e As EventArgs) Handles MembersBtn.Click
+        OpenChildForm(New MembersSubform)
+    End Sub
+
     Private Sub AddStaffBtn_Click(sender As Object, e As EventArgs) Handles AddStaffBtn.Click
         OpenChildForm(New AddStaffSubform)
     End Sub
@@ -62,11 +66,5 @@ Public Class MainDesign
         frmSignInPage.Show()
     End Sub
 
-    Private Sub TableLayoutPanel1_Paint(sender As Object, e As PaintEventArgs)
 
-    End Sub
-
-    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs)
-
-    End Sub
 End Class

@@ -127,6 +127,12 @@
     <Compile Include="SubForms\ClockInSubform.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="SubForms\MembersSubform.Designer.vb">
+      <DependentUpon>MembersSubform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\MembersSubform.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="SubForms\OptionsSubforms.Designer.vb">
       <DependentUpon>OptionsSubforms.vb</DependentUpon>
     </Compile>
@@ -143,6 +149,42 @@
       <DependentUpon>ReportsSubform.vb</DependentUpon>
     </Compile>
     <Compile Include="SubForms\ReportsSubform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Widgets\Dropdown.Designer.vb">
+      <DependentUpon>Dropdown.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\Dropdown.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Widgets\WidgetForms\ChangeInformation.Designer.vb">
+      <DependentUpon>ChangeInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\WidgetForms\ChangeInformation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Widgets\WidgetForms\DeleteMember.Designer.vb">
+      <DependentUpon>DeleteMember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\WidgetForms\DeleteMember.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Widgets\WidgetForms\EmailPayslip.Designer.vb">
+      <DependentUpon>EmailPayslip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\WidgetForms\EmailPayslip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Widgets\WidgetForms\ViewPayslip.Designer.vb">
+      <DependentUpon>ViewPayslip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\WidgetForms\ViewPayslip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Widgets\WidgetForms\ViewShifts.Designer.vb">
+      <DependentUpon>ViewShifts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\WidgetForms\ViewShifts.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -164,6 +206,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SubForms\ClockInSubform.resx">
       <DependentUpon>ClockInSubform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\MembersSubform.resx">
+      <DependentUpon>MembersSubform.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SubForms\OptionsSubforms.resx">
       <DependentUpon>OptionsSubforms.vb</DependentUpon>

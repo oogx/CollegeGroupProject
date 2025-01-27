@@ -384,7 +384,6 @@ Partial Class MainDesign
         Me.Panel1.Size = New System.Drawing.Size(1012, 46)
         Me.Panel1.TabIndex = 27
         '
-        '
         'MainDesign
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
