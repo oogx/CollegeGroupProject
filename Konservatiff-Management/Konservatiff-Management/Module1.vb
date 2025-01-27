@@ -13,4 +13,10 @@
     Public Username As String
     Public AccessLevel As Boolean
 
+
+    Public DarkTheme As Boolean
+    Public Contrast As Boolean
+    Public TextSize As String
+
+    Public MainColour As Color
 End Module

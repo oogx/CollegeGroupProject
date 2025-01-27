@@ -32,7 +32,6 @@ Partial Class OptionsSubforms
         Me.Label4 = New System.Windows.Forms.Label()
         Me.highContrastCheckBx = New Guna.UI2.WinForms.Guna2CustomCheckBox()
         Me.Guna2Shapes2 = New Guna.UI2.WinForms.Guna2Shapes()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.Guna2Shapes3 = New Guna.UI2.WinForms.Guna2Shapes()
         Me.setTextSizeTxtBx = New System.Windows.Forms.TextBox()
         Me.Guna2Shapes4 = New Guna.UI2.WinForms.Guna2Shapes()
@@ -45,6 +44,7 @@ Partial Class OptionsSubforms
         Me.Guna2Shapes6 = New Guna.UI2.WinForms.Guna2Shapes()
         Me.LogInBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Guna2Shapes1
@@ -184,18 +184,6 @@ Partial Class OptionsSubforms
         Me.Guna2Shapes2.Text = "Guna2Shapes2"
         Me.Guna2Shapes2.Zoom = 80
         '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.Color.FromArgb(CType(CType(80, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(108, Byte), Integer))
-        Me.Label5.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(74, 313)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(88, 23)
-        Me.Label5.TabIndex = 71
-        Me.Label5.Text = "Text Size"
-        '
         'Guna2Shapes3
         '
         Me.Guna2Shapes3.BorderColor = System.Drawing.Color.Transparent
@@ -216,11 +204,12 @@ Partial Class OptionsSubforms
         Me.setTextSizeTxtBx.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.setTextSizeTxtBx.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.setTextSizeTxtBx.ForeColor = System.Drawing.Color.White
-        Me.setTextSizeTxtBx.Location = New System.Drawing.Point(187, 312)
+        Me.setTextSizeTxtBx.Location = New System.Drawing.Point(177, 312)
         Me.setTextSizeTxtBx.Name = "setTextSizeTxtBx"
-        Me.setTextSizeTxtBx.Size = New System.Drawing.Size(62, 26)
+        Me.setTextSizeTxtBx.Size = New System.Drawing.Size(77, 26)
         Me.setTextSizeTxtBx.TabIndex = 73
-        Me.setTextSizeTxtBx.Text = "100%"
+        Me.setTextSizeTxtBx.Text = "100"
+        Me.setTextSizeTxtBx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Guna2Shapes4
         '
@@ -366,6 +355,18 @@ Partial Class OptionsSubforms
         Me.Guna2Button1.TabIndex = 82
         Me.Guna2Button1.Text = "Save Password"
         '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.FromArgb(CType(CType(80, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(108, Byte), Integer))
+        Me.Label5.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.White
+        Me.Label5.Location = New System.Drawing.Point(74, 313)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(109, 23)
+        Me.Label5.TabIndex = 71
+        Me.Label5.Text = "Text Size %"
+        '
         'OptionsSubforms
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -411,7 +412,6 @@ Partial Class OptionsSubforms
     Friend WithEvents Label4 As Label
     Friend WithEvents highContrastCheckBx As Guna.UI2.WinForms.Guna2CustomCheckBox
     Friend WithEvents Guna2Shapes2 As Guna.UI2.WinForms.Guna2Shapes
-    Friend WithEvents Label5 As Label
     Friend WithEvents Guna2Shapes3 As Guna.UI2.WinForms.Guna2Shapes
     Friend WithEvents setTextSizeTxtBx As TextBox
     Friend WithEvents Guna2Shapes4 As Guna.UI2.WinForms.Guna2Shapes
@@ -424,4 +424,5 @@ Partial Class OptionsSubforms
     Friend WithEvents Guna2Shapes6 As Guna.UI2.WinForms.Guna2Shapes
     Friend WithEvents LogInBtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Label5 As Label
 End Class

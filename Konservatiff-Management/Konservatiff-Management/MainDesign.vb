@@ -33,6 +33,13 @@ Public Class MainDesign
         Else
             UserTypeLbl.Text = "Admin"
         End If
+
+        If DarkTheme Then
+            'MainColour = 
+
+        Else
+
+        End If
     End Sub
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         lblClock.Text = Format(strTime.Now)

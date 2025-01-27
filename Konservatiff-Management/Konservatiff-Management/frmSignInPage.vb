@@ -1,5 +1,6 @@
 ﻿Imports System.Threading
 Imports System.Data.OleDb
+Imports System.Diagnostics.Contracts
 
 Public Class frmSignInPage
     Private Sub frmSignInPage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -14,8 +15,7 @@ Public Class frmSignInPage
 
     Private Sub LogInBtn_Click(sender As Object, e As EventArgs) Handles LogInBtn.Click
         Dim connectionString As String = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=database.accdb"
-        Dim sql As String = "SELECT Forename, Surname, AdminStatus FROM tblMembers WHERE MemberID = @MemberID AND Password = @Password"
-
+        Dim sql As String = "SELECT Forename, Surname, AdminStatus, DarkTheme, Contrast, TextSize FROM tblMembers WHERE MemberID = @MemberID AND Password = @Password"
         Using connection As New OleDbConnection(connectionString)
             Using command As New OleDbCommand(sql, connection)
                 command.Parameters.AddWithValue("@MemberID", payrollTxtBx.Text)
@@ -32,6 +32,9 @@ Public Class frmSignInPage
                     Dim row As DataRow = dataSet.Tables("MembersData").Rows(0)
                     Username = $"{row("Forename")} {row("Surname")}"
                     AccessLevel = row("AdminStatus")
+                    DarkTheme = row("DarkTheme")
+                    Contrast = row("Contrast")
+                    TextSize = row("TextSize")
 
                     MainDesign.Show()
                     Me.Hide()
