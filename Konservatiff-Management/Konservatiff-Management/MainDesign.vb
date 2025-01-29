@@ -1,4 +1,5 @@
 ﻿Imports System.Web.UI.HtmlControls
+Imports System.Xml
 Imports FontAwesome.Sharp
 Public Class MainDesign
     Sub OpenChildForm(childForm As Form)
@@ -35,8 +36,8 @@ Public Class MainDesign
         End If
 
         If DarkTheme Then
-            'MainColour = 
-
+            User_Desktop_Panel.BackColor = Color.White
+            Panel5.ForeColor = Color.Aqua
         Else
 
         End If
@@ -72,6 +73,4 @@ Public Class MainDesign
         Connection.Close()
         frmSignInPage.Show()
     End Sub
-
-
 End Class
