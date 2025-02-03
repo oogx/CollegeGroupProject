@@ -127,6 +127,12 @@
     <Compile Include="SubForms\ClockInSubform.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="SubForms\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="SubForms\MembersSubform.Designer.vb">
       <DependentUpon>MembersSubform.vb</DependentUpon>
     </Compile>
@@ -206,6 +212,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SubForms\ClockInSubform.resx">
       <DependentUpon>ClockInSubform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SubForms\MembersSubform.resx">
       <DependentUpon>MembersSubform.vb</DependentUpon>
