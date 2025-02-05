@@ -38,7 +38,7 @@ Partial Class MembersSubform
         Me.R1C6 = New System.Windows.Forms.Label()
         Me.R1C7 = New System.Windows.Forms.Label()
         Me.R1Btn = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
+        Me.R2Btn = New Guna.UI2.WinForms.Guna2Button()
         Me.R2C7 = New System.Windows.Forms.Label()
         Me.R2C6 = New System.Windows.Forms.Label()
         Me.R2C5 = New System.Windows.Forms.Label()
@@ -46,7 +46,7 @@ Partial Class MembersSubform
         Me.R2C3 = New System.Windows.Forms.Label()
         Me.R2C2 = New System.Windows.Forms.Label()
         Me.R2C1 = New System.Windows.Forms.Label()
-        Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
+        Me.R3Btn = New Guna.UI2.WinForms.Guna2Button()
         Me.R3C7 = New System.Windows.Forms.Label()
         Me.R3C6 = New System.Windows.Forms.Label()
         Me.R3C5 = New System.Windows.Forms.Label()
@@ -54,7 +54,7 @@ Partial Class MembersSubform
         Me.R3C3 = New System.Windows.Forms.Label()
         Me.R3C2 = New System.Windows.Forms.Label()
         Me.R3C1 = New System.Windows.Forms.Label()
-        Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
+        Me.R4Btn = New Guna.UI2.WinForms.Guna2Button()
         Me.R4C7 = New System.Windows.Forms.Label()
         Me.R4C6 = New System.Windows.Forms.Label()
         Me.R4C5 = New System.Windows.Forms.Label()
@@ -62,7 +62,7 @@ Partial Class MembersSubform
         Me.R4C3 = New System.Windows.Forms.Label()
         Me.R4C2 = New System.Windows.Forms.Label()
         Me.R4C1 = New System.Windows.Forms.Label()
-        Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
+        Me.R5Btn = New Guna.UI2.WinForms.Guna2Button()
         Me.R5C7 = New System.Windows.Forms.Label()
         Me.R5C6 = New System.Windows.Forms.Label()
         Me.R5C5 = New System.Windows.Forms.Label()
@@ -70,7 +70,7 @@ Partial Class MembersSubform
         Me.R5C3 = New System.Windows.Forms.Label()
         Me.R5C2 = New System.Windows.Forms.Label()
         Me.R5C1 = New System.Windows.Forms.Label()
-        Me.Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
+        Me.R6Btn = New Guna.UI2.WinForms.Guna2Button()
         Me.R6C7 = New System.Windows.Forms.Label()
         Me.R6C6 = New System.Windows.Forms.Label()
         Me.R6C5 = New System.Windows.Forms.Label()
@@ -78,7 +78,7 @@ Partial Class MembersSubform
         Me.R6C3 = New System.Windows.Forms.Label()
         Me.R6C2 = New System.Windows.Forms.Label()
         Me.R6C1 = New System.Windows.Forms.Label()
-        Me.Guna2Button6 = New Guna.UI2.WinForms.Guna2Button()
+        Me.R7Btn = New Guna.UI2.WinForms.Guna2Button()
         Me.R7C7 = New System.Windows.Forms.Label()
         Me.R7C6 = New System.Windows.Forms.Label()
         Me.R7C5 = New System.Windows.Forms.Label()
@@ -86,7 +86,7 @@ Partial Class MembersSubform
         Me.R7C3 = New System.Windows.Forms.Label()
         Me.R7C2 = New System.Windows.Forms.Label()
         Me.R7C1 = New System.Windows.Forms.Label()
-        Me.Guna2Button7 = New Guna.UI2.WinForms.Guna2Button()
+        Me.R8Btn = New Guna.UI2.WinForms.Guna2Button()
         Me.R8C7 = New System.Windows.Forms.Label()
         Me.R8C6 = New System.Windows.Forms.Label()
         Me.R8C5 = New System.Windows.Forms.Label()
@@ -94,7 +94,7 @@ Partial Class MembersSubform
         Me.R8C3 = New System.Windows.Forms.Label()
         Me.R8C2 = New System.Windows.Forms.Label()
         Me.R8C1 = New System.Windows.Forms.Label()
-        Me.Guna2Button8 = New Guna.UI2.WinForms.Guna2Button()
+        Me.R9Btn = New Guna.UI2.WinForms.Guna2Button()
         Me.R9C7 = New System.Windows.Forms.Label()
         Me.R9C6 = New System.Windows.Forms.Label()
         Me.R9C5 = New System.Windows.Forms.Label()
@@ -102,7 +102,7 @@ Partial Class MembersSubform
         Me.R9C3 = New System.Windows.Forms.Label()
         Me.R9C2 = New System.Windows.Forms.Label()
         Me.R9C1 = New System.Windows.Forms.Label()
-        Me.Guna2Button9 = New Guna.UI2.WinForms.Guna2Button()
+        Me.R10Btn = New Guna.UI2.WinForms.Guna2Button()
         Me.R10C7 = New System.Windows.Forms.Label()
         Me.R10C6 = New System.Windows.Forms.Label()
         Me.R10C5 = New System.Windows.Forms.Label()
@@ -112,6 +112,7 @@ Partial Class MembersSubform
         Me.R10C1 = New System.Windows.Forms.Label()
         Me.Guna2Shapes1 = New Guna.UI2.WinForms.Guna2Shapes()
         Me.pageCountLbl = New System.Windows.Forms.Label()
+        Me.Dropdown_Panel = New System.Windows.Forms.Panel()
         Me.SuspendLayout()
         '
         'Label1
@@ -306,25 +307,25 @@ Partial Class MembersSubform
         Me.R1Btn.Tag = "1"
         Me.R1Btn.Text = "Actions"
         '
-        'Guna2Button1
+        'R2Btn
         '
-        Me.Guna2Button1.AutoRoundedCorners = True
-        Me.Guna2Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Guna2Button1.BorderRadius = 12
-        Me.Guna2Button1.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button1.FillColor = System.Drawing.SystemColors.GrayText
-        Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button1.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button1.Location = New System.Drawing.Point(654, 96)
-        Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.Size = New System.Drawing.Size(67, 26)
-        Me.Guna2Button1.TabIndex = 24
-        Me.Guna2Button1.Tag = "2"
-        Me.Guna2Button1.Text = "Actions"
+        Me.R2Btn.AutoRoundedCorners = True
+        Me.R2Btn.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.R2Btn.BorderRadius = 12
+        Me.R2Btn.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.R2Btn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.R2Btn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.R2Btn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.R2Btn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.R2Btn.FillColor = System.Drawing.SystemColors.GrayText
+        Me.R2Btn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.R2Btn.ForeColor = System.Drawing.Color.White
+        Me.R2Btn.Location = New System.Drawing.Point(654, 96)
+        Me.R2Btn.Name = "R2Btn"
+        Me.R2Btn.Size = New System.Drawing.Size(67, 26)
+        Me.R2Btn.TabIndex = 24
+        Me.R2Btn.Tag = "2"
+        Me.R2Btn.Text = "Actions"
         '
         'R2C7
         '
@@ -410,25 +411,25 @@ Partial Class MembersSubform
         Me.R2C1.TabIndex = 17
         Me.R2C1.Text = "000001"
         '
-        'Guna2Button2
+        'R3Btn
         '
-        Me.Guna2Button2.AutoRoundedCorners = True
-        Me.Guna2Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Guna2Button2.BorderRadius = 12
-        Me.Guna2Button2.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.Guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button2.FillColor = System.Drawing.SystemColors.GrayText
-        Me.Guna2Button2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button2.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button2.Location = New System.Drawing.Point(654, 132)
-        Me.Guna2Button2.Name = "Guna2Button2"
-        Me.Guna2Button2.Size = New System.Drawing.Size(67, 26)
-        Me.Guna2Button2.TabIndex = 32
-        Me.Guna2Button2.Tag = "3"
-        Me.Guna2Button2.Text = "Actions"
+        Me.R3Btn.AutoRoundedCorners = True
+        Me.R3Btn.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.R3Btn.BorderRadius = 12
+        Me.R3Btn.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.R3Btn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.R3Btn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.R3Btn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.R3Btn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.R3Btn.FillColor = System.Drawing.SystemColors.GrayText
+        Me.R3Btn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.R3Btn.ForeColor = System.Drawing.Color.White
+        Me.R3Btn.Location = New System.Drawing.Point(654, 132)
+        Me.R3Btn.Name = "R3Btn"
+        Me.R3Btn.Size = New System.Drawing.Size(67, 26)
+        Me.R3Btn.TabIndex = 32
+        Me.R3Btn.Tag = "3"
+        Me.R3Btn.Text = "Actions"
         '
         'R3C7
         '
@@ -514,25 +515,25 @@ Partial Class MembersSubform
         Me.R3C1.TabIndex = 25
         Me.R3C1.Text = "000001"
         '
-        'Guna2Button3
+        'R4Btn
         '
-        Me.Guna2Button3.AutoRoundedCorners = True
-        Me.Guna2Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Guna2Button3.BorderRadius = 12
-        Me.Guna2Button3.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.Guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button3.FillColor = System.Drawing.SystemColors.GrayText
-        Me.Guna2Button3.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button3.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button3.Location = New System.Drawing.Point(654, 169)
-        Me.Guna2Button3.Name = "Guna2Button3"
-        Me.Guna2Button3.Size = New System.Drawing.Size(67, 26)
-        Me.Guna2Button3.TabIndex = 40
-        Me.Guna2Button3.Tag = "4"
-        Me.Guna2Button3.Text = "Actions"
+        Me.R4Btn.AutoRoundedCorners = True
+        Me.R4Btn.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.R4Btn.BorderRadius = 12
+        Me.R4Btn.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.R4Btn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.R4Btn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.R4Btn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.R4Btn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.R4Btn.FillColor = System.Drawing.SystemColors.GrayText
+        Me.R4Btn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.R4Btn.ForeColor = System.Drawing.Color.White
+        Me.R4Btn.Location = New System.Drawing.Point(654, 169)
+        Me.R4Btn.Name = "R4Btn"
+        Me.R4Btn.Size = New System.Drawing.Size(67, 26)
+        Me.R4Btn.TabIndex = 40
+        Me.R4Btn.Tag = "4"
+        Me.R4Btn.Text = "Actions"
         '
         'R4C7
         '
@@ -618,25 +619,25 @@ Partial Class MembersSubform
         Me.R4C1.TabIndex = 33
         Me.R4C1.Text = "000001"
         '
-        'Guna2Button4
+        'R5Btn
         '
-        Me.Guna2Button4.AutoRoundedCorners = True
-        Me.Guna2Button4.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Guna2Button4.BorderRadius = 12
-        Me.Guna2Button4.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.Guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button4.FillColor = System.Drawing.SystemColors.GrayText
-        Me.Guna2Button4.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button4.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button4.Location = New System.Drawing.Point(655, 206)
-        Me.Guna2Button4.Name = "Guna2Button4"
-        Me.Guna2Button4.Size = New System.Drawing.Size(67, 26)
-        Me.Guna2Button4.TabIndex = 48
-        Me.Guna2Button4.Tag = "5"
-        Me.Guna2Button4.Text = "Actions"
+        Me.R5Btn.AutoRoundedCorners = True
+        Me.R5Btn.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.R5Btn.BorderRadius = 12
+        Me.R5Btn.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.R5Btn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.R5Btn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.R5Btn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.R5Btn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.R5Btn.FillColor = System.Drawing.SystemColors.GrayText
+        Me.R5Btn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.R5Btn.ForeColor = System.Drawing.Color.White
+        Me.R5Btn.Location = New System.Drawing.Point(655, 206)
+        Me.R5Btn.Name = "R5Btn"
+        Me.R5Btn.Size = New System.Drawing.Size(67, 26)
+        Me.R5Btn.TabIndex = 48
+        Me.R5Btn.Tag = "5"
+        Me.R5Btn.Text = "Actions"
         '
         'R5C7
         '
@@ -722,25 +723,25 @@ Partial Class MembersSubform
         Me.R5C1.TabIndex = 41
         Me.R5C1.Text = "000001"
         '
-        'Guna2Button5
+        'R6Btn
         '
-        Me.Guna2Button5.AutoRoundedCorners = True
-        Me.Guna2Button5.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Guna2Button5.BorderRadius = 12
-        Me.Guna2Button5.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.Guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button5.FillColor = System.Drawing.SystemColors.GrayText
-        Me.Guna2Button5.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button5.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button5.Location = New System.Drawing.Point(655, 245)
-        Me.Guna2Button5.Name = "Guna2Button5"
-        Me.Guna2Button5.Size = New System.Drawing.Size(67, 26)
-        Me.Guna2Button5.TabIndex = 56
-        Me.Guna2Button5.Tag = "6"
-        Me.Guna2Button5.Text = "Actions"
+        Me.R6Btn.AutoRoundedCorners = True
+        Me.R6Btn.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.R6Btn.BorderRadius = 12
+        Me.R6Btn.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.R6Btn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.R6Btn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.R6Btn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.R6Btn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.R6Btn.FillColor = System.Drawing.SystemColors.GrayText
+        Me.R6Btn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.R6Btn.ForeColor = System.Drawing.Color.White
+        Me.R6Btn.Location = New System.Drawing.Point(655, 245)
+        Me.R6Btn.Name = "R6Btn"
+        Me.R6Btn.Size = New System.Drawing.Size(67, 26)
+        Me.R6Btn.TabIndex = 56
+        Me.R6Btn.Tag = "6"
+        Me.R6Btn.Text = "Actions"
         '
         'R6C7
         '
@@ -826,25 +827,25 @@ Partial Class MembersSubform
         Me.R6C1.TabIndex = 49
         Me.R6C1.Text = "000001"
         '
-        'Guna2Button6
+        'R7Btn
         '
-        Me.Guna2Button6.AutoRoundedCorners = True
-        Me.Guna2Button6.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Guna2Button6.BorderRadius = 12
-        Me.Guna2Button6.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.Guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button6.FillColor = System.Drawing.SystemColors.GrayText
-        Me.Guna2Button6.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button6.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button6.Location = New System.Drawing.Point(655, 283)
-        Me.Guna2Button6.Name = "Guna2Button6"
-        Me.Guna2Button6.Size = New System.Drawing.Size(67, 26)
-        Me.Guna2Button6.TabIndex = 64
-        Me.Guna2Button6.Tag = "7"
-        Me.Guna2Button6.Text = "Actions"
+        Me.R7Btn.AutoRoundedCorners = True
+        Me.R7Btn.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.R7Btn.BorderRadius = 12
+        Me.R7Btn.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.R7Btn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.R7Btn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.R7Btn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.R7Btn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.R7Btn.FillColor = System.Drawing.SystemColors.GrayText
+        Me.R7Btn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.R7Btn.ForeColor = System.Drawing.Color.White
+        Me.R7Btn.Location = New System.Drawing.Point(655, 283)
+        Me.R7Btn.Name = "R7Btn"
+        Me.R7Btn.Size = New System.Drawing.Size(67, 26)
+        Me.R7Btn.TabIndex = 64
+        Me.R7Btn.Tag = "7"
+        Me.R7Btn.Text = "Actions"
         '
         'R7C7
         '
@@ -930,25 +931,25 @@ Partial Class MembersSubform
         Me.R7C1.TabIndex = 57
         Me.R7C1.Text = "000001"
         '
-        'Guna2Button7
+        'R8Btn
         '
-        Me.Guna2Button7.AutoRoundedCorners = True
-        Me.Guna2Button7.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Guna2Button7.BorderRadius = 12
-        Me.Guna2Button7.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.Guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button7.FillColor = System.Drawing.SystemColors.GrayText
-        Me.Guna2Button7.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button7.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button7.Location = New System.Drawing.Point(655, 324)
-        Me.Guna2Button7.Name = "Guna2Button7"
-        Me.Guna2Button7.Size = New System.Drawing.Size(67, 26)
-        Me.Guna2Button7.TabIndex = 72
-        Me.Guna2Button7.Tag = "8"
-        Me.Guna2Button7.Text = "Actions"
+        Me.R8Btn.AutoRoundedCorners = True
+        Me.R8Btn.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.R8Btn.BorderRadius = 12
+        Me.R8Btn.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.R8Btn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.R8Btn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.R8Btn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.R8Btn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.R8Btn.FillColor = System.Drawing.SystemColors.GrayText
+        Me.R8Btn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.R8Btn.ForeColor = System.Drawing.Color.White
+        Me.R8Btn.Location = New System.Drawing.Point(655, 324)
+        Me.R8Btn.Name = "R8Btn"
+        Me.R8Btn.Size = New System.Drawing.Size(67, 26)
+        Me.R8Btn.TabIndex = 72
+        Me.R8Btn.Tag = "8"
+        Me.R8Btn.Text = "Actions"
         '
         'R8C7
         '
@@ -1034,25 +1035,25 @@ Partial Class MembersSubform
         Me.R8C1.TabIndex = 65
         Me.R8C1.Text = "000001"
         '
-        'Guna2Button8
+        'R9Btn
         '
-        Me.Guna2Button8.AutoRoundedCorners = True
-        Me.Guna2Button8.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Guna2Button8.BorderRadius = 12
-        Me.Guna2Button8.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.Guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button8.FillColor = System.Drawing.SystemColors.GrayText
-        Me.Guna2Button8.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button8.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button8.Location = New System.Drawing.Point(655, 364)
-        Me.Guna2Button8.Name = "Guna2Button8"
-        Me.Guna2Button8.Size = New System.Drawing.Size(67, 26)
-        Me.Guna2Button8.TabIndex = 80
-        Me.Guna2Button8.Tag = "9"
-        Me.Guna2Button8.Text = "Actions"
+        Me.R9Btn.AutoRoundedCorners = True
+        Me.R9Btn.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.R9Btn.BorderRadius = 12
+        Me.R9Btn.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.R9Btn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.R9Btn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.R9Btn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.R9Btn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.R9Btn.FillColor = System.Drawing.SystemColors.GrayText
+        Me.R9Btn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.R9Btn.ForeColor = System.Drawing.Color.White
+        Me.R9Btn.Location = New System.Drawing.Point(655, 364)
+        Me.R9Btn.Name = "R9Btn"
+        Me.R9Btn.Size = New System.Drawing.Size(67, 26)
+        Me.R9Btn.TabIndex = 80
+        Me.R9Btn.Tag = "9"
+        Me.R9Btn.Text = "Actions"
         '
         'R9C7
         '
@@ -1138,25 +1139,25 @@ Partial Class MembersSubform
         Me.R9C1.TabIndex = 73
         Me.R9C1.Text = "000001"
         '
-        'Guna2Button9
+        'R10Btn
         '
-        Me.Guna2Button9.AutoRoundedCorners = True
-        Me.Guna2Button9.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Guna2Button9.BorderRadius = 12
-        Me.Guna2Button9.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.Guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button9.FillColor = System.Drawing.SystemColors.GrayText
-        Me.Guna2Button9.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button9.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button9.Location = New System.Drawing.Point(655, 404)
-        Me.Guna2Button9.Name = "Guna2Button9"
-        Me.Guna2Button9.Size = New System.Drawing.Size(67, 26)
-        Me.Guna2Button9.TabIndex = 88
-        Me.Guna2Button9.Tag = "10"
-        Me.Guna2Button9.Text = "Actions"
+        Me.R10Btn.AutoRoundedCorners = True
+        Me.R10Btn.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.R10Btn.BorderRadius = 12
+        Me.R10Btn.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.R10Btn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.R10Btn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.R10Btn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.R10Btn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.R10Btn.FillColor = System.Drawing.SystemColors.GrayText
+        Me.R10Btn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.R10Btn.ForeColor = System.Drawing.Color.White
+        Me.R10Btn.Location = New System.Drawing.Point(655, 404)
+        Me.R10Btn.Name = "R10Btn"
+        Me.R10Btn.Size = New System.Drawing.Size(67, 26)
+        Me.R10Btn.TabIndex = 88
+        Me.R10Btn.Tag = "10"
+        Me.R10Btn.Text = "Actions"
         '
         'R10C7
         '
@@ -1268,14 +1269,23 @@ Partial Class MembersSubform
         Me.pageCountLbl.TabIndex = 90
         Me.pageCountLbl.Text = "Page 1 of 9"
         '
+        'Dropdown_Panel
+        '
+        Me.Dropdown_Panel.Location = New System.Drawing.Point(247, 56)
+        Me.Dropdown_Panel.Name = "Dropdown_Panel"
+        Me.Dropdown_Panel.Size = New System.Drawing.Size(184, 365)
+        Me.Dropdown_Panel.TabIndex = 91
+        Me.Dropdown_Panel.Visible = False
+        '
         'MembersSubform
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(750, 515)
+        Me.Controls.Add(Me.Dropdown_Panel)
         Me.Controls.Add(Me.pageCountLbl)
-        Me.Controls.Add(Me.Guna2Button9)
+        Me.Controls.Add(Me.R10Btn)
         Me.Controls.Add(Me.R10C7)
         Me.Controls.Add(Me.R10C6)
         Me.Controls.Add(Me.R10C5)
@@ -1283,7 +1293,7 @@ Partial Class MembersSubform
         Me.Controls.Add(Me.R10C3)
         Me.Controls.Add(Me.R10C2)
         Me.Controls.Add(Me.R10C1)
-        Me.Controls.Add(Me.Guna2Button8)
+        Me.Controls.Add(Me.R9Btn)
         Me.Controls.Add(Me.R9C7)
         Me.Controls.Add(Me.R9C6)
         Me.Controls.Add(Me.R9C5)
@@ -1291,7 +1301,7 @@ Partial Class MembersSubform
         Me.Controls.Add(Me.R9C3)
         Me.Controls.Add(Me.R9C2)
         Me.Controls.Add(Me.R9C1)
-        Me.Controls.Add(Me.Guna2Button7)
+        Me.Controls.Add(Me.R8Btn)
         Me.Controls.Add(Me.R8C7)
         Me.Controls.Add(Me.R8C6)
         Me.Controls.Add(Me.R8C5)
@@ -1299,7 +1309,7 @@ Partial Class MembersSubform
         Me.Controls.Add(Me.R8C3)
         Me.Controls.Add(Me.R8C2)
         Me.Controls.Add(Me.R8C1)
-        Me.Controls.Add(Me.Guna2Button6)
+        Me.Controls.Add(Me.R7Btn)
         Me.Controls.Add(Me.R7C7)
         Me.Controls.Add(Me.R7C6)
         Me.Controls.Add(Me.R7C5)
@@ -1307,7 +1317,7 @@ Partial Class MembersSubform
         Me.Controls.Add(Me.R7C3)
         Me.Controls.Add(Me.R7C2)
         Me.Controls.Add(Me.R7C1)
-        Me.Controls.Add(Me.Guna2Button5)
+        Me.Controls.Add(Me.R6Btn)
         Me.Controls.Add(Me.R6C7)
         Me.Controls.Add(Me.R6C6)
         Me.Controls.Add(Me.R6C5)
@@ -1315,7 +1325,7 @@ Partial Class MembersSubform
         Me.Controls.Add(Me.R6C3)
         Me.Controls.Add(Me.R6C2)
         Me.Controls.Add(Me.R6C1)
-        Me.Controls.Add(Me.Guna2Button4)
+        Me.Controls.Add(Me.R5Btn)
         Me.Controls.Add(Me.R5C7)
         Me.Controls.Add(Me.R5C6)
         Me.Controls.Add(Me.R5C5)
@@ -1323,7 +1333,7 @@ Partial Class MembersSubform
         Me.Controls.Add(Me.R5C3)
         Me.Controls.Add(Me.R5C2)
         Me.Controls.Add(Me.R5C1)
-        Me.Controls.Add(Me.Guna2Button3)
+        Me.Controls.Add(Me.R4Btn)
         Me.Controls.Add(Me.R4C7)
         Me.Controls.Add(Me.R4C6)
         Me.Controls.Add(Me.R4C5)
@@ -1331,7 +1341,7 @@ Partial Class MembersSubform
         Me.Controls.Add(Me.R4C3)
         Me.Controls.Add(Me.R4C2)
         Me.Controls.Add(Me.R4C1)
-        Me.Controls.Add(Me.Guna2Button2)
+        Me.Controls.Add(Me.R3Btn)
         Me.Controls.Add(Me.R3C7)
         Me.Controls.Add(Me.R3C6)
         Me.Controls.Add(Me.R3C5)
@@ -1339,7 +1349,7 @@ Partial Class MembersSubform
         Me.Controls.Add(Me.R3C3)
         Me.Controls.Add(Me.R3C2)
         Me.Controls.Add(Me.R3C1)
-        Me.Controls.Add(Me.Guna2Button1)
+        Me.Controls.Add(Me.R2Btn)
         Me.Controls.Add(Me.R2C7)
         Me.Controls.Add(Me.R2C6)
         Me.Controls.Add(Me.R2C5)
@@ -1386,7 +1396,7 @@ Partial Class MembersSubform
     Friend WithEvents R1C6 As Label
     Friend WithEvents R1C7 As Label
     Friend WithEvents R1Btn As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents R2Btn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents R2C7 As Label
     Friend WithEvents R2C6 As Label
     Friend WithEvents R2C5 As Label
@@ -1394,7 +1404,7 @@ Partial Class MembersSubform
     Friend WithEvents R2C3 As Label
     Friend WithEvents R2C2 As Label
     Friend WithEvents R2C1 As Label
-    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents R3Btn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents R3C7 As Label
     Friend WithEvents R3C6 As Label
     Friend WithEvents R3C5 As Label
@@ -1402,7 +1412,7 @@ Partial Class MembersSubform
     Friend WithEvents R3C3 As Label
     Friend WithEvents R3C2 As Label
     Friend WithEvents R3C1 As Label
-    Friend WithEvents Guna2Button3 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents R4Btn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents R4C7 As Label
     Friend WithEvents R4C6 As Label
     Friend WithEvents R4C5 As Label
@@ -1410,7 +1420,7 @@ Partial Class MembersSubform
     Friend WithEvents R4C3 As Label
     Friend WithEvents R4C2 As Label
     Friend WithEvents R4C1 As Label
-    Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents R5Btn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents R5C7 As Label
     Friend WithEvents R5C6 As Label
     Friend WithEvents R5C5 As Label
@@ -1418,7 +1428,7 @@ Partial Class MembersSubform
     Friend WithEvents R5C3 As Label
     Friend WithEvents R5C2 As Label
     Friend WithEvents R5C1 As Label
-    Friend WithEvents Guna2Button5 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents R6Btn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents R6C7 As Label
     Friend WithEvents R6C6 As Label
     Friend WithEvents R6C5 As Label
@@ -1426,7 +1436,7 @@ Partial Class MembersSubform
     Friend WithEvents R6C3 As Label
     Friend WithEvents R6C2 As Label
     Friend WithEvents R6C1 As Label
-    Friend WithEvents Guna2Button6 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents R7Btn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents R7C7 As Label
     Friend WithEvents R7C6 As Label
     Friend WithEvents R7C5 As Label
@@ -1434,7 +1444,7 @@ Partial Class MembersSubform
     Friend WithEvents R7C3 As Label
     Friend WithEvents R7C2 As Label
     Friend WithEvents R7C1 As Label
-    Friend WithEvents Guna2Button7 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents R8Btn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents R8C7 As Label
     Friend WithEvents R8C6 As Label
     Friend WithEvents R8C5 As Label
@@ -1442,7 +1452,7 @@ Partial Class MembersSubform
     Friend WithEvents R8C3 As Label
     Friend WithEvents R8C2 As Label
     Friend WithEvents R8C1 As Label
-    Friend WithEvents Guna2Button8 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents R9Btn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents R9C7 As Label
     Friend WithEvents R9C6 As Label
     Friend WithEvents R9C5 As Label
@@ -1450,7 +1460,7 @@ Partial Class MembersSubform
     Friend WithEvents R9C3 As Label
     Friend WithEvents R9C2 As Label
     Friend WithEvents R9C1 As Label
-    Friend WithEvents Guna2Button9 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents R10Btn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents R10C7 As Label
     Friend WithEvents R10C6 As Label
     Friend WithEvents R10C5 As Label
@@ -1460,4 +1470,5 @@ Partial Class MembersSubform
     Friend WithEvents R10C1 As Label
     Friend WithEvents Guna2Shapes1 As Guna.UI2.WinForms.Guna2Shapes
     Friend WithEvents pageCountLbl As Label
+    Friend WithEvents Dropdown_Panel As Panel
 End Class

@@ -87,7 +87,4 @@
         Next
     End Sub
 
-    Private Sub R1Btn_Click(sender As Object, e As EventArgs) Handles R1Btn.Click
-
-    End Sub
 End Class
