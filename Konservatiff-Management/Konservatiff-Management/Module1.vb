@@ -19,4 +19,7 @@
     Public TextSize As String
 
     Public MainColour As Color
+
+    Public CloseDropdown As Boolean
+    Public CurrentMemberID As Integer
 End Module
