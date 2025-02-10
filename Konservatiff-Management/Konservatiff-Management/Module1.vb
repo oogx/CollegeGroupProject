@@ -10,6 +10,7 @@
     Public currentChildForm As Form
     Public CurrentLevel As Int64
 
+    Public MemberID As Integer
     Public Username As String
     Public AccessLevel As Boolean
 
@@ -22,4 +23,8 @@
 
     Public CloseDropdown As Boolean
     Public CurrentMemberID As Integer
+
+    Public PageMulti As Integer
+    Public CurrentPage As Integer
+    Public MaxPages As Single
 End Module

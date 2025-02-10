@@ -30,6 +30,7 @@ Public Class frmSignInPage
 
                 If dataSet.Tables("MembersData").Rows.Count > 0 Then 'If the dataset is not empty from the selected data 
                     Dim row As DataRow = dataSet.Tables("MembersData").Rows(0)
+                    MemberID = payrollTxtBx.Text
                     Username = $"{row("Forename")} {row("Surname")}"
                     AccessLevel = row("AdminStatus")
                     DarkTheme = row("DarkTheme")

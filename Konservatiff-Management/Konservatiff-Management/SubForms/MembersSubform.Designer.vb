@@ -113,6 +113,8 @@ Partial Class MembersSubform
         Me.Guna2Shapes1 = New Guna.UI2.WinForms.Guna2Shapes()
         Me.pageCountLbl = New System.Windows.Forms.Label()
         Me.Dropdown_Panel = New System.Windows.Forms.Panel()
+        Me.NextPageBtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.PreviousPageBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -306,6 +308,7 @@ Partial Class MembersSubform
         Me.R1Btn.TabIndex = 16
         Me.R1Btn.Tag = "1"
         Me.R1Btn.Text = "Actions"
+        Me.R1Btn.Visible = False
         '
         'R2Btn
         '
@@ -326,6 +329,7 @@ Partial Class MembersSubform
         Me.R2Btn.TabIndex = 24
         Me.R2Btn.Tag = "2"
         Me.R2Btn.Text = "Actions"
+        Me.R2Btn.Visible = False
         '
         'R2C7
         '
@@ -430,6 +434,7 @@ Partial Class MembersSubform
         Me.R3Btn.TabIndex = 32
         Me.R3Btn.Tag = "3"
         Me.R3Btn.Text = "Actions"
+        Me.R3Btn.Visible = False
         '
         'R3C7
         '
@@ -534,6 +539,7 @@ Partial Class MembersSubform
         Me.R4Btn.TabIndex = 40
         Me.R4Btn.Tag = "4"
         Me.R4Btn.Text = "Actions"
+        Me.R4Btn.Visible = False
         '
         'R4C7
         '
@@ -638,6 +644,7 @@ Partial Class MembersSubform
         Me.R5Btn.TabIndex = 48
         Me.R5Btn.Tag = "5"
         Me.R5Btn.Text = "Actions"
+        Me.R5Btn.Visible = False
         '
         'R5C7
         '
@@ -742,6 +749,7 @@ Partial Class MembersSubform
         Me.R6Btn.TabIndex = 56
         Me.R6Btn.Tag = "6"
         Me.R6Btn.Text = "Actions"
+        Me.R6Btn.Visible = False
         '
         'R6C7
         '
@@ -846,6 +854,7 @@ Partial Class MembersSubform
         Me.R7Btn.TabIndex = 64
         Me.R7Btn.Tag = "7"
         Me.R7Btn.Text = "Actions"
+        Me.R7Btn.Visible = False
         '
         'R7C7
         '
@@ -950,6 +959,7 @@ Partial Class MembersSubform
         Me.R8Btn.TabIndex = 72
         Me.R8Btn.Tag = "8"
         Me.R8Btn.Text = "Actions"
+        Me.R8Btn.Visible = False
         '
         'R8C7
         '
@@ -1054,6 +1064,7 @@ Partial Class MembersSubform
         Me.R9Btn.TabIndex = 80
         Me.R9Btn.Tag = "9"
         Me.R9Btn.Text = "Actions"
+        Me.R9Btn.Visible = False
         '
         'R9C7
         '
@@ -1158,6 +1169,7 @@ Partial Class MembersSubform
         Me.R10Btn.TabIndex = 88
         Me.R10Btn.Tag = "10"
         Me.R10Btn.Text = "Actions"
+        Me.R10Btn.Visible = False
         '
         'R10C7
         '
@@ -1277,12 +1289,52 @@ Partial Class MembersSubform
         Me.Dropdown_Panel.TabIndex = 91
         Me.Dropdown_Panel.Visible = False
         '
+        'NextPageBtn
+        '
+        Me.NextPageBtn.Animated = True
+        Me.NextPageBtn.AutoRoundedCorners = True
+        Me.NextPageBtn.BackColor = System.Drawing.Color.Transparent
+        Me.NextPageBtn.BorderRadius = 21
+        Me.NextPageBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.NextPageBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.NextPageBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.NextPageBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.NextPageBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.NextPageBtn.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.NextPageBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
+        Me.NextPageBtn.Location = New System.Drawing.Point(383, 458)
+        Me.NextPageBtn.Name = "NextPageBtn"
+        Me.NextPageBtn.Size = New System.Drawing.Size(180, 45)
+        Me.NextPageBtn.TabIndex = 93
+        Me.NextPageBtn.Text = "Next Page"
+        '
+        'PreviousPageBtn
+        '
+        Me.PreviousPageBtn.Animated = True
+        Me.PreviousPageBtn.AutoRoundedCorners = True
+        Me.PreviousPageBtn.BackColor = System.Drawing.Color.Transparent
+        Me.PreviousPageBtn.BorderRadius = 21
+        Me.PreviousPageBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.PreviousPageBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.PreviousPageBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.PreviousPageBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.PreviousPageBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.PreviousPageBtn.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PreviousPageBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
+        Me.PreviousPageBtn.Location = New System.Drawing.Point(154, 458)
+        Me.PreviousPageBtn.Name = "PreviousPageBtn"
+        Me.PreviousPageBtn.Size = New System.Drawing.Size(180, 45)
+        Me.PreviousPageBtn.TabIndex = 92
+        Me.PreviousPageBtn.Text = "Previous Page"
+        '
         'MembersSubform
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(750, 515)
+        Me.Controls.Add(Me.NextPageBtn)
+        Me.Controls.Add(Me.PreviousPageBtn)
         Me.Controls.Add(Me.Dropdown_Panel)
         Me.Controls.Add(Me.pageCountLbl)
         Me.Controls.Add(Me.R10Btn)
@@ -1471,4 +1523,6 @@ Partial Class MembersSubform
     Friend WithEvents Guna2Shapes1 As Guna.UI2.WinForms.Guna2Shapes
     Friend WithEvents pageCountLbl As Label
     Friend WithEvents Dropdown_Panel As Panel
+    Friend WithEvents NextPageBtn As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents PreviousPageBtn As Guna.UI2.WinForms.Guna2Button
 End Class

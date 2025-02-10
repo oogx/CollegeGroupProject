@@ -5,8 +5,8 @@
     Public ds As New DataSet
     Public da As OleDb.OleDbDataAdapter
     Public sql As String
-    Public curPage As Integer
     Private WithEvents LoopTime As New Timer()
+
     Sub New()
         InitializeComponent()
         LoopTime.Interval = 10
@@ -56,35 +56,58 @@
         da.Fill(ds, "Members")
         MaxRows = ds.Tables("Members").Rows.Count
         con.Close()
-        curPage = 1
+        CurrentPage = 1
         Call NavigateRecords()
     End Sub
+
     Private Sub NavigateRecords()
         Dim intRow, intCol As Integer
         Dim strLbl As Label
-        Dim sinPages As Single
 
         intRow = 0
         intCol = 0
         'getting the no. of pages from the amount of rows.
-        sinPages = (MaxRows / 10)
-        sinPages = Math.Ceiling(sinPages)
+        MaxPages = (MaxRows / 10)
+        MaxPages = Math.Ceiling(MaxPages)
         'setting the page counter.
-        pageCountLbl.Text = ("Page " & curPage & " of " & sinPages)
+        pageCountLbl.Text = ("Page " & CurrentPage & " of " & MaxPages)
 
         For intRow = 1 To 10
             For intCol = 1 To 7
                 ' Find the label control by its name
                 strLbl = CType(Me.Controls("R" & intRow & "C" & intCol), Label)
+
                 If intRow - 1 < ds.Tables("Members").Rows.Count Then
                     ' Update the label's text with the corresponding row and col data
                     strLbl.Text = ds.Tables("Members").Rows(intRow - 1).Item(intCol - 1).ToString()
+                    Dim btn As Guna.UI2.WinForms.Guna2Button = CType(Me.Controls.Find("R" & intRow & "Btn", True).FirstOrDefault(), Guna.UI2.WinForms.Guna2Button)
+                    btn.Visible = True
                 Else
                     ' Fill the label with a single space if the row doesn't exist
                     strLbl.Text = " "
+                    Dim btn As Guna.UI2.WinForms.Guna2Button = CType(Me.Controls.Find("R" & intRow & "Btn", True).FirstOrDefault(), Guna.UI2.WinForms.Guna2Button)
+                    btn.Visible = False
                 End If
             Next
         Next
+    End Sub
+
+    Private Sub PreviousPageBtn_Click(sender As Object, e As EventArgs) Handles PreviousPageBtn.Click
+        If CurrentPage = 1 Then
+            MsgBox("You cannot go less than page 1.")
+        Else
+            CurrentPage -= 1
+            Call NavigateRecords()
+        End If
+    End Sub
+
+    Private Sub NextPageBtn_Click(sender As Object, e As EventArgs) Handles NextPageBtn.Click
+        If CurrentPage <> MaxPages - 1 Then
+            MsgBox("You have reached the max page")
+        Else
+            CurrentPage += 1
+            Call NavigateRecords()
+        End If
     End Sub
 
 End Class

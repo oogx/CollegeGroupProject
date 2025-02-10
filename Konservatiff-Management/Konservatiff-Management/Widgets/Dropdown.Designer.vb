@@ -135,7 +135,7 @@ Partial Class Dropdown
         Me.CloseDropdownBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
         Me.CloseDropdownBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
         Me.CloseDropdownBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.CloseDropdownBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.CloseDropdownBtn.FillColor = System.Drawing.Color.Red
         Me.CloseDropdownBtn.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CloseDropdownBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
         Me.CloseDropdownBtn.Location = New System.Drawing.Point(2, 310)
