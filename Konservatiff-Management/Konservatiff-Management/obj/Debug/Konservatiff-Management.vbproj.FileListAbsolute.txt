@@ -44,3 +44,4 @@ C:\Users\Q1044\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konse
 C:\Users\Q1044\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\obj\Debug\Konservatiff-Management.pdb
 C:\Users\Q1044\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\bin\Debug\Konservatiff-Management.xml
 C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\obj\Debug\Konservatiff_Management.Dropdown.resources
+C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\obj\Debug\Konservatiff_Management.ChangeInformation.resources

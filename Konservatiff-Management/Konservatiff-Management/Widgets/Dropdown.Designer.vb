@@ -161,6 +161,7 @@ Partial Class Dropdown
         Me.Name = "Dropdown"
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds
         Me.Text = "Dropdown"
         Me.ResumeLayout(False)
 

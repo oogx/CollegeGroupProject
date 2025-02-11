@@ -24,7 +24,6 @@
     Public CloseDropdown As Boolean
     Public CurrentMemberID As Integer
 
-    Public PageMulti As Integer
     Public CurrentPage As Integer
     Public MaxPages As Single
 End Module

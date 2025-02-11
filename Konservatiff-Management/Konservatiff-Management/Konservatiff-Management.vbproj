@@ -222,6 +222,9 @@
     <EmbeddedResource Include="Widgets\Dropdown.resx">
       <DependentUpon>Dropdown.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\WidgetForms\ChangeInformation.resx">
+      <DependentUpon>ChangeInformation.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\Application.myapp">

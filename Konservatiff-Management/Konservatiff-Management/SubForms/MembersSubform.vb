@@ -63,27 +63,21 @@
     Private Sub NavigateRecords()
         Dim intRow, intCol As Integer
         Dim strLbl As Label
+        Dim startIndex As Integer = (CurrentPage - 1) * 10
 
-        intRow = 0
-        intCol = 0
-        'getting the no. of pages from the amount of rows.
-        MaxPages = (MaxRows / 10)
-        MaxPages = Math.Ceiling(MaxPages)
-        'setting the page counter.
-        pageCountLbl.Text = ("Page " & CurrentPage & " of " & MaxPages)
+        MaxPages = Math.Ceiling(MaxRows / 10.0)
+        pageCountLbl.Text = "Page " & CurrentPage & " of " & MaxPages
 
         For intRow = 1 To 10
             For intCol = 1 To 7
-                ' Find the label control by its name
                 strLbl = CType(Me.Controls("R" & intRow & "C" & intCol), Label)
 
-                If intRow - 1 < ds.Tables("Members").Rows.Count Then
-                    ' Update the label's text with the corresponding row and col data
-                    strLbl.Text = ds.Tables("Members").Rows(intRow - 1).Item(intCol - 1).ToString()
+                If startIndex + intRow - 1 < ds.Tables("Members").Rows.Count Then
+                    strLbl.Text = ds.Tables("Members").Rows(startIndex + intRow - 1).Item(intCol - 1).ToString()
                     Dim btn As Guna.UI2.WinForms.Guna2Button = CType(Me.Controls.Find("R" & intRow & "Btn", True).FirstOrDefault(), Guna.UI2.WinForms.Guna2Button)
                     btn.Visible = True
+                    btn.Tag = startIndex + intRow
                 Else
-                    ' Fill the label with a single space if the row doesn't exist
                     strLbl.Text = " "
                     Dim btn As Guna.UI2.WinForms.Guna2Button = CType(Me.Controls.Find("R" & intRow & "Btn", True).FirstOrDefault(), Guna.UI2.WinForms.Guna2Button)
                     btn.Visible = False
@@ -93,18 +87,14 @@
     End Sub
 
     Private Sub PreviousPageBtn_Click(sender As Object, e As EventArgs) Handles PreviousPageBtn.Click
-        If CurrentPage = 1 Then
-            MsgBox("You cannot go less than page 1.")
-        Else
+        If Not CurrentPage = 1 Then
             CurrentPage -= 1
             Call NavigateRecords()
         End If
     End Sub
 
     Private Sub NextPageBtn_Click(sender As Object, e As EventArgs) Handles NextPageBtn.Click
-        If CurrentPage <> MaxPages - 1 Then
-            MsgBox("You have reached the max page")
-        Else
+        If Not CurrentPage = MaxPages Then
             CurrentPage += 1
             Call NavigateRecords()
         End If
