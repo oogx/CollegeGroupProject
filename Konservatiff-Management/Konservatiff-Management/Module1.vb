@@ -26,4 +26,8 @@
 
     Public CurrentPage As Integer
     Public MaxPages As Single
+
+    Public User_Desktop_Panel As Panel
+    Public KMText As Label
+
 End Module

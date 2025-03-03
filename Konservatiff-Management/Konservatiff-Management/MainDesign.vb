@@ -19,7 +19,7 @@ Public Class MainDesign ' Declaring a public classed named MainDesign.
         Else ' If the IF Statement is not true
             lblClock.Show() ' This means if the IF Statement is not true then show the clock that is on the navigation page.
         End If ' Ending the IF Statement.
-    End Sub ' Ending the current OpenChildFOrm sub.
+    End Sub ' Ending the current OpenChildForm sub.
 
     Private Sub MainDesign_Load(sender As Object, e As EventArgs) Handles MyBase.Load ' This is a private sub that is ran upon the form loading the maindesign.
         OpenChildForm(New ClockInSubform) ' Upon opening the main deisng it loads the clock in subform as the main default sub form.

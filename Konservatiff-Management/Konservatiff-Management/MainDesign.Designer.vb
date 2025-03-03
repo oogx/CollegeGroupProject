@@ -23,7 +23,7 @@ Partial Class MainDesign
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.User_Desktop_Panel = New System.Windows.Forms.Panel()
+        User_Desktop_Panel = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.AdminLabel = New System.Windows.Forms.Label()
@@ -40,7 +40,7 @@ Partial Class MainDesign
         Me.PayslipBtn = New FontAwesome.Sharp.IconButton()
         Me.ClockInBtn = New FontAwesome.Sharp.IconButton()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.KMText = New System.Windows.Forms.Label()
+        KMText = New System.Windows.Forms.Label()
         Me.lblClock = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -55,10 +55,10 @@ Partial Class MainDesign
         '
         'User_Desktop_Panel
         '
-        Me.User_Desktop_Panel.Location = New System.Drawing.Point(207, 45)
-        Me.User_Desktop_Panel.Name = "User_Desktop_Panel"
-        Me.User_Desktop_Panel.Size = New System.Drawing.Size(766, 554)
-        Me.User_Desktop_Panel.TabIndex = 33
+        User_Desktop_Panel.Location = New System.Drawing.Point(207, 45)
+        User_Desktop_Panel.Name = "User_Desktop_Panel"
+        User_Desktop_Panel.Size = New System.Drawing.Size(766, 554)
+        User_Desktop_Panel.TabIndex = 33
         '
         'Panel3
         '
@@ -319,15 +319,15 @@ Partial Class MainDesign
         '
         'KMText
         '
-        Me.KMText.AutoSize = True
-        Me.KMText.BackColor = System.Drawing.Color.Transparent
-        Me.KMText.Font = New System.Drawing.Font("Century Gothic", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.KMText.ForeColor = System.Drawing.Color.White
-        Me.KMText.Location = New System.Drawing.Point(26, 6)
-        Me.KMText.Name = "KMText"
-        Me.KMText.Size = New System.Drawing.Size(382, 32)
-        Me.KMText.TabIndex = 15
-        Me.KMText.Text = "Konservatiff Management | "
+        KMText.AutoSize = True
+        KMText.BackColor = System.Drawing.Color.Transparent
+        KMText.Font = New System.Drawing.Font("Century Gothic", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        KMText.ForeColor = System.Drawing.Color.White
+        KMText.Location = New System.Drawing.Point(26, 6)
+        KMText.Name = "KMText"
+        KMText.Size = New System.Drawing.Size(382, 32)
+        KMText.TabIndex = 15
+        KMText.Text = "Konservatiff Management | "
         '
         'lblClock
         '
@@ -346,7 +346,7 @@ Partial Class MainDesign
         Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
         Me.Panel2.Controls.Add(Me.Label2)
         Me.Panel2.Controls.Add(Me.lblClock)
-        Me.Panel2.Controls.Add(Me.KMText)
+        Me.Panel2.Controls.Add(KMText)
         Me.Panel2.Location = New System.Drawing.Point(-19, 0)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(1012, 62)
@@ -390,7 +390,7 @@ Partial Class MainDesign
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(974, 611)
-        Me.Controls.Add(Me.User_Desktop_Panel)
+        Me.Controls.Add(User_Desktop_Panel)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel1)
@@ -413,10 +413,9 @@ Partial Class MainDesign
 
     End Sub
 
-    Friend WithEvents User_Desktop_Panel As Panel
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents KMText As Label
+    'Friend WithEvents KMText As Label
     Friend WithEvents lblClock As Label
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Label1 As Label
