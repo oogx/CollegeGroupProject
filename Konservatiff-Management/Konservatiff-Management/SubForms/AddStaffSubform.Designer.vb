@@ -22,150 +22,26 @@ Partial Class AddStaffSubform
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.niNoTxtBx = New System.Windows.Forms.TextBox()
-        Me.emailTxtBx = New System.Windows.Forms.TextBox()
-        Me.mobNoTxtBx = New System.Windows.Forms.TextBox()
-        Me.snameTxtBx = New System.Windows.Forms.TextBox()
-        Me.fnameTxtBx = New System.Windows.Forms.TextBox()
-        Me.addBtn = New Guna.UI2.WinForms.Guna2Button()
-        Me.clearBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.lblSignInDot = New System.Windows.Forms.Label()
         Me.lblSignIn = New System.Windows.Forms.Label()
+        Me.sNameTxtBx = New System.Windows.Forms.TextBox()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Guna2Shapes10 = New Guna.UI2.WinForms.Guna2Shapes()
+        Me.mobNoTxtBx = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Guna2Shapes4 = New Guna.UI2.WinForms.Guna2Shapes()
+        Me.fNameTxtBx = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Guna2Shapes6 = New Guna.UI2.WinForms.Guna2Shapes()
+        Me.Guna2Shapes2 = New Guna.UI2.WinForms.Guna2Shapes()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.niNoTxtBx = New System.Windows.Forms.TextBox()
+        Me.Guna2Shapes1 = New Guna.UI2.WinForms.Guna2Shapes()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.emailTxtBx = New System.Windows.Forms.TextBox()
+        Me.addBtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.clearBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.SuspendLayout()
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(179, 289)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(133, 16)
-        Me.Label5.TabIndex = 53
-        Me.Label5.Text = " National Insurance No."
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(179, 263)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(35, 16)
-        Me.Label4.TabIndex = 52
-        Me.Label4.Text = "Email"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(179, 237)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(90, 16)
-        Me.Label3.TabIndex = 51
-        Me.Label3.Text = "Mobile Number"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(179, 211)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(55, 16)
-        Me.Label2.TabIndex = 50
-        Me.Label2.Text = "Surname"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(179, 185)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(61, 16)
-        Me.Label1.TabIndex = 49
-        Me.Label1.Text = "Forename"
-        '
-        'niNoTxtBx
-        '
-        Me.niNoTxtBx.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.niNoTxtBx.Location = New System.Drawing.Point(318, 289)
-        Me.niNoTxtBx.Name = "niNoTxtBx"
-        Me.niNoTxtBx.Size = New System.Drawing.Size(233, 21)
-        Me.niNoTxtBx.TabIndex = 48
-        '
-        'emailTxtBx
-        '
-        Me.emailTxtBx.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.emailTxtBx.Location = New System.Drawing.Point(318, 263)
-        Me.emailTxtBx.Name = "emailTxtBx"
-        Me.emailTxtBx.Size = New System.Drawing.Size(233, 21)
-        Me.emailTxtBx.TabIndex = 47
-        '
-        'mobNoTxtBx
-        '
-        Me.mobNoTxtBx.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.mobNoTxtBx.Location = New System.Drawing.Point(318, 237)
-        Me.mobNoTxtBx.Name = "mobNoTxtBx"
-        Me.mobNoTxtBx.Size = New System.Drawing.Size(233, 21)
-        Me.mobNoTxtBx.TabIndex = 46
-        '
-        'snameTxtBx
-        '
-        Me.snameTxtBx.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.snameTxtBx.Location = New System.Drawing.Point(318, 211)
-        Me.snameTxtBx.Name = "snameTxtBx"
-        Me.snameTxtBx.Size = New System.Drawing.Size(233, 21)
-        Me.snameTxtBx.TabIndex = 45
-        '
-        'fnameTxtBx
-        '
-        Me.fnameTxtBx.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fnameTxtBx.Location = New System.Drawing.Point(318, 185)
-        Me.fnameTxtBx.Name = "fnameTxtBx"
-        Me.fnameTxtBx.Size = New System.Drawing.Size(233, 21)
-        Me.fnameTxtBx.TabIndex = 44
-        '
-        'addBtn
-        '
-        Me.addBtn.AutoRoundedCorners = True
-        Me.addBtn.BorderRadius = 21
-        Me.addBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.addBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.addBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.addBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.addBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.addBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.addBtn.ForeColor = System.Drawing.Color.White
-        Me.addBtn.Location = New System.Drawing.Point(270, 339)
-        Me.addBtn.Name = "addBtn"
-        Me.addBtn.Size = New System.Drawing.Size(180, 45)
-        Me.addBtn.TabIndex = 57
-        Me.addBtn.Text = "Add"
-        '
-        'clearBtn
-        '
-        Me.clearBtn.AutoRoundedCorners = True
-        Me.clearBtn.BorderRadius = 13
-        Me.clearBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.clearBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.clearBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.clearBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.clearBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(157, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.clearBtn.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.clearBtn.ForeColor = System.Drawing.Color.White
-        Me.clearBtn.Location = New System.Drawing.Point(270, 390)
-        Me.clearBtn.Name = "clearBtn"
-        Me.clearBtn.Size = New System.Drawing.Size(180, 29)
-        Me.clearBtn.TabIndex = 58
-        Me.clearBtn.Text = "Clear"
         '
         'lblSignInDot
         '
@@ -173,7 +49,7 @@ Partial Class AddStaffSubform
         Me.lblSignInDot.BackColor = System.Drawing.Color.Transparent
         Me.lblSignInDot.Font = New System.Drawing.Font("Century Gothic", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSignInDot.ForeColor = System.Drawing.Color.FromArgb(CType(CType(78, Byte), Integer), CType(CType(149, Byte), Integer), CType(CType(217, Byte), Integer))
-        Me.lblSignInDot.Location = New System.Drawing.Point(285, 101)
+        Me.lblSignInDot.Location = New System.Drawing.Point(285, 13)
         Me.lblSignInDot.Name = "lblSignInDot"
         Me.lblSignInDot.Size = New System.Drawing.Size(255, 44)
         Me.lblSignInDot.TabIndex = 60
@@ -185,11 +61,249 @@ Partial Class AddStaffSubform
         Me.lblSignIn.BackColor = System.Drawing.Color.Transparent
         Me.lblSignIn.Font = New System.Drawing.Font("Century Gothic", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSignIn.ForeColor = System.Drawing.Color.White
-        Me.lblSignIn.Location = New System.Drawing.Point(192, 101)
+        Me.lblSignIn.Location = New System.Drawing.Point(192, 13)
         Me.lblSignIn.Name = "lblSignIn"
         Me.lblSignIn.Size = New System.Drawing.Size(100, 44)
         Me.lblSignIn.TabIndex = 59
         Me.lblSignIn.Text = "New"
+        '
+        'sNameTxtBx
+        '
+        Me.sNameTxtBx.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.sNameTxtBx.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.sNameTxtBx.Font = New System.Drawing.Font("Century Gothic", 10.0!)
+        Me.sNameTxtBx.ForeColor = System.Drawing.Color.White
+        Me.sNameTxtBx.Location = New System.Drawing.Point(246, 168)
+        Me.sNameTxtBx.Name = "sNameTxtBx"
+        Me.sNameTxtBx.Size = New System.Drawing.Size(230, 17)
+        Me.sNameTxtBx.TabIndex = 131
+        Me.sNameTxtBx.UseSystemPasswordChar = True
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.BackColor = System.Drawing.Color.Transparent
+        Me.Label14.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
+        Me.Label14.Location = New System.Drawing.Point(228, 139)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(54, 15)
+        Me.Label14.TabIndex = 129
+        Me.Label14.Text = "Surname"
+        '
+        'Guna2Shapes10
+        '
+        Me.Guna2Shapes10.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Shapes10.BorderColor = System.Drawing.Color.Transparent
+        Me.Guna2Shapes10.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.Guna2Shapes10.Location = New System.Drawing.Point(192, 156)
+        Me.Guna2Shapes10.Name = "Guna2Shapes10"
+        Me.Guna2Shapes10.PolygonSkip = 1
+        Me.Guna2Shapes10.Rotate = 0!
+        Me.Guna2Shapes10.RoundedRadius = 15
+        Me.Guna2Shapes10.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rounded
+        Me.Guna2Shapes10.Size = New System.Drawing.Size(334, 40)
+        Me.Guna2Shapes10.TabIndex = 130
+        Me.Guna2Shapes10.Text = "Guna2Shapes10"
+        Me.Guna2Shapes10.Zoom = 80
+        '
+        'mobNoTxtBx
+        '
+        Me.mobNoTxtBx.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.mobNoTxtBx.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.mobNoTxtBx.Font = New System.Drawing.Font("Century Gothic", 10.0!)
+        Me.mobNoTxtBx.ForeColor = System.Drawing.Color.White
+        Me.mobNoTxtBx.Location = New System.Drawing.Point(246, 223)
+        Me.mobNoTxtBx.Name = "mobNoTxtBx"
+        Me.mobNoTxtBx.Size = New System.Drawing.Size(230, 17)
+        Me.mobNoTxtBx.TabIndex = 128
+        Me.mobNoTxtBx.UseSystemPasswordChar = True
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(228, 195)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(90, 15)
+        Me.Label1.TabIndex = 126
+        Me.Label1.Text = "Mobile Number"
+        '
+        'Guna2Shapes4
+        '
+        Me.Guna2Shapes4.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Shapes4.BorderColor = System.Drawing.Color.Transparent
+        Me.Guna2Shapes4.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.Guna2Shapes4.Location = New System.Drawing.Point(192, 211)
+        Me.Guna2Shapes4.Name = "Guna2Shapes4"
+        Me.Guna2Shapes4.PolygonSkip = 1
+        Me.Guna2Shapes4.Rotate = 0!
+        Me.Guna2Shapes4.RoundedRadius = 15
+        Me.Guna2Shapes4.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rounded
+        Me.Guna2Shapes4.Size = New System.Drawing.Size(334, 40)
+        Me.Guna2Shapes4.TabIndex = 127
+        Me.Guna2Shapes4.Text = "Guna2Shapes4"
+        Me.Guna2Shapes4.Zoom = 80
+        '
+        'fNameTxtBx
+        '
+        Me.fNameTxtBx.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.fNameTxtBx.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.fNameTxtBx.Font = New System.Drawing.Font("Century Gothic", 10.0!)
+        Me.fNameTxtBx.ForeColor = System.Drawing.Color.White
+        Me.fNameTxtBx.Location = New System.Drawing.Point(246, 112)
+        Me.fNameTxtBx.Name = "fNameTxtBx"
+        Me.fNameTxtBx.Size = New System.Drawing.Size(230, 17)
+        Me.fNameTxtBx.TabIndex = 125
+        Me.fNameTxtBx.UseSystemPasswordChar = True
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.Color.Transparent
+        Me.Label8.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
+        Me.Label8.Location = New System.Drawing.Point(228, 84)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(61, 15)
+        Me.Label8.TabIndex = 123
+        Me.Label8.Text = "Forename"
+        '
+        'Guna2Shapes6
+        '
+        Me.Guna2Shapes6.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Shapes6.BorderColor = System.Drawing.Color.Transparent
+        Me.Guna2Shapes6.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.Guna2Shapes6.Location = New System.Drawing.Point(192, 100)
+        Me.Guna2Shapes6.Name = "Guna2Shapes6"
+        Me.Guna2Shapes6.PolygonSkip = 1
+        Me.Guna2Shapes6.Rotate = 0!
+        Me.Guna2Shapes6.RoundedRadius = 15
+        Me.Guna2Shapes6.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rounded
+        Me.Guna2Shapes6.Size = New System.Drawing.Size(334, 40)
+        Me.Guna2Shapes6.TabIndex = 124
+        Me.Guna2Shapes6.Text = "Guna2Shapes6"
+        Me.Guna2Shapes6.Zoom = 80
+        '
+        'Guna2Shapes2
+        '
+        Me.Guna2Shapes2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Shapes2.BorderColor = System.Drawing.Color.Transparent
+        Me.Guna2Shapes2.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.Guna2Shapes2.Location = New System.Drawing.Point(192, 323)
+        Me.Guna2Shapes2.Name = "Guna2Shapes2"
+        Me.Guna2Shapes2.PolygonSkip = 1
+        Me.Guna2Shapes2.Rotate = 0!
+        Me.Guna2Shapes2.RoundedRadius = 15
+        Me.Guna2Shapes2.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rounded
+        Me.Guna2Shapes2.Size = New System.Drawing.Size(334, 40)
+        Me.Guna2Shapes2.TabIndex = 133
+        Me.Guna2Shapes2.Text = "Guna2Shapes2"
+        Me.Guna2Shapes2.Zoom = 80
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(228, 307)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(155, 15)
+        Me.Label3.TabIndex = 132
+        Me.Label3.Text = "National Insurance Number"
+        '
+        'niNoTxtBx
+        '
+        Me.niNoTxtBx.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.niNoTxtBx.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.niNoTxtBx.Font = New System.Drawing.Font("Century Gothic", 10.0!)
+        Me.niNoTxtBx.ForeColor = System.Drawing.Color.White
+        Me.niNoTxtBx.Location = New System.Drawing.Point(246, 335)
+        Me.niNoTxtBx.Name = "niNoTxtBx"
+        Me.niNoTxtBx.Size = New System.Drawing.Size(230, 17)
+        Me.niNoTxtBx.TabIndex = 134
+        Me.niNoTxtBx.UseSystemPasswordChar = True
+        '
+        'Guna2Shapes1
+        '
+        Me.Guna2Shapes1.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Shapes1.BorderColor = System.Drawing.Color.Transparent
+        Me.Guna2Shapes1.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.Guna2Shapes1.Location = New System.Drawing.Point(192, 268)
+        Me.Guna2Shapes1.Name = "Guna2Shapes1"
+        Me.Guna2Shapes1.PolygonSkip = 1
+        Me.Guna2Shapes1.Rotate = 0!
+        Me.Guna2Shapes1.RoundedRadius = 15
+        Me.Guna2Shapes1.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rounded
+        Me.Guna2Shapes1.Size = New System.Drawing.Size(334, 40)
+        Me.Guna2Shapes1.TabIndex = 136
+        Me.Guna2Shapes1.Text = "Guna2Shapes1"
+        Me.Guna2Shapes1.Zoom = 80
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(228, 251)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(81, 15)
+        Me.Label2.TabIndex = 135
+        Me.Label2.Text = "Email Address"
+        '
+        'emailTxtBx
+        '
+        Me.emailTxtBx.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.emailTxtBx.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.emailTxtBx.Font = New System.Drawing.Font("Century Gothic", 10.0!)
+        Me.emailTxtBx.ForeColor = System.Drawing.Color.White
+        Me.emailTxtBx.Location = New System.Drawing.Point(246, 280)
+        Me.emailTxtBx.Name = "emailTxtBx"
+        Me.emailTxtBx.Size = New System.Drawing.Size(230, 17)
+        Me.emailTxtBx.TabIndex = 137
+        Me.emailTxtBx.UseSystemPasswordChar = True
+        '
+        'addBtn
+        '
+        Me.addBtn.Animated = True
+        Me.addBtn.AutoRoundedCorners = True
+        Me.addBtn.BackColor = System.Drawing.Color.Transparent
+        Me.addBtn.BorderRadius = 21
+        Me.addBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.addBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.addBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.addBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.addBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.addBtn.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.addBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
+        Me.addBtn.Location = New System.Drawing.Point(272, 380)
+        Me.addBtn.Name = "addBtn"
+        Me.addBtn.Size = New System.Drawing.Size(180, 45)
+        Me.addBtn.TabIndex = 139
+        Me.addBtn.Text = "Add"
+        '
+        'clearBtn
+        '
+        Me.clearBtn.Animated = True
+        Me.clearBtn.AutoRoundedCorners = True
+        Me.clearBtn.BackColor = System.Drawing.Color.Transparent
+        Me.clearBtn.BorderRadius = 15
+        Me.clearBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.clearBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.clearBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.clearBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.clearBtn.FillColor = System.Drawing.Color.Red
+        Me.clearBtn.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.clearBtn.ForeColor = System.Drawing.Color.White
+        Me.clearBtn.Location = New System.Drawing.Point(272, 438)
+        Me.clearBtn.Name = "clearBtn"
+        Me.clearBtn.Size = New System.Drawing.Size(180, 32)
+        Me.clearBtn.TabIndex = 138
+        Me.clearBtn.Text = "Clear"
         '
         'AddStaffSubform
         '
@@ -197,38 +311,48 @@ Partial Class AddStaffSubform
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(750, 515)
+        Me.Controls.Add(Me.addBtn)
+        Me.Controls.Add(Me.clearBtn)
+        Me.Controls.Add(Me.emailTxtBx)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Guna2Shapes1)
+        Me.Controls.Add(Me.niNoTxtBx)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Guna2Shapes2)
+        Me.Controls.Add(Me.sNameTxtBx)
+        Me.Controls.Add(Me.Label14)
+        Me.Controls.Add(Me.Guna2Shapes10)
+        Me.Controls.Add(Me.mobNoTxtBx)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Guna2Shapes4)
+        Me.Controls.Add(Me.fNameTxtBx)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Guna2Shapes6)
         Me.Controls.Add(Me.lblSignInDot)
         Me.Controls.Add(Me.lblSignIn)
-        Me.Controls.Add(Me.clearBtn)
-        Me.Controls.Add(Me.addBtn)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.niNoTxtBx)
-        Me.Controls.Add(Me.emailTxtBx)
-        Me.Controls.Add(Me.mobNoTxtBx)
-        Me.Controls.Add(Me.snameTxtBx)
-        Me.Controls.Add(Me.fnameTxtBx)
         Me.Name = "AddStaffSubform"
         Me.Text = "Add Staff"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label1 As Label
-    Friend WithEvents niNoTxtBx As TextBox
-    Friend WithEvents emailTxtBx As TextBox
-    Friend WithEvents mobNoTxtBx As TextBox
-    Friend WithEvents snameTxtBx As TextBox
-    Friend WithEvents fnameTxtBx As TextBox
-    Friend WithEvents addBtn As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents clearBtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents lblSignInDot As Label
     Friend WithEvents lblSignIn As Label
+    Friend WithEvents sNameTxtBx As TextBox
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Guna2Shapes10 As Guna.UI2.WinForms.Guna2Shapes
+    Friend WithEvents mobNoTxtBx As TextBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Guna2Shapes4 As Guna.UI2.WinForms.Guna2Shapes
+    Friend WithEvents fNameTxtBx As TextBox
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Guna2Shapes6 As Guna.UI2.WinForms.Guna2Shapes
+    Friend WithEvents Guna2Shapes2 As Guna.UI2.WinForms.Guna2Shapes
+    Friend WithEvents Label3 As Label
+    Friend WithEvents niNoTxtBx As TextBox
+    Friend WithEvents Guna2Shapes1 As Guna.UI2.WinForms.Guna2Shapes
+    Friend WithEvents Label2 As Label
+    Friend WithEvents emailTxtBx As TextBox
+    Friend WithEvents addBtn As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents clearBtn As Guna.UI2.WinForms.Guna2Button
 End Class

@@ -11,7 +11,7 @@
         KMText.Text = "Konservatiff Management | " & childForm.Text ' This changes the text on the main form to insert what the child form text is.
     End Sub ' Ending the current OpenChildForm sub.
 
-    Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
+    Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles cancelBtn.Click
         OpenChildForm(New MembersSubform) ' This changes the page back to the members subform.
     End Sub
 
@@ -19,7 +19,7 @@
 
     End Sub
 
-    Private Sub Guna2ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Guna2ComboBox1.SelectedIndexChanged
+    Private Sub Guna2ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles textSizeCbo.SelectedIndexChanged
 
     End Sub
 End Class
