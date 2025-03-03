@@ -115,6 +115,8 @@ Partial Class MembersSubform
         Me.Dropdown_Panel = New System.Windows.Forms.Panel()
         Me.NextPageBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.PreviousPageBtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -264,6 +266,7 @@ Partial Class MembersSubform
         Me.R1C5.Size = New System.Drawing.Size(87, 17)
         Me.R1C5.TabIndex = 13
         Me.R1C5.Text = "AB 11 11 11 A"
+        Me.R1C5.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'R1C6
         '
@@ -366,6 +369,7 @@ Partial Class MembersSubform
         Me.R2C5.Size = New System.Drawing.Size(87, 17)
         Me.R2C5.TabIndex = 21
         Me.R2C5.Text = "AB 11 11 11 A"
+        Me.R2C5.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'R2C4
         '
@@ -471,6 +475,7 @@ Partial Class MembersSubform
         Me.R3C5.Size = New System.Drawing.Size(87, 17)
         Me.R3C5.TabIndex = 29
         Me.R3C5.Text = "AB 11 11 11 A"
+        Me.R3C5.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'R3C4
         '
@@ -576,6 +581,7 @@ Partial Class MembersSubform
         Me.R4C5.Size = New System.Drawing.Size(87, 17)
         Me.R4C5.TabIndex = 37
         Me.R4C5.Text = "AB 11 11 11 A"
+        Me.R4C5.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'R4C4
         '
@@ -681,6 +687,7 @@ Partial Class MembersSubform
         Me.R5C5.Size = New System.Drawing.Size(87, 17)
         Me.R5C5.TabIndex = 45
         Me.R5C5.Text = "AB 11 11 11 A"
+        Me.R5C5.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'R5C4
         '
@@ -786,6 +793,7 @@ Partial Class MembersSubform
         Me.R6C5.Size = New System.Drawing.Size(87, 17)
         Me.R6C5.TabIndex = 53
         Me.R6C5.Text = "AB 11 11 11 A"
+        Me.R6C5.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'R6C4
         '
@@ -891,6 +899,7 @@ Partial Class MembersSubform
         Me.R7C5.Size = New System.Drawing.Size(87, 17)
         Me.R7C5.TabIndex = 61
         Me.R7C5.Text = "AB 11 11 11 A"
+        Me.R7C5.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'R7C4
         '
@@ -996,6 +1005,7 @@ Partial Class MembersSubform
         Me.R8C5.Size = New System.Drawing.Size(87, 17)
         Me.R8C5.TabIndex = 69
         Me.R8C5.Text = "AB 11 11 11 A"
+        Me.R8C5.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'R8C4
         '
@@ -1101,6 +1111,7 @@ Partial Class MembersSubform
         Me.R9C5.Size = New System.Drawing.Size(87, 17)
         Me.R9C5.TabIndex = 77
         Me.R9C5.Text = "AB 11 11 11 A"
+        Me.R9C5.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'R9C4
         '
@@ -1206,6 +1217,7 @@ Partial Class MembersSubform
         Me.R10C5.Size = New System.Drawing.Size(87, 17)
         Me.R10C5.TabIndex = 85
         Me.R10C5.Text = "AB 11 11 11 A"
+        Me.R10C5.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'R10C4
         '
@@ -1327,91 +1339,91 @@ Partial Class MembersSubform
         Me.PreviousPageBtn.TabIndex = 92
         Me.PreviousPageBtn.Text = "Previous Page"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.PictureBox1.Location = New System.Drawing.Point(506, 58)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(60, 386)
+        Me.PictureBox1.TabIndex = 94
+        Me.PictureBox1.TabStop = False
+        '
         'MembersSubform
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(750, 515)
+        Me.Controls.Add(Me.R10C7)
+        Me.Controls.Add(Me.R9C7)
+        Me.Controls.Add(Me.R8C7)
+        Me.Controls.Add(Me.R7C7)
+        Me.Controls.Add(Me.R6C7)
+        Me.Controls.Add(Me.R5C7)
+        Me.Controls.Add(Me.R4C7)
+        Me.Controls.Add(Me.R3C7)
+        Me.Controls.Add(Me.R2C7)
+        Me.Controls.Add(Me.R1C7)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.NextPageBtn)
         Me.Controls.Add(Me.PreviousPageBtn)
         Me.Controls.Add(Me.Dropdown_Panel)
         Me.Controls.Add(Me.pageCountLbl)
         Me.Controls.Add(Me.R10Btn)
-        Me.Controls.Add(Me.R10C7)
-        Me.Controls.Add(Me.R10C6)
         Me.Controls.Add(Me.R10C5)
         Me.Controls.Add(Me.R10C4)
         Me.Controls.Add(Me.R10C3)
         Me.Controls.Add(Me.R10C2)
         Me.Controls.Add(Me.R10C1)
         Me.Controls.Add(Me.R9Btn)
-        Me.Controls.Add(Me.R9C7)
-        Me.Controls.Add(Me.R9C6)
         Me.Controls.Add(Me.R9C5)
         Me.Controls.Add(Me.R9C4)
         Me.Controls.Add(Me.R9C3)
         Me.Controls.Add(Me.R9C2)
         Me.Controls.Add(Me.R9C1)
         Me.Controls.Add(Me.R8Btn)
-        Me.Controls.Add(Me.R8C7)
-        Me.Controls.Add(Me.R8C6)
         Me.Controls.Add(Me.R8C5)
         Me.Controls.Add(Me.R8C4)
         Me.Controls.Add(Me.R8C3)
         Me.Controls.Add(Me.R8C2)
         Me.Controls.Add(Me.R8C1)
         Me.Controls.Add(Me.R7Btn)
-        Me.Controls.Add(Me.R7C7)
-        Me.Controls.Add(Me.R7C6)
         Me.Controls.Add(Me.R7C5)
         Me.Controls.Add(Me.R7C4)
         Me.Controls.Add(Me.R7C3)
         Me.Controls.Add(Me.R7C2)
         Me.Controls.Add(Me.R7C1)
         Me.Controls.Add(Me.R6Btn)
-        Me.Controls.Add(Me.R6C7)
-        Me.Controls.Add(Me.R6C6)
         Me.Controls.Add(Me.R6C5)
         Me.Controls.Add(Me.R6C4)
         Me.Controls.Add(Me.R6C3)
         Me.Controls.Add(Me.R6C2)
         Me.Controls.Add(Me.R6C1)
         Me.Controls.Add(Me.R5Btn)
-        Me.Controls.Add(Me.R5C7)
-        Me.Controls.Add(Me.R5C6)
         Me.Controls.Add(Me.R5C5)
         Me.Controls.Add(Me.R5C4)
         Me.Controls.Add(Me.R5C3)
         Me.Controls.Add(Me.R5C2)
         Me.Controls.Add(Me.R5C1)
         Me.Controls.Add(Me.R4Btn)
-        Me.Controls.Add(Me.R4C7)
-        Me.Controls.Add(Me.R4C6)
         Me.Controls.Add(Me.R4C5)
         Me.Controls.Add(Me.R4C4)
         Me.Controls.Add(Me.R4C3)
         Me.Controls.Add(Me.R4C2)
         Me.Controls.Add(Me.R4C1)
         Me.Controls.Add(Me.R3Btn)
-        Me.Controls.Add(Me.R3C7)
-        Me.Controls.Add(Me.R3C6)
         Me.Controls.Add(Me.R3C5)
         Me.Controls.Add(Me.R3C4)
         Me.Controls.Add(Me.R3C3)
         Me.Controls.Add(Me.R3C2)
         Me.Controls.Add(Me.R3C1)
         Me.Controls.Add(Me.R2Btn)
-        Me.Controls.Add(Me.R2C7)
-        Me.Controls.Add(Me.R2C6)
         Me.Controls.Add(Me.R2C5)
         Me.Controls.Add(Me.R2C4)
         Me.Controls.Add(Me.R2C3)
         Me.Controls.Add(Me.R2C2)
         Me.Controls.Add(Me.R2C1)
         Me.Controls.Add(Me.R1Btn)
-        Me.Controls.Add(Me.R1C7)
-        Me.Controls.Add(Me.R1C6)
         Me.Controls.Add(Me.R1C5)
         Me.Controls.Add(Me.R1C4)
         Me.Controls.Add(Me.R1C3)
@@ -1425,9 +1437,20 @@ Partial Class MembersSubform
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.R10C6)
+        Me.Controls.Add(Me.R9C6)
+        Me.Controls.Add(Me.R8C6)
+        Me.Controls.Add(Me.R7C6)
+        Me.Controls.Add(Me.R6C6)
+        Me.Controls.Add(Me.R5C6)
+        Me.Controls.Add(Me.R4C6)
+        Me.Controls.Add(Me.R3C6)
+        Me.Controls.Add(Me.R2C6)
+        Me.Controls.Add(Me.R1C6)
         Me.Controls.Add(Me.Guna2Shapes1)
         Me.Name = "MembersSubform"
         Me.Text = "Members"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1525,4 +1548,5 @@ Partial Class MembersSubform
     Friend WithEvents Dropdown_Panel As Panel
     Friend WithEvents NextPageBtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents PreviousPageBtn As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

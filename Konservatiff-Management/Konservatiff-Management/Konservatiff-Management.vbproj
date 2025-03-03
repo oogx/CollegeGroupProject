@@ -163,12 +163,6 @@
     <Compile Include="Widgets\WidgetForms\ChangeInformation.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Widgets\WidgetForms\DeleteMember.Designer.vb">
-      <DependentUpon>DeleteMember.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Widgets\WidgetForms\DeleteMember.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Widgets\WidgetForms\EmailPayslip.Designer.vb">
       <DependentUpon>EmailPayslip.vb</DependentUpon>
     </Compile>
