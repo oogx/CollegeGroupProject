@@ -159,18 +159,18 @@ Partial Class MembersSubform
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(43, 16)
         Me.Label4.TabIndex = 4
-        Me.Label4.Text = "NI No."
+        Me.Label4.Text = "Tax ID"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(355, 35)
+        Me.Label5.Location = New System.Drawing.Point(330, 35)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(76, 16)
+        Me.Label5.Size = New System.Drawing.Size(70, 16)
         Me.Label5.TabIndex = 5
-        Me.Label5.Text = "Admin State"
+        Me.Label5.Text = "NI Number"
         '
         'Label6
         '
@@ -190,9 +190,9 @@ Partial Class MembersSubform
         Me.Label7.ForeColor = System.Drawing.Color.White
         Me.Label7.Location = New System.Drawing.Point(434, 35)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(71, 16)
+        Me.Label7.Size = New System.Drawing.Size(76, 16)
         Me.Label7.TabIndex = 7
-        Me.Label7.Text = "Mobile No."
+        Me.Label7.Text = "Date of birth"
         '
         'Label8
         '
@@ -201,9 +201,9 @@ Partial Class MembersSubform
         Me.Label8.ForeColor = System.Drawing.Color.White
         Me.Label8.Location = New System.Drawing.Point(525, 35)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(38, 16)
+        Me.Label8.Size = New System.Drawing.Size(98, 16)
         Me.Label8.TabIndex = 8
-        Me.Label8.Text = "Email"
+        Me.Label8.Text = "Mobile Number"
         '
         'R1C1
         '
@@ -249,9 +249,9 @@ Partial Class MembersSubform
         Me.R1C4.ForeColor = System.Drawing.Color.White
         Me.R1C4.Location = New System.Drawing.Point(281, 67)
         Me.R1C4.Name = "R1C4"
-        Me.R1C4.Size = New System.Drawing.Size(87, 17)
+        Me.R1C4.Size = New System.Drawing.Size(15, 17)
         Me.R1C4.TabIndex = 12
-        Me.R1C4.Text = "AB 11 11 11 A"
+        Me.R1C4.Text = "1"
         '
         'R1C5
         '
@@ -259,11 +259,11 @@ Partial Class MembersSubform
         Me.R1C5.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.R1C5.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.R1C5.ForeColor = System.Drawing.Color.White
-        Me.R1C5.Location = New System.Drawing.Point(375, 67)
+        Me.R1C5.Location = New System.Drawing.Point(333, 67)
         Me.R1C5.Name = "R1C5"
-        Me.R1C5.Size = New System.Drawing.Size(38, 17)
+        Me.R1C5.Size = New System.Drawing.Size(87, 17)
         Me.R1C5.TabIndex = 13
-        Me.R1C5.Text = "False"
+        Me.R1C5.Text = "AB 11 11 11 A"
         '
         'R1C6
         '
@@ -273,9 +273,9 @@ Partial Class MembersSubform
         Me.R1C6.ForeColor = System.Drawing.Color.White
         Me.R1C6.Location = New System.Drawing.Point(435, 67)
         Me.R1C6.Name = "R1C6"
-        Me.R1C6.Size = New System.Drawing.Size(85, 17)
+        Me.R1C6.Size = New System.Drawing.Size(86, 17)
         Me.R1C6.TabIndex = 14
-        Me.R1C6.Text = "07000000000"
+        Me.R1C6.Text = "DD/MM/YYYY"
         '
         'R1C7
         '
@@ -283,11 +283,11 @@ Partial Class MembersSubform
         Me.R1C7.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.R1C7.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.R1C7.ForeColor = System.Drawing.Color.White
-        Me.R1C7.Location = New System.Drawing.Point(522, 67)
+        Me.R1C7.Location = New System.Drawing.Point(530, 67)
         Me.R1C7.Name = "R1C7"
-        Me.R1C7.Size = New System.Drawing.Size(115, 17)
+        Me.R1C7.Size = New System.Drawing.Size(85, 17)
         Me.R1C7.TabIndex = 15
-        Me.R1C7.Text = "J.Smith@mail.com"
+        Me.R1C7.Text = "07000000000"
         '
         'R1Btn
         '
@@ -337,11 +337,11 @@ Partial Class MembersSubform
         Me.R2C7.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.R2C7.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.R2C7.ForeColor = System.Drawing.Color.White
-        Me.R2C7.Location = New System.Drawing.Point(522, 103)
+        Me.R2C7.Location = New System.Drawing.Point(530, 103)
         Me.R2C7.Name = "R2C7"
-        Me.R2C7.Size = New System.Drawing.Size(115, 17)
+        Me.R2C7.Size = New System.Drawing.Size(85, 17)
         Me.R2C7.TabIndex = 23
-        Me.R2C7.Text = "J.Smith@mail.com"
+        Me.R2C7.Text = "07000000000"
         '
         'R2C6
         '
@@ -351,9 +351,9 @@ Partial Class MembersSubform
         Me.R2C6.ForeColor = System.Drawing.Color.White
         Me.R2C6.Location = New System.Drawing.Point(435, 103)
         Me.R2C6.Name = "R2C6"
-        Me.R2C6.Size = New System.Drawing.Size(85, 17)
+        Me.R2C6.Size = New System.Drawing.Size(86, 17)
         Me.R2C6.TabIndex = 22
-        Me.R2C6.Text = "07000000000"
+        Me.R2C6.Text = "DD/MM/YYYY"
         '
         'R2C5
         '
@@ -361,11 +361,11 @@ Partial Class MembersSubform
         Me.R2C5.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.R2C5.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.R2C5.ForeColor = System.Drawing.Color.White
-        Me.R2C5.Location = New System.Drawing.Point(375, 103)
+        Me.R2C5.Location = New System.Drawing.Point(333, 103)
         Me.R2C5.Name = "R2C5"
-        Me.R2C5.Size = New System.Drawing.Size(38, 17)
+        Me.R2C5.Size = New System.Drawing.Size(87, 17)
         Me.R2C5.TabIndex = 21
-        Me.R2C5.Text = "False"
+        Me.R2C5.Text = "AB 11 11 11 A"
         '
         'R2C4
         '
@@ -375,9 +375,9 @@ Partial Class MembersSubform
         Me.R2C4.ForeColor = System.Drawing.Color.White
         Me.R2C4.Location = New System.Drawing.Point(281, 103)
         Me.R2C4.Name = "R2C4"
-        Me.R2C4.Size = New System.Drawing.Size(87, 17)
+        Me.R2C4.Size = New System.Drawing.Size(15, 17)
         Me.R2C4.TabIndex = 20
-        Me.R2C4.Text = "AB 11 11 11 A"
+        Me.R2C4.Text = "1"
         '
         'R2C3
         '
@@ -442,11 +442,11 @@ Partial Class MembersSubform
         Me.R3C7.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.R3C7.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.R3C7.ForeColor = System.Drawing.Color.White
-        Me.R3C7.Location = New System.Drawing.Point(522, 139)
+        Me.R3C7.Location = New System.Drawing.Point(530, 139)
         Me.R3C7.Name = "R3C7"
-        Me.R3C7.Size = New System.Drawing.Size(115, 17)
+        Me.R3C7.Size = New System.Drawing.Size(85, 17)
         Me.R3C7.TabIndex = 31
-        Me.R3C7.Text = "J.Smith@mail.com"
+        Me.R3C7.Text = "07000000000"
         '
         'R3C6
         '
@@ -456,9 +456,9 @@ Partial Class MembersSubform
         Me.R3C6.ForeColor = System.Drawing.Color.White
         Me.R3C6.Location = New System.Drawing.Point(435, 139)
         Me.R3C6.Name = "R3C6"
-        Me.R3C6.Size = New System.Drawing.Size(85, 17)
+        Me.R3C6.Size = New System.Drawing.Size(86, 17)
         Me.R3C6.TabIndex = 30
-        Me.R3C6.Text = "07000000000"
+        Me.R3C6.Text = "DD/MM/YYYY"
         '
         'R3C5
         '
@@ -466,11 +466,11 @@ Partial Class MembersSubform
         Me.R3C5.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.R3C5.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.R3C5.ForeColor = System.Drawing.Color.White
-        Me.R3C5.Location = New System.Drawing.Point(375, 139)
+        Me.R3C5.Location = New System.Drawing.Point(333, 139)
         Me.R3C5.Name = "R3C5"
-        Me.R3C5.Size = New System.Drawing.Size(38, 17)
+        Me.R3C5.Size = New System.Drawing.Size(87, 17)
         Me.R3C5.TabIndex = 29
-        Me.R3C5.Text = "False"
+        Me.R3C5.Text = "AB 11 11 11 A"
         '
         'R3C4
         '
@@ -480,9 +480,9 @@ Partial Class MembersSubform
         Me.R3C4.ForeColor = System.Drawing.Color.White
         Me.R3C4.Location = New System.Drawing.Point(281, 139)
         Me.R3C4.Name = "R3C4"
-        Me.R3C4.Size = New System.Drawing.Size(87, 17)
+        Me.R3C4.Size = New System.Drawing.Size(15, 17)
         Me.R3C4.TabIndex = 28
-        Me.R3C4.Text = "AB 11 11 11 A"
+        Me.R3C4.Text = "1"
         '
         'R3C3
         '
@@ -547,11 +547,11 @@ Partial Class MembersSubform
         Me.R4C7.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.R4C7.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.R4C7.ForeColor = System.Drawing.Color.White
-        Me.R4C7.Location = New System.Drawing.Point(522, 176)
+        Me.R4C7.Location = New System.Drawing.Point(530, 176)
         Me.R4C7.Name = "R4C7"
-        Me.R4C7.Size = New System.Drawing.Size(115, 17)
+        Me.R4C7.Size = New System.Drawing.Size(85, 17)
         Me.R4C7.TabIndex = 39
-        Me.R4C7.Text = "J.Smith@mail.com"
+        Me.R4C7.Text = "07000000000"
         '
         'R4C6
         '
@@ -561,9 +561,9 @@ Partial Class MembersSubform
         Me.R4C6.ForeColor = System.Drawing.Color.White
         Me.R4C6.Location = New System.Drawing.Point(435, 176)
         Me.R4C6.Name = "R4C6"
-        Me.R4C6.Size = New System.Drawing.Size(85, 17)
+        Me.R4C6.Size = New System.Drawing.Size(86, 17)
         Me.R4C6.TabIndex = 38
-        Me.R4C6.Text = "07000000000"
+        Me.R4C6.Text = "DD/MM/YYYY"
         '
         'R4C5
         '
@@ -571,11 +571,11 @@ Partial Class MembersSubform
         Me.R4C5.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.R4C5.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.R4C5.ForeColor = System.Drawing.Color.White
-        Me.R4C5.Location = New System.Drawing.Point(375, 176)
+        Me.R4C5.Location = New System.Drawing.Point(333, 176)
         Me.R4C5.Name = "R4C5"
-        Me.R4C5.Size = New System.Drawing.Size(38, 17)
+        Me.R4C5.Size = New System.Drawing.Size(87, 17)
         Me.R4C5.TabIndex = 37
-        Me.R4C5.Text = "False"
+        Me.R4C5.Text = "AB 11 11 11 A"
         '
         'R4C4
         '
@@ -585,9 +585,9 @@ Partial Class MembersSubform
         Me.R4C4.ForeColor = System.Drawing.Color.White
         Me.R4C4.Location = New System.Drawing.Point(281, 176)
         Me.R4C4.Name = "R4C4"
-        Me.R4C4.Size = New System.Drawing.Size(87, 17)
+        Me.R4C4.Size = New System.Drawing.Size(15, 17)
         Me.R4C4.TabIndex = 36
-        Me.R4C4.Text = "AB 11 11 11 A"
+        Me.R4C4.Text = "1"
         '
         'R4C3
         '
@@ -652,11 +652,11 @@ Partial Class MembersSubform
         Me.R5C7.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.R5C7.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.R5C7.ForeColor = System.Drawing.Color.White
-        Me.R5C7.Location = New System.Drawing.Point(523, 213)
+        Me.R5C7.Location = New System.Drawing.Point(531, 213)
         Me.R5C7.Name = "R5C7"
-        Me.R5C7.Size = New System.Drawing.Size(115, 17)
+        Me.R5C7.Size = New System.Drawing.Size(85, 17)
         Me.R5C7.TabIndex = 47
-        Me.R5C7.Text = "J.Smith@mail.com"
+        Me.R5C7.Text = "07000000000"
         '
         'R5C6
         '
@@ -666,9 +666,9 @@ Partial Class MembersSubform
         Me.R5C6.ForeColor = System.Drawing.Color.White
         Me.R5C6.Location = New System.Drawing.Point(436, 213)
         Me.R5C6.Name = "R5C6"
-        Me.R5C6.Size = New System.Drawing.Size(85, 17)
+        Me.R5C6.Size = New System.Drawing.Size(86, 17)
         Me.R5C6.TabIndex = 46
-        Me.R5C6.Text = "07000000000"
+        Me.R5C6.Text = "DD/MM/YYYY"
         '
         'R5C5
         '
@@ -676,11 +676,11 @@ Partial Class MembersSubform
         Me.R5C5.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.R5C5.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.R5C5.ForeColor = System.Drawing.Color.White
-        Me.R5C5.Location = New System.Drawing.Point(376, 213)
+        Me.R5C5.Location = New System.Drawing.Point(334, 213)
         Me.R5C5.Name = "R5C5"
-        Me.R5C5.Size = New System.Drawing.Size(38, 17)
+        Me.R5C5.Size = New System.Drawing.Size(87, 17)
         Me.R5C5.TabIndex = 45
-        Me.R5C5.Text = "False"
+        Me.R5C5.Text = "AB 11 11 11 A"
         '
         'R5C4
         '
@@ -690,9 +690,9 @@ Partial Class MembersSubform
         Me.R5C4.ForeColor = System.Drawing.Color.White
         Me.R5C4.Location = New System.Drawing.Point(282, 213)
         Me.R5C4.Name = "R5C4"
-        Me.R5C4.Size = New System.Drawing.Size(87, 17)
+        Me.R5C4.Size = New System.Drawing.Size(15, 17)
         Me.R5C4.TabIndex = 44
-        Me.R5C4.Text = "AB 11 11 11 A"
+        Me.R5C4.Text = "1"
         '
         'R5C3
         '
@@ -757,11 +757,11 @@ Partial Class MembersSubform
         Me.R6C7.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.R6C7.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.R6C7.ForeColor = System.Drawing.Color.White
-        Me.R6C7.Location = New System.Drawing.Point(523, 252)
+        Me.R6C7.Location = New System.Drawing.Point(531, 252)
         Me.R6C7.Name = "R6C7"
-        Me.R6C7.Size = New System.Drawing.Size(115, 17)
+        Me.R6C7.Size = New System.Drawing.Size(85, 17)
         Me.R6C7.TabIndex = 55
-        Me.R6C7.Text = "J.Smith@mail.com"
+        Me.R6C7.Text = "07000000000"
         '
         'R6C6
         '
@@ -771,9 +771,9 @@ Partial Class MembersSubform
         Me.R6C6.ForeColor = System.Drawing.Color.White
         Me.R6C6.Location = New System.Drawing.Point(436, 252)
         Me.R6C6.Name = "R6C6"
-        Me.R6C6.Size = New System.Drawing.Size(85, 17)
+        Me.R6C6.Size = New System.Drawing.Size(86, 17)
         Me.R6C6.TabIndex = 54
-        Me.R6C6.Text = "07000000000"
+        Me.R6C6.Text = "DD/MM/YYYY"
         '
         'R6C5
         '
@@ -781,11 +781,11 @@ Partial Class MembersSubform
         Me.R6C5.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.R6C5.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.R6C5.ForeColor = System.Drawing.Color.White
-        Me.R6C5.Location = New System.Drawing.Point(376, 252)
+        Me.R6C5.Location = New System.Drawing.Point(334, 252)
         Me.R6C5.Name = "R6C5"
-        Me.R6C5.Size = New System.Drawing.Size(38, 17)
+        Me.R6C5.Size = New System.Drawing.Size(87, 17)
         Me.R6C5.TabIndex = 53
-        Me.R6C5.Text = "False"
+        Me.R6C5.Text = "AB 11 11 11 A"
         '
         'R6C4
         '
@@ -795,9 +795,9 @@ Partial Class MembersSubform
         Me.R6C4.ForeColor = System.Drawing.Color.White
         Me.R6C4.Location = New System.Drawing.Point(282, 252)
         Me.R6C4.Name = "R6C4"
-        Me.R6C4.Size = New System.Drawing.Size(87, 17)
+        Me.R6C4.Size = New System.Drawing.Size(15, 17)
         Me.R6C4.TabIndex = 52
-        Me.R6C4.Text = "AB 11 11 11 A"
+        Me.R6C4.Text = "1"
         '
         'R6C3
         '
@@ -862,11 +862,11 @@ Partial Class MembersSubform
         Me.R7C7.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.R7C7.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.R7C7.ForeColor = System.Drawing.Color.White
-        Me.R7C7.Location = New System.Drawing.Point(523, 290)
+        Me.R7C7.Location = New System.Drawing.Point(531, 290)
         Me.R7C7.Name = "R7C7"
-        Me.R7C7.Size = New System.Drawing.Size(115, 17)
+        Me.R7C7.Size = New System.Drawing.Size(85, 17)
         Me.R7C7.TabIndex = 63
-        Me.R7C7.Text = "J.Smith@mail.com"
+        Me.R7C7.Text = "07000000000"
         '
         'R7C6
         '
@@ -876,9 +876,9 @@ Partial Class MembersSubform
         Me.R7C6.ForeColor = System.Drawing.Color.White
         Me.R7C6.Location = New System.Drawing.Point(436, 290)
         Me.R7C6.Name = "R7C6"
-        Me.R7C6.Size = New System.Drawing.Size(85, 17)
+        Me.R7C6.Size = New System.Drawing.Size(86, 17)
         Me.R7C6.TabIndex = 62
-        Me.R7C6.Text = "07000000000"
+        Me.R7C6.Text = "DD/MM/YYYY"
         '
         'R7C5
         '
@@ -886,11 +886,11 @@ Partial Class MembersSubform
         Me.R7C5.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.R7C5.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.R7C5.ForeColor = System.Drawing.Color.White
-        Me.R7C5.Location = New System.Drawing.Point(376, 290)
+        Me.R7C5.Location = New System.Drawing.Point(334, 290)
         Me.R7C5.Name = "R7C5"
-        Me.R7C5.Size = New System.Drawing.Size(38, 17)
+        Me.R7C5.Size = New System.Drawing.Size(87, 17)
         Me.R7C5.TabIndex = 61
-        Me.R7C5.Text = "False"
+        Me.R7C5.Text = "AB 11 11 11 A"
         '
         'R7C4
         '
@@ -900,9 +900,9 @@ Partial Class MembersSubform
         Me.R7C4.ForeColor = System.Drawing.Color.White
         Me.R7C4.Location = New System.Drawing.Point(282, 290)
         Me.R7C4.Name = "R7C4"
-        Me.R7C4.Size = New System.Drawing.Size(87, 17)
+        Me.R7C4.Size = New System.Drawing.Size(15, 17)
         Me.R7C4.TabIndex = 60
-        Me.R7C4.Text = "AB 11 11 11 A"
+        Me.R7C4.Text = "1"
         '
         'R7C3
         '
@@ -967,11 +967,11 @@ Partial Class MembersSubform
         Me.R8C7.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.R8C7.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.R8C7.ForeColor = System.Drawing.Color.White
-        Me.R8C7.Location = New System.Drawing.Point(523, 331)
+        Me.R8C7.Location = New System.Drawing.Point(531, 331)
         Me.R8C7.Name = "R8C7"
-        Me.R8C7.Size = New System.Drawing.Size(115, 17)
+        Me.R8C7.Size = New System.Drawing.Size(85, 17)
         Me.R8C7.TabIndex = 71
-        Me.R8C7.Text = "J.Smith@mail.com"
+        Me.R8C7.Text = "07000000000"
         '
         'R8C6
         '
@@ -981,9 +981,9 @@ Partial Class MembersSubform
         Me.R8C6.ForeColor = System.Drawing.Color.White
         Me.R8C6.Location = New System.Drawing.Point(436, 331)
         Me.R8C6.Name = "R8C6"
-        Me.R8C6.Size = New System.Drawing.Size(85, 17)
+        Me.R8C6.Size = New System.Drawing.Size(86, 17)
         Me.R8C6.TabIndex = 70
-        Me.R8C6.Text = "07000000000"
+        Me.R8C6.Text = "DD/MM/YYYY"
         '
         'R8C5
         '
@@ -991,11 +991,11 @@ Partial Class MembersSubform
         Me.R8C5.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.R8C5.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.R8C5.ForeColor = System.Drawing.Color.White
-        Me.R8C5.Location = New System.Drawing.Point(376, 331)
+        Me.R8C5.Location = New System.Drawing.Point(334, 331)
         Me.R8C5.Name = "R8C5"
-        Me.R8C5.Size = New System.Drawing.Size(38, 17)
+        Me.R8C5.Size = New System.Drawing.Size(87, 17)
         Me.R8C5.TabIndex = 69
-        Me.R8C5.Text = "False"
+        Me.R8C5.Text = "AB 11 11 11 A"
         '
         'R8C4
         '
@@ -1005,9 +1005,9 @@ Partial Class MembersSubform
         Me.R8C4.ForeColor = System.Drawing.Color.White
         Me.R8C4.Location = New System.Drawing.Point(282, 331)
         Me.R8C4.Name = "R8C4"
-        Me.R8C4.Size = New System.Drawing.Size(87, 17)
+        Me.R8C4.Size = New System.Drawing.Size(15, 17)
         Me.R8C4.TabIndex = 68
-        Me.R8C4.Text = "AB 11 11 11 A"
+        Me.R8C4.Text = "1"
         '
         'R8C3
         '
@@ -1072,11 +1072,11 @@ Partial Class MembersSubform
         Me.R9C7.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.R9C7.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.R9C7.ForeColor = System.Drawing.Color.White
-        Me.R9C7.Location = New System.Drawing.Point(523, 371)
+        Me.R9C7.Location = New System.Drawing.Point(531, 371)
         Me.R9C7.Name = "R9C7"
-        Me.R9C7.Size = New System.Drawing.Size(115, 17)
+        Me.R9C7.Size = New System.Drawing.Size(85, 17)
         Me.R9C7.TabIndex = 79
-        Me.R9C7.Text = "J.Smith@mail.com"
+        Me.R9C7.Text = "07000000000"
         '
         'R9C6
         '
@@ -1086,9 +1086,9 @@ Partial Class MembersSubform
         Me.R9C6.ForeColor = System.Drawing.Color.White
         Me.R9C6.Location = New System.Drawing.Point(436, 371)
         Me.R9C6.Name = "R9C6"
-        Me.R9C6.Size = New System.Drawing.Size(85, 17)
+        Me.R9C6.Size = New System.Drawing.Size(86, 17)
         Me.R9C6.TabIndex = 78
-        Me.R9C6.Text = "07000000000"
+        Me.R9C6.Text = "DD/MM/YYYY"
         '
         'R9C5
         '
@@ -1096,11 +1096,11 @@ Partial Class MembersSubform
         Me.R9C5.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.R9C5.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.R9C5.ForeColor = System.Drawing.Color.White
-        Me.R9C5.Location = New System.Drawing.Point(376, 371)
+        Me.R9C5.Location = New System.Drawing.Point(334, 371)
         Me.R9C5.Name = "R9C5"
-        Me.R9C5.Size = New System.Drawing.Size(38, 17)
+        Me.R9C5.Size = New System.Drawing.Size(87, 17)
         Me.R9C5.TabIndex = 77
-        Me.R9C5.Text = "False"
+        Me.R9C5.Text = "AB 11 11 11 A"
         '
         'R9C4
         '
@@ -1110,9 +1110,9 @@ Partial Class MembersSubform
         Me.R9C4.ForeColor = System.Drawing.Color.White
         Me.R9C4.Location = New System.Drawing.Point(282, 371)
         Me.R9C4.Name = "R9C4"
-        Me.R9C4.Size = New System.Drawing.Size(87, 17)
+        Me.R9C4.Size = New System.Drawing.Size(15, 17)
         Me.R9C4.TabIndex = 76
-        Me.R9C4.Text = "AB 11 11 11 A"
+        Me.R9C4.Text = "1"
         '
         'R9C3
         '
@@ -1177,11 +1177,11 @@ Partial Class MembersSubform
         Me.R10C7.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.R10C7.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.R10C7.ForeColor = System.Drawing.Color.White
-        Me.R10C7.Location = New System.Drawing.Point(523, 411)
+        Me.R10C7.Location = New System.Drawing.Point(531, 411)
         Me.R10C7.Name = "R10C7"
-        Me.R10C7.Size = New System.Drawing.Size(115, 17)
+        Me.R10C7.Size = New System.Drawing.Size(85, 17)
         Me.R10C7.TabIndex = 87
-        Me.R10C7.Text = "J.Smith@mail.com"
+        Me.R10C7.Text = "07000000000"
         '
         'R10C6
         '
@@ -1191,9 +1191,9 @@ Partial Class MembersSubform
         Me.R10C6.ForeColor = System.Drawing.Color.White
         Me.R10C6.Location = New System.Drawing.Point(436, 411)
         Me.R10C6.Name = "R10C6"
-        Me.R10C6.Size = New System.Drawing.Size(85, 17)
+        Me.R10C6.Size = New System.Drawing.Size(86, 17)
         Me.R10C6.TabIndex = 86
-        Me.R10C6.Text = "07000000000"
+        Me.R10C6.Text = "DD/MM/YYYY"
         '
         'R10C5
         '
@@ -1201,11 +1201,11 @@ Partial Class MembersSubform
         Me.R10C5.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
         Me.R10C5.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.R10C5.ForeColor = System.Drawing.Color.White
-        Me.R10C5.Location = New System.Drawing.Point(376, 411)
+        Me.R10C5.Location = New System.Drawing.Point(334, 411)
         Me.R10C5.Name = "R10C5"
-        Me.R10C5.Size = New System.Drawing.Size(38, 17)
+        Me.R10C5.Size = New System.Drawing.Size(87, 17)
         Me.R10C5.TabIndex = 85
-        Me.R10C5.Text = "False"
+        Me.R10C5.Text = "AB 11 11 11 A"
         '
         'R10C4
         '
@@ -1215,9 +1215,9 @@ Partial Class MembersSubform
         Me.R10C4.ForeColor = System.Drawing.Color.White
         Me.R10C4.Location = New System.Drawing.Point(282, 411)
         Me.R10C4.Name = "R10C4"
-        Me.R10C4.Size = New System.Drawing.Size(87, 17)
+        Me.R10C4.Size = New System.Drawing.Size(15, 17)
         Me.R10C4.TabIndex = 84
-        Me.R10C4.Text = "AB 11 11 11 A"
+        Me.R10C4.Text = "1"
         '
         'R10C3
         '

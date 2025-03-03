@@ -100,4 +100,7 @@
         End If
     End Sub
 
+    Private Sub R3C4_Click(sender As Object, e As EventArgs) Handles R3C4.Click
+
+    End Sub
 End Class

@@ -58,9 +58,6 @@ Partial Class ChangeInformation
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Guna2CustomCheckBox6 = New Guna.UI2.WinForms.Guna2CustomCheckBox()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.Guna2Shapes10 = New Guna.UI2.WinForms.Guna2Shapes()
-        Me.Guna2Shapes11 = New Guna.UI2.WinForms.Guna2Shapes()
-        Me.Guna2Shapes12 = New Guna.UI2.WinForms.Guna2Shapes()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
@@ -433,6 +430,7 @@ Partial Class ChangeInformation
         Me.Guna2ComboBox1.Font = New System.Drawing.Font("Segoe UI", 10.0!)
         Me.Guna2ComboBox1.ForeColor = System.Drawing.Color.White
         Me.Guna2ComboBox1.ItemHeight = 30
+        Me.Guna2ComboBox1.Items.AddRange(New Object() {"25%", "50%", "75%", "100%", "150%", "200%", "500%"})
         Me.Guna2ComboBox1.Location = New System.Drawing.Point(455, 142)
         Me.Guna2ComboBox1.Name = "Guna2ComboBox1"
         Me.Guna2ComboBox1.Size = New System.Drawing.Size(184, 36)
@@ -450,6 +448,7 @@ Partial Class ChangeInformation
         Me.Guna2ComboBox2.Font = New System.Drawing.Font("Segoe UI", 10.0!)
         Me.Guna2ComboBox2.ForeColor = System.Drawing.Color.White
         Me.Guna2ComboBox2.ItemHeight = 30
+        Me.Guna2ComboBox2.Items.AddRange(New Object() {"Male", "Female", "Other"})
         Me.Guna2ComboBox2.Location = New System.Drawing.Point(455, 213)
         Me.Guna2ComboBox2.Name = "Guna2ComboBox2"
         Me.Guna2ComboBox2.Size = New System.Drawing.Size(184, 36)
@@ -485,10 +484,10 @@ Partial Class ChangeInformation
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
-        Me.Label10.Location = New System.Drawing.Point(459, 288)
+        Me.Label10.Location = New System.Drawing.Point(442, 294)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(109, 19)
         Me.Label10.TabIndex = 109
@@ -501,7 +500,7 @@ Partial Class ChangeInformation
         Me.Guna2CustomCheckBox4.CheckedState.BorderRadius = 2
         Me.Guna2CustomCheckBox4.CheckedState.BorderThickness = 0
         Me.Guna2CustomCheckBox4.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CustomCheckBox4.Location = New System.Drawing.Point(611, 287)
+        Me.Guna2CustomCheckBox4.Location = New System.Drawing.Point(594, 293)
         Me.Guna2CustomCheckBox4.Name = "Guna2CustomCheckBox4"
         Me.Guna2CustomCheckBox4.Size = New System.Drawing.Size(20, 20)
         Me.Guna2CustomCheckBox4.TabIndex = 111
@@ -518,7 +517,7 @@ Partial Class ChangeInformation
         Me.Guna2CustomCheckBox5.CheckedState.BorderRadius = 2
         Me.Guna2CustomCheckBox5.CheckedState.BorderThickness = 0
         Me.Guna2CustomCheckBox5.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CustomCheckBox5.Location = New System.Drawing.Point(611, 326)
+        Me.Guna2CustomCheckBox5.Location = New System.Drawing.Point(594, 332)
         Me.Guna2CustomCheckBox5.Name = "Guna2CustomCheckBox5"
         Me.Guna2CustomCheckBox5.Size = New System.Drawing.Size(20, 20)
         Me.Guna2CustomCheckBox5.TabIndex = 113
@@ -531,10 +530,10 @@ Partial Class ChangeInformation
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
-        Me.Label11.Location = New System.Drawing.Point(459, 327)
+        Me.Label11.Location = New System.Drawing.Point(442, 333)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(102, 19)
         Me.Label11.TabIndex = 112
@@ -547,7 +546,7 @@ Partial Class ChangeInformation
         Me.Guna2CustomCheckBox6.CheckedState.BorderRadius = 2
         Me.Guna2CustomCheckBox6.CheckedState.BorderThickness = 0
         Me.Guna2CustomCheckBox6.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2CustomCheckBox6.Location = New System.Drawing.Point(611, 364)
+        Me.Guna2CustomCheckBox6.Location = New System.Drawing.Point(594, 370)
         Me.Guna2CustomCheckBox6.Name = "Guna2CustomCheckBox6"
         Me.Guna2CustomCheckBox6.Size = New System.Drawing.Size(20, 20)
         Me.Guna2CustomCheckBox6.TabIndex = 115
@@ -560,62 +559,14 @@ Partial Class ChangeInformation
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.Label12.BackColor = System.Drawing.Color.Transparent
         Me.Label12.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
-        Me.Label12.Location = New System.Drawing.Point(459, 365)
+        Me.Label12.Location = New System.Drawing.Point(442, 371)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(111, 19)
         Me.Label12.TabIndex = 114
         Me.Label12.Text = "High Contrast"
-        '
-        'Guna2Shapes10
-        '
-        Me.Guna2Shapes10.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Shapes10.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2Shapes10.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Guna2Shapes10.Location = New System.Drawing.Point(406, 277)
-        Me.Guna2Shapes10.Name = "Guna2Shapes10"
-        Me.Guna2Shapes10.PolygonSkip = 1
-        Me.Guna2Shapes10.Rotate = 0!
-        Me.Guna2Shapes10.RoundedRadius = 15
-        Me.Guna2Shapes10.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rounded
-        Me.Guna2Shapes10.Size = New System.Drawing.Size(282, 40)
-        Me.Guna2Shapes10.TabIndex = 116
-        Me.Guna2Shapes10.Text = "Guna2Shapes10"
-        Me.Guna2Shapes10.Zoom = 80
-        '
-        'Guna2Shapes11
-        '
-        Me.Guna2Shapes11.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Shapes11.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2Shapes11.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Guna2Shapes11.Location = New System.Drawing.Point(406, 317)
-        Me.Guna2Shapes11.Name = "Guna2Shapes11"
-        Me.Guna2Shapes11.PolygonSkip = 1
-        Me.Guna2Shapes11.Rotate = 0!
-        Me.Guna2Shapes11.RoundedRadius = 15
-        Me.Guna2Shapes11.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rounded
-        Me.Guna2Shapes11.Size = New System.Drawing.Size(282, 40)
-        Me.Guna2Shapes11.TabIndex = 117
-        Me.Guna2Shapes11.Text = "Guna2Shapes11"
-        Me.Guna2Shapes11.Zoom = 80
-        '
-        'Guna2Shapes12
-        '
-        Me.Guna2Shapes12.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Shapes12.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2Shapes12.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Guna2Shapes12.Location = New System.Drawing.Point(404, 355)
-        Me.Guna2Shapes12.Name = "Guna2Shapes12"
-        Me.Guna2Shapes12.PolygonSkip = 1
-        Me.Guna2Shapes12.Rotate = 0!
-        Me.Guna2Shapes12.RoundedRadius = 15
-        Me.Guna2Shapes12.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rounded
-        Me.Guna2Shapes12.Size = New System.Drawing.Size(282, 40)
-        Me.Guna2Shapes12.TabIndex = 118
-        Me.Guna2Shapes12.Text = "Guna2Shapes12"
-        Me.Guna2Shapes12.Zoom = 80
         '
         'Label13
         '
@@ -672,9 +623,6 @@ Partial Class ChangeInformation
         Me.Controls.Add(Me.LblStaffName)
         Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.btnCancel)
-        Me.Controls.Add(Me.Guna2Shapes10)
-        Me.Controls.Add(Me.Guna2Shapes11)
-        Me.Controls.Add(Me.Guna2Shapes12)
         Me.Name = "ChangeInformation"
         Me.Text = "ChangeInformation"
         Me.ResumeLayout(False)
@@ -718,8 +666,5 @@ Partial Class ChangeInformation
     Friend WithEvents Label11 As Label
     Friend WithEvents Guna2CustomCheckBox6 As Guna.UI2.WinForms.Guna2CustomCheckBox
     Friend WithEvents Label12 As Label
-    Friend WithEvents Guna2Shapes10 As Guna.UI2.WinForms.Guna2Shapes
-    Friend WithEvents Guna2Shapes11 As Guna.UI2.WinForms.Guna2Shapes
-    Friend WithEvents Guna2Shapes12 As Guna.UI2.WinForms.Guna2Shapes
     Friend WithEvents Label13 As Label
 End Class
