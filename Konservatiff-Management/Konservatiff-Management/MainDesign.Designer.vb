@@ -317,18 +317,6 @@ Partial Class MainDesign
         'Timer1
         '
         '
-        'KMText
-        '
-        KMText.AutoSize = True
-        KMText.BackColor = System.Drawing.Color.Transparent
-        KMText.Font = New System.Drawing.Font("Century Gothic", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        KMText.ForeColor = System.Drawing.Color.White
-        KMText.Location = New System.Drawing.Point(26, 6)
-        KMText.Name = "KMText"
-        KMText.Size = New System.Drawing.Size(382, 32)
-        KMText.TabIndex = 15
-        KMText.Text = "Konservatiff Management | "
-        '
         'lblClock
         '
         Me.lblClock.AutoSize = True
@@ -344,6 +332,7 @@ Partial Class MainDesign
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.Panel2.Controls.Add(KMText)
         Me.Panel2.Controls.Add(Me.Label2)
         Me.Panel2.Controls.Add(Me.lblClock)
         Me.Panel2.Controls.Add(KMText)
@@ -384,6 +373,17 @@ Partial Class MainDesign
         Me.Panel1.Size = New System.Drawing.Size(1012, 46)
         Me.Panel1.TabIndex = 27
         '
+        'KMText
+        '
+        KMText.AutoSize = True
+        KMText.Font = New System.Drawing.Font("Century Gothic", 20.25!, System.Drawing.FontStyle.Bold)
+        KMText.ForeColor = System.Drawing.Color.White
+        KMText.Location = New System.Drawing.Point(31, 13)
+        KMText.Name = "KMText"
+        KMText.Size = New System.Drawing.Size(374, 32)
+        KMText.TabIndex = 27
+        KMText.Text = "Konservatiff Management |"
+        '
         'MainDesign
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -397,7 +397,7 @@ Partial Class MainDesign
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "MainDesign"
-        Me.Text = "MainDesign"
+        Me.Text = "Konservatiff Management"
         Me.TopMost = True
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
@@ -435,4 +435,5 @@ Partial Class MainDesign
     Friend WithEvents UsersNameLbl As Label
     Friend WithEvents ExitBtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Shapes1 As Guna.UI2.WinForms.Guna2Shapes
+    Friend WithEvents KMText As Label
 End Class

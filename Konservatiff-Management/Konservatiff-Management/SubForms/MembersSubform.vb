@@ -1,10 +1,4 @@
 ﻿Public Class MembersSubform
-    Public MaxRows As Integer
-    Public curRow As Integer
-    Public con As New OleDb.OleDbConnection
-    Public ds As New DataSet
-    Public da As OleDb.OleDbDataAdapter
-    Public sql As String
     Private WithEvents LoopTime As New Timer()
 
     Sub New()
@@ -48,14 +42,14 @@
     End Sub
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        con.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=database.accdb"
-        con.Open()
+        Connection.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=database.accdb"
+        Connection.Open()
 
-        sql = "SELECT * FROM tblMembers"
-        da = New OleDb.OleDbDataAdapter(sql, con)
-        da.Fill(ds, "Members")
-        MaxRows = ds.Tables("Members").Rows.Count
-        con.Close()
+        SQL = "SELECT * FROM tblMembers"
+        DataAdapt = New OleDb.OleDbDataAdapter(SQL, Connection)
+        DataAdapt.Fill(DataSet, "Members")
+        MaxRows = DataSet.Tables("Members").Rows.Count
+        Connection.Close()
         CurrentPage = 1
         Call NavigateRecords()
     End Sub
@@ -72,8 +66,8 @@
             For intCol = 1 To 7
                 strLbl = CType(Me.Controls("R" & intRow & "C" & intCol), Label)
 
-                If startIndex + intRow - 1 < ds.Tables("Members").Rows.Count Then
-                    strLbl.Text = ds.Tables("Members").Rows(startIndex + intRow - 1).Item(intCol - 1).ToString()
+                If startIndex + intRow - 1 < DataSet.Tables("Members").Rows.Count Then
+                    strLbl.Text = DataSet.Tables("Members").Rows(startIndex + intRow - 1).Item(intCol - 1).ToString()
                     Dim btn As Guna.UI2.WinForms.Guna2Button = CType(Me.Controls.Find("R" & intRow & "Btn", True).FirstOrDefault(), Guna.UI2.WinForms.Guna2Button)
                     btn.Visible = True
                     btn.Tag = startIndex + intRow

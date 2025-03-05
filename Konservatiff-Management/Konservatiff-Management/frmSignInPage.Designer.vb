@@ -233,7 +233,7 @@ Partial Class frmSignInPage
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "frmSignInPage"
-        Me.Text = "frmSignInPage"
+        Me.Text = "Konservatiff Management - Login"
         Me.TopMost = True
         CType(Me.picLoginLogo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
