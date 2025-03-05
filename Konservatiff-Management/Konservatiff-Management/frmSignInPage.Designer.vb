@@ -141,6 +141,7 @@ Partial Class frmSignInPage
         Me.LogInBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
         Me.LogInBtn.Location = New System.Drawing.Point(156, 429)
         Me.LogInBtn.Name = "LogInBtn"
+        Me.LogInBtn.PressedColor = System.Drawing.Color.SlateBlue
         Me.LogInBtn.Size = New System.Drawing.Size(180, 45)
         Me.LogInBtn.TabIndex = 16
         Me.LogInBtn.Text = "LOG IN"

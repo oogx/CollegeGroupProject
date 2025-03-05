@@ -46,6 +46,7 @@ Partial Class ClockInSubform
         Me.Guna2Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
         Me.Guna2Button1.Location = New System.Drawing.Point(395, 302)
         Me.Guna2Button1.Name = "Guna2Button1"
+        Me.Guna2Button1.PressedColor = System.Drawing.Color.SlateBlue
         Me.Guna2Button1.Size = New System.Drawing.Size(180, 45)
         Me.Guna2Button1.TabIndex = 28
         Me.Guna2Button1.Text = "Clock Out"
@@ -65,6 +66,7 @@ Partial Class ClockInSubform
         Me.Guna2Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
         Me.Guna2Button2.Location = New System.Drawing.Point(166, 302)
         Me.Guna2Button2.Name = "Guna2Button2"
+        Me.Guna2Button2.PressedColor = System.Drawing.Color.SlateBlue
         Me.Guna2Button2.Size = New System.Drawing.Size(180, 45)
         Me.Guna2Button2.TabIndex = 27
         Me.Guna2Button2.Text = "Clock In"
