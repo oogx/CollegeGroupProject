@@ -77,7 +77,6 @@ Partial Class AddStaffSubform
         Me.sNameTxtBx.Name = "sNameTxtBx"
         Me.sNameTxtBx.Size = New System.Drawing.Size(230, 17)
         Me.sNameTxtBx.TabIndex = 131
-        Me.sNameTxtBx.UseSystemPasswordChar = True
         '
         'Label14
         '
@@ -117,7 +116,6 @@ Partial Class AddStaffSubform
         Me.mobNoTxtBx.Name = "mobNoTxtBx"
         Me.mobNoTxtBx.Size = New System.Drawing.Size(230, 17)
         Me.mobNoTxtBx.TabIndex = 128
-        Me.mobNoTxtBx.UseSystemPasswordChar = True
         '
         'Label1
         '
@@ -157,7 +155,6 @@ Partial Class AddStaffSubform
         Me.fNameTxtBx.Name = "fNameTxtBx"
         Me.fNameTxtBx.Size = New System.Drawing.Size(230, 17)
         Me.fNameTxtBx.TabIndex = 125
-        Me.fNameTxtBx.UseSystemPasswordChar = True
         '
         'Label8
         '
@@ -225,7 +222,6 @@ Partial Class AddStaffSubform
         Me.niNoTxtBx.Name = "niNoTxtBx"
         Me.niNoTxtBx.Size = New System.Drawing.Size(230, 17)
         Me.niNoTxtBx.TabIndex = 134
-        Me.niNoTxtBx.UseSystemPasswordChar = True
         '
         'Guna2Shapes1
         '
@@ -265,7 +261,6 @@ Partial Class AddStaffSubform
         Me.emailTxtBx.Name = "emailTxtBx"
         Me.emailTxtBx.Size = New System.Drawing.Size(230, 17)
         Me.emailTxtBx.TabIndex = 137
-        Me.emailTxtBx.UseSystemPasswordChar = True
         '
         'addBtn
         '

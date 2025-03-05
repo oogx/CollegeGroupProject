@@ -123,7 +123,6 @@ Partial Class ChangeInformation
         Me.fNameTxtBx.Name = "fNameTxtBx"
         Me.fNameTxtBx.Size = New System.Drawing.Size(230, 17)
         Me.fNameTxtBx.TabIndex = 83
-        Me.fNameTxtBx.UseSystemPasswordChar = True
         '
         'Label8
         '
@@ -163,7 +162,6 @@ Partial Class ChangeInformation
         Me.taxIDTxtBx.Name = "taxIDTxtBx"
         Me.taxIDTxtBx.Size = New System.Drawing.Size(230, 17)
         Me.taxIDTxtBx.TabIndex = 86
-        Me.taxIDTxtBx.UseSystemPasswordChar = True
         '
         'Label1
         '
@@ -203,7 +201,6 @@ Partial Class ChangeInformation
         Me.niNoTxtBx.Name = "niNoTxtBx"
         Me.niNoTxtBx.Size = New System.Drawing.Size(230, 17)
         Me.niNoTxtBx.TabIndex = 89
-        Me.niNoTxtBx.UseSystemPasswordChar = True
         '
         'Label2
         '
@@ -243,7 +240,6 @@ Partial Class ChangeInformation
         Me.dobTxtBx.Name = "dobTxtBx"
         Me.dobTxtBx.Size = New System.Drawing.Size(230, 17)
         Me.dobTxtBx.TabIndex = 92
-        Me.dobTxtBx.UseSystemPasswordChar = True
         '
         'Label3
         '
@@ -283,7 +279,6 @@ Partial Class ChangeInformation
         Me.mobNoTxtBx.Name = "mobNoTxtBx"
         Me.mobNoTxtBx.Size = New System.Drawing.Size(230, 17)
         Me.mobNoTxtBx.TabIndex = 95
-        Me.mobNoTxtBx.UseSystemPasswordChar = True
         '
         'Label4
         '
@@ -553,7 +548,6 @@ Partial Class ChangeInformation
         Me.sNameTxtBx.Name = "sNameTxtBx"
         Me.sNameTxtBx.Size = New System.Drawing.Size(230, 17)
         Me.sNameTxtBx.TabIndex = 122
-        Me.sNameTxtBx.UseSystemPasswordChar = True
         '
         'Label14
         '
@@ -621,7 +615,6 @@ Partial Class ChangeInformation
         Me.emailTxtBx.Name = "emailTxtBx"
         Me.emailTxtBx.Size = New System.Drawing.Size(230, 17)
         Me.emailTxtBx.TabIndex = 98
-        Me.emailTxtBx.UseSystemPasswordChar = True
         '
         'ChangeInformation
         '
