@@ -17,4 +17,25 @@
     Private Sub ChangeInformationBtn_Click(sender As Object, e As EventArgs) Handles ChangeInformationBtn.Click
         OpenChildForm(New ChangeInformation) ' Opens the widget change information.
     End Sub
+
+    Private Sub ViewShiftsBtn_Click(sender As Object, e As EventArgs) Handles ViewShiftsBtn.Click
+        OpenChildForm(New ViewShifts) 'Opens the widget to view shifts.
+    End Sub
+
+    Private Sub DeleteMemberBtn_Click(sender As Object, e As EventArgs) Handles DeleteMemberBtn.Click
+        If MessageBox.Show("Want to delete it?", "Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) = DialogResult.No Then
+            MsgBox("Operation cancelled!")
+            Exit Sub
+        ElseIf DialogResult.Yes Then
+
+        End If
+    End Sub
+
+    Private Sub EmailPayslipBtn_Click(sender As Object, e As EventArgs) Handles EmailPayslipBtn.Click
+        OpenChildForm(New EmailPayslip)
+    End Sub
+
+    Private Sub PDFPayslipBtn_Click(sender As Object, e As EventArgs) Handles PDFPayslipBtn.Click
+        OpenChildForm(New ViewPayslip)
+    End Sub
 End Class

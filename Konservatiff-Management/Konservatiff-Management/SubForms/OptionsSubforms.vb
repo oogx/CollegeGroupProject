@@ -5,5 +5,4 @@
         setTextSizeTxtBx.Text = TextSize
     End Sub
 
-
 End Class

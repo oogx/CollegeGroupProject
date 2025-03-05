@@ -15,11 +15,4 @@
         OpenChildForm(New MembersSubform) ' This changes the page back to the members subform.
     End Sub
 
-    Private Sub Label10_Click(sender As Object, e As EventArgs) Handles Label10.Click
-
-    End Sub
-
-    Private Sub Guna2ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles textSizeCbo.SelectedIndexChanged
-
-    End Sub
 End Class

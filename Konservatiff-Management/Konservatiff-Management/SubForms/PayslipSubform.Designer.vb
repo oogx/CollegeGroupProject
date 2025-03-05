@@ -273,7 +273,7 @@ Partial Class PayslipSubform
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Label18.Location = New System.Drawing.Point(12, 321)
+        Me.Label18.Location = New System.Drawing.Point(41, 321)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(53, 18)
         Me.Label18.TabIndex = 20
@@ -284,7 +284,7 @@ Partial Class PayslipSubform
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Label19.Location = New System.Drawing.Point(72, 321)
+        Me.Label19.Location = New System.Drawing.Point(101, 321)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(39, 18)
         Me.Label19.TabIndex = 21
@@ -295,7 +295,7 @@ Partial Class PayslipSubform
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Label20.Location = New System.Drawing.Point(117, 321)
+        Me.Label20.Location = New System.Drawing.Point(146, 321)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(44, 18)
         Me.Label20.TabIndex = 22
@@ -306,7 +306,7 @@ Partial Class PayslipSubform
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Label21.Location = New System.Drawing.Point(12, 434)
+        Me.Label21.Location = New System.Drawing.Point(41, 434)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(41, 18)
         Me.Label21.TabIndex = 23
@@ -358,28 +358,28 @@ Partial Class PayslipSubform
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(59, 435)
+        Me.TextBox4.Location = New System.Drawing.Point(88, 435)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 20)
         Me.TextBox4.TabIndex = 28
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(15, 342)
+        Me.TextBox5.Location = New System.Drawing.Point(44, 342)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(38, 20)
         Me.TextBox5.TabIndex = 29
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(69, 342)
+        Me.TextBox6.Location = New System.Drawing.Point(98, 342)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(38, 20)
         Me.TextBox6.TabIndex = 30
         '
         'TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(123, 342)
+        Me.TextBox7.Location = New System.Drawing.Point(152, 342)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(38, 20)
         Me.TextBox7.TabIndex = 31
