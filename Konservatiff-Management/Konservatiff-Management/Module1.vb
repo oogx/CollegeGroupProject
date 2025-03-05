@@ -29,5 +29,4 @@
 
     Public User_Desktop_Panel As Panel
     Public KMText As Label
-
 End Module

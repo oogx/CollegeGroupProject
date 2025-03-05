@@ -47,12 +47,19 @@
 
         SQL = "SELECT * FROM tblMembers"
         DataAdapt = New OleDb.OleDbDataAdapter(SQL, Connection)
+
+        If DataSet.Tables.Contains("Members") Then
+            DataSet.Tables("Members").Clear()
+        End If
+
         DataAdapt.Fill(DataSet, "Members")
         MaxRows = DataSet.Tables("Members").Rows.Count
         Connection.Close()
         CurrentPage = 1
         Call NavigateRecords()
     End Sub
+
+
 
     Private Sub NavigateRecords()
         Dim intRow, intCol As Integer

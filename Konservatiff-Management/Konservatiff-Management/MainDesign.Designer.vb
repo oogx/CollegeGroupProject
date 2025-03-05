@@ -317,6 +317,7 @@ Partial Class MainDesign
         'Timer1
         '
         '
+        '
         'lblClock
         '
         Me.lblClock.AutoSize = True
@@ -332,7 +333,6 @@ Partial Class MainDesign
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(36, Byte), Integer), CType(CType(39, Byte), Integer), CType(CType(48, Byte), Integer))
-        Me.Panel2.Controls.Add(KMText)
         Me.Panel2.Controls.Add(Me.Label2)
         Me.Panel2.Controls.Add(Me.lblClock)
         Me.Panel2.Controls.Add(KMText)
@@ -378,7 +378,7 @@ Partial Class MainDesign
         KMText.AutoSize = True
         KMText.Font = New System.Drawing.Font("Century Gothic", 20.25!, System.Drawing.FontStyle.Bold)
         KMText.ForeColor = System.Drawing.Color.White
-        KMText.Location = New System.Drawing.Point(31, 13)
+        KMText.Location = New System.Drawing.Point(31, 8)
         KMText.Name = "KMText"
         KMText.Size = New System.Drawing.Size(374, 32)
         KMText.TabIndex = 27
@@ -435,5 +435,4 @@ Partial Class MainDesign
     Friend WithEvents UsersNameLbl As Label
     Friend WithEvents ExitBtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Shapes1 As Guna.UI2.WinForms.Guna2Shapes
-    Friend WithEvents KMText As Label
 End Class
