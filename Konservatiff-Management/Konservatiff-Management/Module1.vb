@@ -5,6 +5,7 @@
     Public DataAdapt As OleDb.OleDbDataAdapter
     Public CurrentRows As Integer
     Public MaxRows As Integer
+    Public CurrentRow As Integer
     Public strTime As System.DateTime
 
     Public currentChildForm As Form
