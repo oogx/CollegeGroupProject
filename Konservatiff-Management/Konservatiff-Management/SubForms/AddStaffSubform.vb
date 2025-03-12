@@ -13,9 +13,11 @@ Public Class AddStaffSubform
         Connection.Close()
         CurrentPage = 1
     End Function
+
     Private Sub AddStaffSubform_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         GetNewData()
     End Sub
+
     Private Sub addBtn_Click(sender As Object, e As EventArgs) Handles addBtn.Click
         Dim CommandBuilder As New OleDb.OleDbCommandBuilder(DataAdapt)
 
@@ -57,6 +59,5 @@ Public Class AddStaffSubform
         emailTxtBx.Text = ""
         niNoTxtBx.Text = ""
     End Sub
-
 
 End Class

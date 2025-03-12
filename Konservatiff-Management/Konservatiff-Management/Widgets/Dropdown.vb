@@ -27,7 +27,10 @@
             MsgBox("Operation cancelled!")
             Exit Sub
         ElseIf DialogResult.Yes Then
-
+            DataSet.Tables("Members").Rows(CurrentMemberID).Delete()
+            CurrentMemberID = 0
+            DataAdapt.Update(DataSet, "Members")
+            'OpenChildForm(MembersSubform)
         End If
     End Sub
 

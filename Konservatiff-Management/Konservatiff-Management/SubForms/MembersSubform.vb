@@ -2,7 +2,6 @@
 
 Public Class MembersSubform
     Private WithEvents LoopTime As New Timer()
-
     Sub New()
         InitializeComponent()
         LoopTime.Interval = 10
@@ -10,7 +9,6 @@ Public Class MembersSubform
         For i As Integer = 1 To 10
             Dim btn As Guna.UI2.WinForms.Guna2Button = CType(Me.Controls.Find("R" & i & "Btn", True).FirstOrDefault(), Guna.UI2.WinForms.Guna2Button)
             If btn IsNot Nothing Then
-                btn.Tag = i
                 AddHandler btn.Click, AddressOf MemberButton_Click
             End If
         Next
@@ -39,7 +37,8 @@ Public Class MembersSubform
         If btn IsNot Nothing Then
             Dropdown_Panel.Visible = True
             OpenChildForm(New Dropdown)
-            CurrentMemberID = CInt(btn.Tag)
+            CurrentMemberID = btn.Tag.ToString()
+
         End If
     End Sub
 
@@ -76,8 +75,8 @@ Public Class MembersSubform
                 If startIndex + intRow - 1 < DataSet.Tables("Members").Rows.Count Then
                     strLbl.Text = DataSet.Tables("Members").Rows(startIndex + intRow - 1).Item(intCol - 1).ToString()
                     Dim btn As Guna.UI2.WinForms.Guna2Button = CType(Me.Controls.Find("R" & intRow & "Btn", True).FirstOrDefault(), Guna.UI2.WinForms.Guna2Button)
+                    btn.Tag = DataSet.Tables("Members").Rows(startIndex + intRow - 1).Item(0).ToString()
                     btn.Visible = True
-                    btn.Tag = startIndex + intRow
                 Else
                     strLbl.Text = " "
                     Dim btn As Guna.UI2.WinForms.Guna2Button = CType(Me.Controls.Find("R" & intRow & "Btn", True).FirstOrDefault(), Guna.UI2.WinForms.Guna2Button)
@@ -146,5 +145,8 @@ Public Class MembersSubform
 
         Book.SaveAs(CurDir() + "\BackupDatabase")
         Excel.Quit
+        MsgBox("Backup has been saved in the current directory.")
+
     End Sub
+
 End Class
