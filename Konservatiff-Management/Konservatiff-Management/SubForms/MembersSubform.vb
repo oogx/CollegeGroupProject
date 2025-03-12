@@ -61,8 +61,6 @@ Public Class MembersSubform
         Call NavigateRecords()
     End Sub
 
-
-
     Private Sub NavigateRecords()
         Dim intRow, intCol As Integer
         Dim strLbl As Label
@@ -103,53 +101,50 @@ Public Class MembersSubform
         End If
     End Sub
 
-    Private Sub excelbyCell()
-        Dim oExcel As Object
-        Dim oBook As Object
-        Dim oSheet As Object
+    Private Sub BackupBtn_Click(sender As Object, e As EventArgs) Handles BackupBtn.Click
+        Dim Excel As Object
+        Dim Book As Object
+        Dim CurrentExcelSheet As Object
 
-        'Start a new workbook in Excel
-        oExcel = CreateObject("Excel.Application")
-        oBook = oExcel.Workbooks.Add
-        'Add data to cells of the first worksheet in the new workbook
+        Excel = CreateObject("Excel.Application")
+        Book = Excel.Workbooks.Add
 
-        oSheet = oBook.Worksheets(1)
+        CurrentExcelSheet = Book.Worksheets(1)
+        CurrentExcelSheet.Range("A1").Value = "MembersID"
+        CurrentExcelSheet.Range("B1").Value = "Forename"
+        CurrentExcelSheet.Range("C1").Value = "Surname"
+        CurrentExcelSheet.Range("D1").Value = "TaxID"
+        CurrentExcelSheet.Range("E1").Value = "NINo"
+        CurrentExcelSheet.Range("F1").Value = "DoB"
+        CurrentExcelSheet.Range("G1").Value = "MobileNo"
+        CurrentExcelSheet.Range("H1").Value = "Email"
+        CurrentExcelSheet.Range("I1").Value = "AdminStatus"
+        CurrentExcelSheet.Range("J1").Value = "Password"
+        CurrentExcelSheet.Range("K1").Value = "Sex"
+        CurrentExcelSheet.Range("L1").Value = "DarkTheme"
+        CurrentExcelSheet.Range("M1").Value = "Contrast"
+        CurrentExcelSheet.Range("N1").Value = "TextSize"
+        CurrentExcelSheet.Range("O1").Value = "PayRateID"
 
-        'For i = 0 To 0
-        'oSh'eet.Range("A1").Value = DataSet.Tables("Members").Rows(i).Item(0)
-        'oSheet.Range("A2").Value = DataSet.Tables("Members").Rows(i).Item(1)
-        'oSheet.Range("A3").Value = DataSet.Tables("Members").Rows(i).Item(2)
-        'oSheet.Range("A4").Value = DataSet.Tables("Members").Rows(i).Item(3)
-        'oSheet.Range("A5").Value = DataSet.Tables("Members").Rows(i).Item(4)
-        'oSheet.Range("A6").Value = DataSet.Tables("Members").Rows(i).Item(5)
-        'oSheet.Range("A7").Value = DataSet.Tables("Members").Rows(i).Item(6)
-        'oSheet.Range("A8").Value = DataSet.Tables("Members").Rows(i).Item(7)
-        'oSheet.Range("A9").Value = DataSet.Tables("Members").Rows(i).Item(8)
-        'oSheet.Range("A10").Value = DataSet.Tables("Members").Rows(i).Item(9)
-        'oSheet.Range("A11").Value = DataSet.Tables("Members").Rows(i).Item(10)
-        'oSheet.Range("A12").Value = DataSet.Tables("Members").Rows(i).Item(11)
-        'oSheet.Range("A13").Value = DataSet.Tables("Members").Rows(i).Item(12)
-        'oSheet.Range("A14").Value = DataSet.Tables("Members").Rows(i).Item(13)
-        'Next
+        For i = 0 To MaxRows - 1
+            CurrentExcelSheet.Range("A" & i + 2).Value = DataSet.Tables("Members").Rows(i).Item(0)
+            CurrentExcelSheet.Range("B" & i + 2).Value = DataSet.Tables("Members").Rows(i).Item(1)
+            CurrentExcelSheet.Range("C" & i + 2).Value = DataSet.Tables("Members").Rows(i).Item(2)
+            CurrentExcelSheet.Range("D" & i + 2).Value = DataSet.Tables("Members").Rows(i).Item(3)
+            CurrentExcelSheet.Range("E" & i + 2).Value = DataSet.Tables("Members").Rows(i).Item(4)
+            CurrentExcelSheet.Range("F" & i + 2).Value = DataSet.Tables("Members").Rows(i).Item(5).ToString
+            CurrentExcelSheet.Range("G" & i + 2).Value = DataSet.Tables("Members").Rows(i).Item(6)
+            CurrentExcelSheet.Range("H" & i + 2).Value = DataSet.Tables("Members").Rows(i).Item(7)
+            CurrentExcelSheet.Range("I" & i + 2).Value = DataSet.Tables("Members").Rows(i).Item(8)
+            CurrentExcelSheet.Range("J" & i + 2).Value = DataSet.Tables("Members").Rows(i).Item(9)
+            CurrentExcelSheet.Range("K" & i + 2).Value = DataSet.Tables("Members").Rows(i).Item(10)
+            CurrentExcelSheet.Range("L" & i + 2).Value = DataSet.Tables("Members").Rows(i).Item(11)
+            CurrentExcelSheet.Range("M" & i + 2).Value = DataSet.Tables("Members").Rows(i).Item(12)
+            CurrentExcelSheet.Range("N" & i + 2).Value = DataSet.Tables("Members").Rows(i).Item(13)
+            CurrentExcelSheet.Range("O" & i + 2).Value = DataSet.Tables("Members").Rows(i).Item(14)
+        Next
 
-        'Save the Workbook and Quit Excel
-        oBook.SaveAs("N:\ICT\Student_Files\Q1044\PracticeSolution")
-        oExcel.Quit
-
-    End Sub
-
-    Private Sub backupBtn_Click(sender As Object, e As EventArgs) Handles backupBtn.Click
-        Connection.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=database.accdb"
-        Connection.Open()
-        SQL = "SELECT * FROM tblMembers"
-
-        DataAdapt = New OleDb.OleDbDataAdapter(SQL, Connection)
-        DataAdapt.Fill(DataSet, "Members")
-        Connection.Close()
-
-        MaxRows = DataSet.Tables("Members").Rows.Count
-        CurrentRows = 0
-
-        excelbyCell()
+        Book.SaveAs(CurDir() + "\BackupDatabase")
+        Excel.Quit
     End Sub
 End Class

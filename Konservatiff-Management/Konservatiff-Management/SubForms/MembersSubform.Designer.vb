@@ -116,7 +116,7 @@ Partial Class MembersSubform
         Me.NextPageBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.PreviousPageBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.backupBtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.BackupBtn = New Guna.UI2.WinForms.Guna2Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -1349,24 +1349,24 @@ Partial Class MembersSubform
         Me.PictureBox1.TabIndex = 94
         Me.PictureBox1.TabStop = False
         '
-        'backupBtn
+        'BackupBtn
         '
-        Me.backupBtn.Animated = True
-        Me.backupBtn.AutoRoundedCorners = True
-        Me.backupBtn.BackColor = System.Drawing.Color.Transparent
-        Me.backupBtn.BorderRadius = 15
-        Me.backupBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.backupBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.backupBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.backupBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.backupBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.backupBtn.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.backupBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
-        Me.backupBtn.Location = New System.Drawing.Point(23, 460)
-        Me.backupBtn.Name = "backupBtn"
-        Me.backupBtn.Size = New System.Drawing.Size(102, 33)
-        Me.backupBtn.TabIndex = 95
-        Me.backupBtn.Text = "Backup"
+        Me.BackupBtn.Animated = True
+        Me.BackupBtn.AutoRoundedCorners = True
+        Me.BackupBtn.BackColor = System.Drawing.Color.Transparent
+        Me.BackupBtn.BorderRadius = 15
+        Me.BackupBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.BackupBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.BackupBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.BackupBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.BackupBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.BackupBtn.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BackupBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
+        Me.BackupBtn.Location = New System.Drawing.Point(23, 460)
+        Me.BackupBtn.Name = "BackupBtn"
+        Me.BackupBtn.Size = New System.Drawing.Size(102, 33)
+        Me.BackupBtn.TabIndex = 95
+        Me.BackupBtn.Text = "Backup"
         '
         'MembersSubform
         '
@@ -1374,7 +1374,7 @@ Partial Class MembersSubform
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(750, 515)
-        Me.Controls.Add(Me.backupBtn)
+        Me.Controls.Add(Me.BackupBtn)
         Me.Controls.Add(Me.R10C7)
         Me.Controls.Add(Me.R9C7)
         Me.Controls.Add(Me.R8C7)
@@ -1570,5 +1570,5 @@ Partial Class MembersSubform
     Friend WithEvents NextPageBtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents PreviousPageBtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents backupBtn As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents BackupBtn As Guna.UI2.WinForms.Guna2Button
 End Class
