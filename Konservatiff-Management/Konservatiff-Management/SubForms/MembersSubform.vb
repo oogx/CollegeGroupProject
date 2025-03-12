@@ -145,8 +145,12 @@ Public Class MembersSubform
 
         Book.SaveAs(CurDir() + "\BackupDatabase")
         Excel.Quit
+<<<<<<< Updated upstream
         MsgBox("Backup has been saved in the current directory.")
 
+=======
+        MsgBox("backup has been saved in the current directory.")
+>>>>>>> Stashed changes
     End Sub
 
 End Class
