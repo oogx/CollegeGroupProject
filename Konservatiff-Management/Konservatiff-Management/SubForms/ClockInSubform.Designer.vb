@@ -23,53 +23,53 @@ Partial Class ClockInSubform
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
+        Me.ClockOutBtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.ClockInBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.lblSignInDot = New System.Windows.Forms.Label()
         Me.lblSignIn = New System.Windows.Forms.Label()
         Me.lblClock = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
-        'Guna2Button1
+        'ClockOutBtn
         '
-        Me.Guna2Button1.Animated = True
-        Me.Guna2Button1.AutoRoundedCorners = True
-        Me.Guna2Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button1.BorderRadius = 21
-        Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button1.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Guna2Button1.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
-        Me.Guna2Button1.Location = New System.Drawing.Point(395, 302)
-        Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.PressedColor = System.Drawing.Color.SlateBlue
-        Me.Guna2Button1.Size = New System.Drawing.Size(180, 45)
-        Me.Guna2Button1.TabIndex = 28
-        Me.Guna2Button1.Text = "Clock Out"
+        Me.ClockOutBtn.Animated = True
+        Me.ClockOutBtn.AutoRoundedCorners = True
+        Me.ClockOutBtn.BackColor = System.Drawing.Color.Transparent
+        Me.ClockOutBtn.BorderRadius = 21
+        Me.ClockOutBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.ClockOutBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.ClockOutBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.ClockOutBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.ClockOutBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.ClockOutBtn.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ClockOutBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
+        Me.ClockOutBtn.Location = New System.Drawing.Point(395, 302)
+        Me.ClockOutBtn.Name = "ClockOutBtn"
+        Me.ClockOutBtn.PressedColor = System.Drawing.Color.SlateBlue
+        Me.ClockOutBtn.Size = New System.Drawing.Size(180, 45)
+        Me.ClockOutBtn.TabIndex = 28
+        Me.ClockOutBtn.Text = "Clock Out"
         '
-        'Guna2Button2
+        'ClockInBtn
         '
-        Me.Guna2Button2.Animated = True
-        Me.Guna2Button2.AutoRoundedCorners = True
-        Me.Guna2Button2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button2.BorderRadius = 21
-        Me.Guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button2.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Guna2Button2.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
-        Me.Guna2Button2.Location = New System.Drawing.Point(166, 302)
-        Me.Guna2Button2.Name = "Guna2Button2"
-        Me.Guna2Button2.PressedColor = System.Drawing.Color.SlateBlue
-        Me.Guna2Button2.Size = New System.Drawing.Size(180, 45)
-        Me.Guna2Button2.TabIndex = 27
-        Me.Guna2Button2.Text = "Clock In"
+        Me.ClockInBtn.Animated = True
+        Me.ClockInBtn.AutoRoundedCorners = True
+        Me.ClockInBtn.BackColor = System.Drawing.Color.Transparent
+        Me.ClockInBtn.BorderRadius = 21
+        Me.ClockInBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.ClockInBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.ClockInBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.ClockInBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.ClockInBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.ClockInBtn.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ClockInBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
+        Me.ClockInBtn.Location = New System.Drawing.Point(166, 302)
+        Me.ClockInBtn.Name = "ClockInBtn"
+        Me.ClockInBtn.PressedColor = System.Drawing.Color.SlateBlue
+        Me.ClockInBtn.Size = New System.Drawing.Size(180, 45)
+        Me.ClockInBtn.TabIndex = 27
+        Me.ClockInBtn.Text = "Clock In"
         '
         'lblSignInDot
         '
@@ -116,8 +116,8 @@ Partial Class ClockInSubform
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(750, 515)
-        Me.Controls.Add(Me.Guna2Button1)
-        Me.Controls.Add(Me.Guna2Button2)
+        Me.Controls.Add(Me.ClockOutBtn)
+        Me.Controls.Add(Me.ClockInBtn)
         Me.Controls.Add(Me.lblSignInDot)
         Me.Controls.Add(Me.lblSignIn)
         Me.Controls.Add(Me.lblClock)
@@ -128,8 +128,8 @@ Partial Class ClockInSubform
 
     End Sub
 
-    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents ClockOutBtn As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents ClockInBtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents lblSignInDot As Label
     Friend WithEvents lblSignIn As Label
     Friend WithEvents lblClock As Label
