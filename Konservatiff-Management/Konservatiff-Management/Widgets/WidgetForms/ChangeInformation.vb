@@ -15,4 +15,7 @@
         OpenChildForm(New MembersSubform) ' This changes the page back to the members subform.
     End Sub
 
+    Private Sub ChangeInformation_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

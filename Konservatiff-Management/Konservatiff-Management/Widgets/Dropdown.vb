@@ -27,10 +27,16 @@
             MsgBox("Operation cancelled!")
             Exit Sub
         ElseIf DialogResult.Yes Then
-            DataSet.Tables("Members").Rows(CurrentMemberID).Delete()
-            CurrentMemberID = 0
+            Dim CommandBuilder As New OleDb.OleDbCommandBuilder(DataAdapt)
+            CommandBuilder.QuotePrefix = "["
+            CommandBuilder.QuoteSuffix = "]"
+
+            DataSet.Tables("Members").Rows(CurrentMemberID - 1).Delete()
             DataAdapt.Update(DataSet, "Members")
-            'OpenChildForm(MembersSubform)
+
+            CurrentMemberID = 0
+            MsgBox("Deleted the selected member.")
+            OpenChildForm(MembersSubform)
         End If
     End Sub
 
@@ -41,4 +47,5 @@
     Private Sub PDFPayslipBtn_Click(sender As Object, e As EventArgs) Handles PDFPayslipBtn.Click
         OpenChildForm(New ViewPayslip)
     End Sub
+
 End Class
