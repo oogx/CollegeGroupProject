@@ -88,7 +88,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApplicationEvents.vb" />
     <Compile Include="frmSignInPage.Designer.vb">
       <DependentUpon>frmSignInPage.vb</DependentUpon>
     </Compile>
