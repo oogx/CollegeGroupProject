@@ -39,25 +39,23 @@ Partial Class PayslipSubform
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label23 = New System.Windows.Forms.Label()
-        Me.Label24 = New System.Windows.Forms.Label()
-        Me.Label25 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
+        Me.lblEmployeeName = New System.Windows.Forms.Label()
+        Me.lblEmployeeNumber = New System.Windows.Forms.Label()
+        Me.lblHoursW = New System.Windows.Forms.Label()
+        Me.lblPayRate = New System.Windows.Forms.Label()
+        Me.lblValue = New System.Windows.Forms.Label()
+        Me.lblNatIns = New System.Windows.Forms.Label()
+        Me.lblTax = New System.Windows.Forms.Label()
+        Me.lblPayToDateH = New System.Windows.Forms.Label()
+        Me.lblPayToDate = New System.Windows.Forms.Label()
+        Me.lblTotal = New System.Windows.Forms.Label()
+        Me.lblTotalNetPay = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -243,30 +241,9 @@ Partial Class PayslipSubform
         Me.Label17.ForeColor = System.Drawing.SystemColors.HighlightText
         Me.Label17.Location = New System.Drawing.Point(527, 412)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(68, 19)
+        Me.Label17.Size = New System.Drawing.Size(108, 19)
         Me.Label17.TabIndex = 16
-        Me.Label17.Text = "Net Pay"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(45, 241)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 17
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(316, 242)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 18
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(531, 434)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 19
+        Me.Label17.Text = "Total Net Pay"
         '
         'Label18
         '
@@ -334,83 +311,116 @@ Partial Class PayslipSubform
         Me.Label23.TabIndex = 25
         Me.Label23.Text = "Tax"
         '
-        'Label24
+        'lblEmployeeName
         '
-        Me.Label24.AutoSize = True
-        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Label24.Location = New System.Drawing.Point(528, 321)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(59, 18)
-        Me.Label24.TabIndex = 26
-        Me.Label24.Text = "Taxable"
+        Me.lblEmployeeName.AutoSize = True
+        Me.lblEmployeeName.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.lblEmployeeName.Location = New System.Drawing.Point(51, 243)
+        Me.lblEmployeeName.Name = "lblEmployeeName"
+        Me.lblEmployeeName.Size = New System.Drawing.Size(84, 13)
+        Me.lblEmployeeName.TabIndex = 28
+        Me.lblEmployeeName.Text = "Employee Name"
         '
-        'Label25
+        'lblEmployeeNumber
         '
-        Me.Label25.AutoSize = True
-        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Label25.Location = New System.Drawing.Point(528, 344)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(54, 18)
-        Me.Label25.TabIndex = 27
-        Me.Label25.Text = "Nat Ins"
+        Me.lblEmployeeNumber.AutoSize = True
+        Me.lblEmployeeNumber.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.lblEmployeeNumber.Location = New System.Drawing.Point(314, 245)
+        Me.lblEmployeeNumber.Name = "lblEmployeeNumber"
+        Me.lblEmployeeNumber.Size = New System.Drawing.Size(93, 13)
+        Me.lblEmployeeNumber.TabIndex = 29
+        Me.lblEmployeeNumber.Text = "Employee Number"
         '
-        'TextBox4
+        'lblHoursW
         '
-        Me.TextBox4.Location = New System.Drawing.Point(88, 435)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox4.TabIndex = 28
+        Me.lblHoursW.AutoSize = True
+        Me.lblHoursW.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.lblHoursW.Location = New System.Drawing.Point(42, 352)
+        Me.lblHoursW.Name = "lblHoursW"
+        Me.lblHoursW.Size = New System.Drawing.Size(46, 13)
+        Me.lblHoursW.TabIndex = 30
+        Me.lblHoursW.Text = "HoursW"
         '
-        'TextBox5
+        'lblPayRate
         '
-        Me.TextBox5.Location = New System.Drawing.Point(44, 342)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(38, 20)
-        Me.TextBox5.TabIndex = 29
+        Me.lblPayRate.AutoSize = True
+        Me.lblPayRate.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.lblPayRate.Location = New System.Drawing.Point(94, 352)
+        Me.lblPayRate.Name = "lblPayRate"
+        Me.lblPayRate.Size = New System.Drawing.Size(48, 13)
+        Me.lblPayRate.TabIndex = 31
+        Me.lblPayRate.Text = "PayRate"
         '
-        'TextBox6
+        'lblValue
         '
-        Me.TextBox6.Location = New System.Drawing.Point(98, 342)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(38, 20)
-        Me.TextBox6.TabIndex = 30
+        Me.lblValue.AutoSize = True
+        Me.lblValue.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.lblValue.Location = New System.Drawing.Point(148, 352)
+        Me.lblValue.Name = "lblValue"
+        Me.lblValue.Size = New System.Drawing.Size(34, 13)
+        Me.lblValue.TabIndex = 32
+        Me.lblValue.Text = "Value"
         '
-        'TextBox7
+        'lblNatIns
         '
-        Me.TextBox7.Location = New System.Drawing.Point(152, 342)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(38, 20)
-        Me.TextBox7.TabIndex = 31
+        Me.lblNatIns.AutoSize = True
+        Me.lblNatIns.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.lblNatIns.Location = New System.Drawing.Point(385, 328)
+        Me.lblNatIns.Name = "lblNatIns"
+        Me.lblNatIns.Size = New System.Drawing.Size(41, 13)
+        Me.lblNatIns.TabIndex = 33
+        Me.lblNatIns.Text = "Nat Ins"
         '
-        'TextBox8
+        'lblTax
         '
-        Me.TextBox8.Location = New System.Drawing.Point(373, 321)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(38, 20)
-        Me.TextBox8.TabIndex = 32
+        Me.lblTax.AutoSize = True
+        Me.lblTax.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.lblTax.Location = New System.Drawing.Point(382, 354)
+        Me.lblTax.Name = "lblTax"
+        Me.lblTax.Size = New System.Drawing.Size(25, 13)
+        Me.lblTax.TabIndex = 34
+        Me.lblTax.Text = "Tax"
         '
-        'TextBox9
+        'lblPayToDateH
         '
-        Me.TextBox9.Location = New System.Drawing.Point(373, 345)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(38, 20)
-        Me.TextBox9.TabIndex = 33
+        Me.lblPayToDateH.AutoSize = True
+        Me.lblPayToDateH.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!)
+        Me.lblPayToDateH.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.lblPayToDateH.Location = New System.Drawing.Point(528, 324)
+        Me.lblPayToDateH.Name = "lblPayToDateH"
+        Me.lblPayToDateH.Size = New System.Drawing.Size(90, 18)
+        Me.lblPayToDateH.TabIndex = 35
+        Me.lblPayToDateH.Text = "Pay To Date"
         '
-        'TextBox10
+        'lblPayToDate
         '
-        Me.TextBox10.Location = New System.Drawing.Point(593, 322)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(38, 20)
-        Me.TextBox10.TabIndex = 34
+        Me.lblPayToDate.AutoSize = True
+        Me.lblPayToDate.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.lblPayToDate.Location = New System.Drawing.Point(624, 329)
+        Me.lblPayToDate.Name = "lblPayToDate"
+        Me.lblPayToDate.Size = New System.Drawing.Size(67, 13)
+        Me.lblPayToDate.TabIndex = 36
+        Me.lblPayToDate.Text = "Pay To Date"
         '
-        'TextBox11
+        'lblTotal
         '
-        Me.TextBox11.Location = New System.Drawing.Point(593, 348)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(38, 20)
-        Me.TextBox11.TabIndex = 35
+        Me.lblTotal.AutoSize = True
+        Me.lblTotal.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.lblTotal.Location = New System.Drawing.Point(88, 438)
+        Me.lblTotal.Name = "lblTotal"
+        Me.lblTotal.Size = New System.Drawing.Size(31, 13)
+        Me.lblTotal.TabIndex = 37
+        Me.lblTotal.Text = "Total"
+        '
+        'lblTotalNetPay
+        '
+        Me.lblTotalNetPay.AutoSize = True
+        Me.lblTotalNetPay.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.lblTotalNetPay.Location = New System.Drawing.Point(566, 439)
+        Me.lblTotalNetPay.Name = "lblTotalNetPay"
+        Me.lblTotalNetPay.Size = New System.Drawing.Size(72, 13)
+        Me.lblTotalNetPay.TabIndex = 38
+        Me.lblTotalNetPay.Text = "Total Net Pay"
         '
         'PayslipSubform
         '
@@ -418,25 +428,23 @@ Partial Class PayslipSubform
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(750, 515)
-        Me.Controls.Add(Me.TextBox11)
-        Me.Controls.Add(Me.TextBox10)
-        Me.Controls.Add(Me.TextBox9)
-        Me.Controls.Add(Me.TextBox8)
-        Me.Controls.Add(Me.TextBox7)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.Label25)
-        Me.Controls.Add(Me.Label24)
+        Me.Controls.Add(Me.lblTotalNetPay)
+        Me.Controls.Add(Me.lblTotal)
+        Me.Controls.Add(Me.lblPayToDate)
+        Me.Controls.Add(Me.lblPayToDateH)
+        Me.Controls.Add(Me.lblTax)
+        Me.Controls.Add(Me.lblNatIns)
+        Me.Controls.Add(Me.lblValue)
+        Me.Controls.Add(Me.lblPayRate)
+        Me.Controls.Add(Me.lblHoursW)
+        Me.Controls.Add(Me.lblEmployeeNumber)
+        Me.Controls.Add(Me.lblEmployeeName)
         Me.Controls.Add(Me.Label23)
         Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.Label21)
         Me.Controls.Add(Me.Label20)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.Label18)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.Label16)
         Me.Controls.Add(Me.Label15)
@@ -478,23 +486,21 @@ Partial Class PayslipSubform
     Friend WithEvents Label15 As Label
     Friend WithEvents Label16 As Label
     Friend WithEvents Label17 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
     Friend WithEvents Label18 As Label
     Friend WithEvents Label19 As Label
     Friend WithEvents Label20 As Label
     Friend WithEvents Label21 As Label
     Friend WithEvents Label22 As Label
     Friend WithEvents Label23 As Label
-    Friend WithEvents Label24 As Label
-    Friend WithEvents Label25 As Label
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents lblEmployeeName As Label
+    Friend WithEvents lblEmployeeNumber As Label
+    Friend WithEvents lblHoursW As Label
+    Friend WithEvents lblPayRate As Label
+    Friend WithEvents lblValue As Label
+    Friend WithEvents lblNatIns As Label
+    Friend WithEvents lblTax As Label
+    Friend WithEvents lblPayToDateH As Label
+    Friend WithEvents lblPayToDate As Label
+    Friend WithEvents lblTotal As Label
+    Friend WithEvents lblTotalNetPay As Label
 End Class

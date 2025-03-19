@@ -25,7 +25,6 @@ Partial Class Dropdown
         Me.ChangeInformationBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.ViewShiftsBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.DeleteMemberBtn = New Guna.UI2.WinForms.Guna2Button()
-        Me.EmailPayslipBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.PDFPayslipBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.CloseDropdownBtn = New Guna.UI2.WinForms.Guna2Button()
         Me.SuspendLayout()
@@ -87,25 +86,6 @@ Partial Class Dropdown
         Me.DeleteMemberBtn.TabIndex = 30
         Me.DeleteMemberBtn.Text = "Delete Member"
         '
-        'EmailPayslipBtn
-        '
-        Me.EmailPayslipBtn.Animated = True
-        Me.EmailPayslipBtn.AutoRoundedCorners = True
-        Me.EmailPayslipBtn.BackColor = System.Drawing.Color.Transparent
-        Me.EmailPayslipBtn.BorderRadius = 21
-        Me.EmailPayslipBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.EmailPayslipBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.EmailPayslipBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.EmailPayslipBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.EmailPayslipBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.EmailPayslipBtn.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.EmailPayslipBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
-        Me.EmailPayslipBtn.Location = New System.Drawing.Point(2, 208)
-        Me.EmailPayslipBtn.Name = "EmailPayslipBtn"
-        Me.EmailPayslipBtn.Size = New System.Drawing.Size(180, 45)
-        Me.EmailPayslipBtn.TabIndex = 31
-        Me.EmailPayslipBtn.Text = "Email Payslip"
-        '
         'PDFPayslipBtn
         '
         Me.PDFPayslipBtn.Animated = True
@@ -123,7 +103,7 @@ Partial Class Dropdown
         Me.PDFPayslipBtn.Name = "PDFPayslipBtn"
         Me.PDFPayslipBtn.Size = New System.Drawing.Size(180, 45)
         Me.PDFPayslipBtn.TabIndex = 32
-        Me.PDFPayslipBtn.Text = "View PDF Payslip"
+        Me.PDFPayslipBtn.Text = "View Payslip"
         '
         'CloseDropdownBtn
         '
@@ -153,7 +133,6 @@ Partial Class Dropdown
         Me.ControlBox = False
         Me.Controls.Add(Me.CloseDropdownBtn)
         Me.Controls.Add(Me.PDFPayslipBtn)
-        Me.Controls.Add(Me.EmailPayslipBtn)
         Me.Controls.Add(Me.DeleteMemberBtn)
         Me.Controls.Add(Me.ViewShiftsBtn)
         Me.Controls.Add(Me.ChangeInformationBtn)
@@ -170,7 +149,6 @@ Partial Class Dropdown
     Friend WithEvents ChangeInformationBtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents ViewShiftsBtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents DeleteMemberBtn As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents EmailPayslipBtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents PDFPayslipBtn As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents CloseDropdownBtn As Guna.UI2.WinForms.Guna2Button
 End Class

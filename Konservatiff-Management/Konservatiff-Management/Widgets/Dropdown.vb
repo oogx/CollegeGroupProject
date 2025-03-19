@@ -40,10 +40,6 @@
         End If
     End Sub
 
-    Private Sub EmailPayslipBtn_Click(sender As Object, e As EventArgs) Handles EmailPayslipBtn.Click
-        OpenChildForm(New EmailPayslip)
-    End Sub
-
     Private Sub PDFPayslipBtn_Click(sender As Object, e As EventArgs) Handles PDFPayslipBtn.Click
         OpenChildForm(New ViewPayslip)
     End Sub

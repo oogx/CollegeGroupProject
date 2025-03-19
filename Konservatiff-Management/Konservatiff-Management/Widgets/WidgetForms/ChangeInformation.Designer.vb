@@ -112,6 +112,7 @@ Partial Class ChangeInformation
         Me.LblStaffName.Size = New System.Drawing.Size(213, 44)
         Me.LblStaffName.TabIndex = 30
         Me.LblStaffName.Text = "Staff Name"
+        Me.LblStaffName.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'fNameTxtBx
         '
@@ -388,7 +389,7 @@ Partial Class ChangeInformation
         Me.textSizeCbo.Font = New System.Drawing.Font("Segoe UI", 10.0!)
         Me.textSizeCbo.ForeColor = System.Drawing.Color.White
         Me.textSizeCbo.ItemHeight = 30
-        Me.textSizeCbo.Items.AddRange(New Object() {"25%", "50%", "75%", "100%", "150%", "200%", "500%"})
+        Me.textSizeCbo.Items.AddRange(New Object() {"25", "50", "75", "100", "150", "200", "500"})
         Me.textSizeCbo.Location = New System.Drawing.Point(455, 143)
         Me.textSizeCbo.Name = "textSizeCbo"
         Me.textSizeCbo.Size = New System.Drawing.Size(184, 36)

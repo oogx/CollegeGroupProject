@@ -29,6 +29,7 @@ Partial Class ClockInSubform
         Me.lblSignIn = New System.Windows.Forms.Label()
         Me.lblClock = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.LblShiftIndicator = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'ClockOutBtn
@@ -110,12 +111,25 @@ Partial Class ClockInSubform
         'Timer1
         '
         '
+        'LblShiftIndicator
+        '
+        Me.LblShiftIndicator.AutoSize = True
+        Me.LblShiftIndicator.BackColor = System.Drawing.Color.Transparent
+        Me.LblShiftIndicator.Font = New System.Drawing.Font("Century Gothic", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblShiftIndicator.ForeColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(139, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.LblShiftIndicator.Location = New System.Drawing.Point(255, 248)
+        Me.LblShiftIndicator.Name = "LblShiftIndicator"
+        Me.LblShiftIndicator.Size = New System.Drawing.Size(228, 21)
+        Me.LblShiftIndicator.TabIndex = 29
+        Me.LblShiftIndicator.Text = "You are currently clocked in"
+        '
         'ClockInSubform
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(750, 515)
+        Me.Controls.Add(Me.LblShiftIndicator)
         Me.Controls.Add(Me.ClockOutBtn)
         Me.Controls.Add(Me.ClockInBtn)
         Me.Controls.Add(Me.lblSignInDot)
@@ -134,4 +148,5 @@ Partial Class ClockInSubform
     Friend WithEvents lblSignIn As Label
     Friend WithEvents lblClock As Label
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents LblShiftIndicator As Label
 End Class
