@@ -17,11 +17,12 @@ Public Class ClockInSubform
 
 
         If Reader.HasRows Then 'If the user has clocked in - should be able to clock out.
-            Connection.Close()
             LblShiftIndicator.Text = "You are currently clocked in"
+            Connection.Close()
             Exit Sub
         Else 'If the user has not clocked in - should be not be able to clock out.
             LblShiftIndicator.Text = ""
+            Connection.Close()
             Exit Sub
         End If
     End Sub

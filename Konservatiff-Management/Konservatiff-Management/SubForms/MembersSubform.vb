@@ -43,6 +43,7 @@ Public Class MembersSubform
     End Sub
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Connection.Close()
         Connection.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=database.accdb"
         Connection.Open()
 
