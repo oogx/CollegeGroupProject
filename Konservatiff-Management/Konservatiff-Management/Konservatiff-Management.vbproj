@@ -215,6 +215,12 @@
     <EmbeddedResource Include="Widgets\WidgetForms\ChangeInformation.resx">
       <DependentUpon>ChangeInformation.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\WidgetForms\ViewPayslip.resx">
+      <DependentUpon>ViewPayslip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widgets\WidgetForms\ViewShifts.resx">
+      <DependentUpon>ViewShifts.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\Application.myapp">
