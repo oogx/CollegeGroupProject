@@ -47,3 +47,4 @@ C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konse
 C:\Users\Q1044\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\obj\Debug\Konservatiff_Management.Dropdown.resources
 C:\Users\Q1044\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\obj\Debug\Konservatiff_Management.ChangeInformation.resources
 C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\obj\Debug\Konservatiff_Management.ViewPayslip.resources
+C:\Users\q2656\OneDrive - St John Rigby College\GitHub\CollegeGroupProject\Konservatiff-Management\Konservatiff-Management\obj\Debug\Konservatiff_Management.ViewShifts.resources
