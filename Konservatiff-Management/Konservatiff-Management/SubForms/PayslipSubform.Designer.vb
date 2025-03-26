@@ -208,11 +208,12 @@ Partial Class PayslipSubform
         '
         Me.lblEmployeeName.AutoSize = True
         Me.lblEmployeeName.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.lblEmployeeName.Location = New System.Drawing.Point(51, 243)
+        Me.lblEmployeeName.Location = New System.Drawing.Point(69, 242)
         Me.lblEmployeeName.Name = "lblEmployeeName"
         Me.lblEmployeeName.Size = New System.Drawing.Size(84, 13)
         Me.lblEmployeeName.TabIndex = 28
         Me.lblEmployeeName.Text = "Employee Name"
+        Me.lblEmployeeName.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'lblEmployeeNumber
         '

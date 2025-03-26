@@ -60,18 +60,12 @@ Partial Class ViewShifts
         Me.TextBox12 = New System.Windows.Forms.TextBox()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.lblTotalHours = New System.Windows.Forms.Label()
-        Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.TextBox13 = New System.Windows.Forms.TextBox()
         Me.TextBox14 = New System.Windows.Forms.TextBox()
         Me.Label21 = New System.Windows.Forms.Label()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.Label23 = New System.Windows.Forms.Label()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
-        Me.Label24 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
@@ -80,12 +74,12 @@ Partial Class ViewShifts
         Me.LblStaffName.AutoSize = True
         Me.LblStaffName.Font = New System.Drawing.Font("Century Gothic", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LblStaffName.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.LblStaffName.Location = New System.Drawing.Point(85, 11)
+        Me.LblStaffName.Location = New System.Drawing.Point(127, 19)
         Me.LblStaffName.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblStaffName.Name = "LblStaffName"
-        Me.LblStaffName.Size = New System.Drawing.Size(569, 44)
+        Me.LblStaffName.Size = New System.Drawing.Size(503, 44)
         Me.LblStaffName.TabIndex = 31
-        Me.LblStaffName.Text = "Staff Name - Shifts in this Period"
+        Me.LblStaffName.Text = "Staff Name - Last week shift"
         '
         'Label2
         '
@@ -463,17 +457,6 @@ Partial Class ViewShifts
         Me.lblTotalHours.TabIndex = 68
         Me.lblTotalHours.Text = "Total Hours: 72"
         '
-        'Button7
-        '
-        Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button7.Location = New System.Drawing.Point(644, 374)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(75, 32)
-        Me.Button7.TabIndex = 80
-        Me.Button7.Text = "Save"
-        Me.Button7.UseVisualStyleBackColor = True
-        '
         'Button8
         '
         Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -535,56 +518,6 @@ Partial Class ViewShifts
         Me.Label21.TabIndex = 74
         Me.Label21.Text = "19/03/2025"
         '
-        'Label22
-        '
-        Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(544, 381)
-        Me.Label22.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(93, 18)
-        Me.Label22.TabIndex = 73
-        Me.Label22.Text = "Pay: £126.96"
-        '
-        'Label23
-        '
-        Me.Label23.AutoSize = True
-        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Label23.Location = New System.Drawing.Point(451, 381)
-        Me.Label23.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(85, 18)
-        Me.Label23.TabIndex = 72
-        Me.Label23.Text = "Hours: 9:00"
-        '
-        'TextBox15
-        '
-        Me.TextBox15.Location = New System.Drawing.Point(295, 378)
-        Me.TextBox15.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(148, 24)
-        Me.TextBox15.TabIndex = 71
-        '
-        'TextBox16
-        '
-        Me.TextBox16.Location = New System.Drawing.Point(135, 378)
-        Me.TextBox16.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(148, 24)
-        Me.TextBox16.TabIndex = 70
-        '
-        'Label24
-        '
-        Me.Label24.AutoSize = True
-        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.Label24.Location = New System.Drawing.Point(25, 381)
-        Me.Label24.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(90, 18)
-        Me.Label24.TabIndex = 69
-        Me.Label24.Text = "19/03/2025"
-        '
         'Label25
         '
         Me.Label25.AutoSize = True
@@ -602,18 +535,12 @@ Partial Class ViewShifts
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(750, 515)
         Me.Controls.Add(Me.Label25)
-        Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.Label20)
         Me.Controls.Add(Me.TextBox13)
         Me.Controls.Add(Me.TextBox14)
         Me.Controls.Add(Me.Label21)
-        Me.Controls.Add(Me.Label22)
-        Me.Controls.Add(Me.Label23)
-        Me.Controls.Add(Me.TextBox15)
-        Me.Controls.Add(Me.TextBox16)
-        Me.Controls.Add(Me.Label24)
         Me.Controls.Add(Me.lblTotalHours)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button5)
@@ -699,17 +626,11 @@ Partial Class ViewShifts
     Friend WithEvents TextBox12 As TextBox
     Friend WithEvents Label18 As Label
     Friend WithEvents lblTotalHours As Label
-    Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
     Friend WithEvents Label19 As Label
     Friend WithEvents Label20 As Label
     Friend WithEvents TextBox13 As TextBox
     Friend WithEvents TextBox14 As TextBox
     Friend WithEvents Label21 As Label
-    Friend WithEvents Label22 As Label
-    Friend WithEvents Label23 As Label
-    Friend WithEvents TextBox15 As TextBox
-    Friend WithEvents TextBox16 As TextBox
-    Friend WithEvents Label24 As Label
     Friend WithEvents Label25 As Label
 End Class

@@ -120,11 +120,12 @@ Partial Class ViewPayslip
         '
         Me.lblEmployeeName.AutoSize = True
         Me.lblEmployeeName.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.lblEmployeeName.Location = New System.Drawing.Point(46, 262)
+        Me.lblEmployeeName.Location = New System.Drawing.Point(53, 261)
         Me.lblEmployeeName.Name = "lblEmployeeName"
         Me.lblEmployeeName.Size = New System.Drawing.Size(84, 13)
         Me.lblEmployeeName.TabIndex = 58
         Me.lblEmployeeName.Text = "Employee Name"
+        Me.lblEmployeeName.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label21
         '

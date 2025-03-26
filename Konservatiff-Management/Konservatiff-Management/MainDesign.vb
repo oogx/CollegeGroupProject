@@ -74,7 +74,6 @@ Public Class MainDesign ' Declaring a public classed named MainDesign.
         frmSignInPage.Show() ' This loads the sign in page again.
         Me.Close() ' This hides the current form and subforms.
         Connection.Close() ' This closes the current connection but not the bridge to the database.
-        frmSignInPage.Show() ' This loads the sign in page again.
     End Sub ' End the sub
 
 End Class ' End the class.
