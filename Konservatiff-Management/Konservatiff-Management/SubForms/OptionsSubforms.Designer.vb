@@ -26,15 +26,10 @@ Partial Class OptionsSubforms
         Me.darkThemeCheckBx = New Guna.UI2.WinForms.Guna2CustomCheckBox()
         Me.lblSignInDot = New System.Windows.Forms.Label()
         Me.lblSignIn = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.highContrastCheckBx = New Guna.UI2.WinForms.Guna2CustomCheckBox()
         Me.Guna2Shapes2 = New Guna.UI2.WinForms.Guna2Shapes()
-        Me.Guna2Shapes3 = New Guna.UI2.WinForms.Guna2Shapes()
-        Me.setTextSizeTxtBx = New System.Windows.Forms.TextBox()
-        Me.Guna2Shapes4 = New Guna.UI2.WinForms.Guna2Shapes()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.setPassTxtBx = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
@@ -42,9 +37,16 @@ Partial Class OptionsSubforms
         Me.repeatSetPassTxtBx = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Guna2Shapes6 = New Guna.UI2.WinForms.Guna2Shapes()
-        Me.LogInBtn = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
+        Me.SetOptionsBtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.SavePassBtn = New Guna.UI2.WinForms.Guna2Button()
+        Me.textSizeCbo = New Guna.UI2.WinForms.Guna2ComboBox()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.Guna2Shapes8 = New Guna.UI2.WinForms.Guna2Shapes()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.ModifiedLabel1 = New System.Windows.Forms.Label()
+        Me.ModifiedLabel2 = New System.Windows.Forms.Label()
+        Me.ModifiedLabel3 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Guna2Shapes1
@@ -104,18 +106,6 @@ Partial Class OptionsSubforms
         Me.lblSignIn.TabIndex = 61
         Me.lblSignIn.Text = "User"
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(97, 102)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(148, 28)
-        Me.Label1.TabIndex = 63
-        Me.Label1.Text = "Preferences"
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
@@ -134,23 +124,11 @@ Partial Class OptionsSubforms
         Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(80, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(108, Byte), Integer))
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(83, 252)
+        Me.Label3.Location = New System.Drawing.Point(83, 226)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(137, 23)
         Me.Label3.TabIndex = 68
         Me.Label3.Text = "High-Contrast"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Century Gothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(86, 205)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(168, 28)
-        Me.Label4.TabIndex = 67
-        Me.Label4.Text = "Accessability"
         '
         'highContrastCheckBx
         '
@@ -160,7 +138,7 @@ Partial Class OptionsSubforms
         Me.highContrastCheckBx.CheckedState.BorderRadius = 2
         Me.highContrastCheckBx.CheckedState.BorderThickness = 0
         Me.highContrastCheckBx.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.highContrastCheckBx.Location = New System.Drawing.Point(241, 255)
+        Me.highContrastCheckBx.Location = New System.Drawing.Point(241, 229)
         Me.highContrastCheckBx.Name = "highContrastCheckBx"
         Me.highContrastCheckBx.Size = New System.Drawing.Size(20, 20)
         Me.highContrastCheckBx.TabIndex = 66
@@ -174,7 +152,7 @@ Partial Class OptionsSubforms
         '
         Me.Guna2Shapes2.BorderColor = System.Drawing.Color.Transparent
         Me.Guna2Shapes2.FillColor = System.Drawing.Color.FromArgb(CType(CType(80, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(108, Byte), Integer))
-        Me.Guna2Shapes2.Location = New System.Drawing.Point(32, 232)
+        Me.Guna2Shapes2.Location = New System.Drawing.Point(32, 206)
         Me.Guna2Shapes2.Name = "Guna2Shapes2"
         Me.Guna2Shapes2.PolygonSkip = 1
         Me.Guna2Shapes2.Rotate = 0!
@@ -183,49 +161,6 @@ Partial Class OptionsSubforms
         Me.Guna2Shapes2.TabIndex = 65
         Me.Guna2Shapes2.Text = "Guna2Shapes2"
         Me.Guna2Shapes2.Zoom = 80
-        '
-        'Guna2Shapes3
-        '
-        Me.Guna2Shapes3.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2Shapes3.FillColor = System.Drawing.Color.FromArgb(CType(CType(80, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(108, Byte), Integer))
-        Me.Guna2Shapes3.Location = New System.Drawing.Point(32, 293)
-        Me.Guna2Shapes3.Name = "Guna2Shapes3"
-        Me.Guna2Shapes3.PolygonSkip = 1
-        Me.Guna2Shapes3.Rotate = 0!
-        Me.Guna2Shapes3.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rounded
-        Me.Guna2Shapes3.Size = New System.Drawing.Size(283, 65)
-        Me.Guna2Shapes3.TabIndex = 69
-        Me.Guna2Shapes3.Text = "Guna2Shapes3"
-        Me.Guna2Shapes3.Zoom = 80
-        '
-        'setTextSizeTxtBx
-        '
-        Me.setTextSizeTxtBx.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.setTextSizeTxtBx.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.setTextSizeTxtBx.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.setTextSizeTxtBx.ForeColor = System.Drawing.Color.White
-        Me.setTextSizeTxtBx.Location = New System.Drawing.Point(177, 312)
-        Me.setTextSizeTxtBx.Name = "setTextSizeTxtBx"
-        Me.setTextSizeTxtBx.Size = New System.Drawing.Size(77, 26)
-        Me.setTextSizeTxtBx.TabIndex = 73
-        Me.setTextSizeTxtBx.Text = "100"
-        Me.setTextSizeTxtBx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Guna2Shapes4
-        '
-        Me.Guna2Shapes4.BackColor = System.Drawing.Color.FromArgb(CType(CType(80, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(108, Byte), Integer))
-        Me.Guna2Shapes4.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2Shapes4.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Guna2Shapes4.Location = New System.Drawing.Point(156, 303)
-        Me.Guna2Shapes4.Name = "Guna2Shapes4"
-        Me.Guna2Shapes4.PolygonSkip = 1
-        Me.Guna2Shapes4.Rotate = 0!
-        Me.Guna2Shapes4.RoundedRadius = 15
-        Me.Guna2Shapes4.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rounded
-        Me.Guna2Shapes4.Size = New System.Drawing.Size(118, 45)
-        Me.Guna2Shapes4.TabIndex = 72
-        Me.Guna2Shapes4.Text = "Guna2Shapes4"
-        Me.Guna2Shapes4.Zoom = 80
         '
         'Label6
         '
@@ -317,55 +252,149 @@ Partial Class OptionsSubforms
         Me.Guna2Shapes6.Text = "Guna2Shapes6"
         Me.Guna2Shapes6.Zoom = 80
         '
-        'LogInBtn
+        'SetOptionsBtn
         '
-        Me.LogInBtn.Animated = True
-        Me.LogInBtn.AutoRoundedCorners = True
-        Me.LogInBtn.BackColor = System.Drawing.Color.Transparent
-        Me.LogInBtn.BorderRadius = 21
-        Me.LogInBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.LogInBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.LogInBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.LogInBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.LogInBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.LogInBtn.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LogInBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
-        Me.LogInBtn.Location = New System.Drawing.Point(81, 366)
-        Me.LogInBtn.Name = "LogInBtn"
-        Me.LogInBtn.Size = New System.Drawing.Size(180, 45)
-        Me.LogInBtn.TabIndex = 81
-        Me.LogInBtn.Text = "Set Options"
+        Me.SetOptionsBtn.Animated = True
+        Me.SetOptionsBtn.AutoRoundedCorners = True
+        Me.SetOptionsBtn.BackColor = System.Drawing.Color.Transparent
+        Me.SetOptionsBtn.BorderRadius = 21
+        Me.SetOptionsBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.SetOptionsBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.SetOptionsBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.SetOptionsBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.SetOptionsBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.SetOptionsBtn.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SetOptionsBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
+        Me.SetOptionsBtn.Location = New System.Drawing.Point(81, 349)
+        Me.SetOptionsBtn.Name = "SetOptionsBtn"
+        Me.SetOptionsBtn.Size = New System.Drawing.Size(180, 45)
+        Me.SetOptionsBtn.TabIndex = 81
+        Me.SetOptionsBtn.Text = "Set Options"
         '
-        'Guna2Button1
+        'SavePassBtn
         '
-        Me.Guna2Button1.Animated = True
-        Me.Guna2Button1.AutoRoundedCorners = True
-        Me.Guna2Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Button1.BorderRadius = 21
-        Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button1.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
-        Me.Guna2Button1.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
-        Me.Guna2Button1.Location = New System.Drawing.Point(418, 258)
-        Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.Size = New System.Drawing.Size(180, 45)
-        Me.Guna2Button1.TabIndex = 82
-        Me.Guna2Button1.Text = "Save Password"
+        Me.SavePassBtn.Animated = True
+        Me.SavePassBtn.AutoRoundedCorners = True
+        Me.SavePassBtn.BackColor = System.Drawing.Color.Transparent
+        Me.SavePassBtn.BorderRadius = 21
+        Me.SavePassBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.SavePassBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.SavePassBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.SavePassBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.SavePassBtn.FillColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(68, Byte), Integer))
+        Me.SavePassBtn.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SavePassBtn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
+        Me.SavePassBtn.Location = New System.Drawing.Point(418, 258)
+        Me.SavePassBtn.Name = "SavePassBtn"
+        Me.SavePassBtn.Size = New System.Drawing.Size(180, 45)
+        Me.SavePassBtn.TabIndex = 82
+        Me.SavePassBtn.Text = "Save Password"
+        '
+        'textSizeCbo
+        '
+        Me.textSizeCbo.BackColor = System.Drawing.Color.Transparent
+        Me.textSizeCbo.BorderColor = System.Drawing.Color.White
+        Me.textSizeCbo.BorderThickness = 0
+        Me.textSizeCbo.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.textSizeCbo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.textSizeCbo.FillColor = System.Drawing.Color.FromArgb(CType(CType(80, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(108, Byte), Integer))
+        Me.textSizeCbo.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.textSizeCbo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.textSizeCbo.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.textSizeCbo.ForeColor = System.Drawing.Color.White
+        Me.textSizeCbo.ItemHeight = 30
+        Me.textSizeCbo.Items.AddRange(New Object() {"25", "50", "75", "100", "150", "200", "400", "500"})
+        Me.textSizeCbo.Location = New System.Drawing.Point(85, 293)
+        Me.textSizeCbo.Name = "textSizeCbo"
+        Me.textSizeCbo.Size = New System.Drawing.Size(71, 36)
+        Me.textSizeCbo.TabIndex = 108
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.Color.FromArgb(CType(CType(80, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(108, Byte), Integer))
-        Me.Label5.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(74, 313)
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
+        Me.Label5.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
+        Me.Label5.Location = New System.Drawing.Point(61, 270)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(109, 23)
-        Me.Label5.TabIndex = 71
-        Me.Label5.Text = "Text Size %"
+        Me.Label5.Size = New System.Drawing.Size(72, 15)
+        Me.Label5.TabIndex = 106
+        Me.Label5.Text = "Text Size (%)"
+        '
+        'Guna2Shapes8
+        '
+        Me.Guna2Shapes8.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Shapes8.BorderColor = System.Drawing.Color.Transparent
+        Me.Guna2Shapes8.FillColor = System.Drawing.Color.FromArgb(CType(CType(80, Byte), Integer), CType(CType(86, Byte), Integer), CType(CType(108, Byte), Integer))
+        Me.Guna2Shapes8.Location = New System.Drawing.Point(48, 280)
+        Me.Guna2Shapes8.Name = "Guna2Shapes8"
+        Me.Guna2Shapes8.PolygonSkip = 1
+        Me.Guna2Shapes8.Rotate = 0!
+        Me.Guna2Shapes8.Shape = Guna.UI2.WinForms.Enums.ShapeType.Rounded
+        Me.Guna2Shapes8.Size = New System.Drawing.Size(143, 62)
+        Me.Guna2Shapes8.TabIndex = 107
+        Me.Guna2Shapes8.Text = "Guna2Shapes8"
+        Me.Guna2Shapes8.Zoom = 80
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
+        Me.Label4.Location = New System.Drawing.Point(61, 195)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(78, 15)
+        Me.Label4.TabIndex = 109
+        Me.Label4.Text = "Accessability"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer), CType(CType(213, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(61, 119)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(72, 15)
+        Me.Label1.TabIndex = 110
+        Me.Label1.Text = "Preferences"
+        '
+        'ModifiedLabel1
+        '
+        Me.ModifiedLabel1.AutoSize = True
+        Me.ModifiedLabel1.BackColor = System.Drawing.Color.Transparent
+        Me.ModifiedLabel1.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ModifiedLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.ModifiedLabel1.Location = New System.Drawing.Point(133, 119)
+        Me.ModifiedLabel1.Name = "ModifiedLabel1"
+        Me.ModifiedLabel1.Size = New System.Drawing.Size(54, 15)
+        Me.ModifiedLabel1.TabIndex = 112
+        Me.ModifiedLabel1.Text = "Modified"
+        '
+        'ModifiedLabel2
+        '
+        Me.ModifiedLabel2.AutoSize = True
+        Me.ModifiedLabel2.BackColor = System.Drawing.Color.Transparent
+        Me.ModifiedLabel2.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ModifiedLabel2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.ModifiedLabel2.Location = New System.Drawing.Point(140, 194)
+        Me.ModifiedLabel2.Name = "ModifiedLabel2"
+        Me.ModifiedLabel2.Size = New System.Drawing.Size(54, 15)
+        Me.ModifiedLabel2.TabIndex = 113
+        Me.ModifiedLabel2.Text = "Modified"
+        '
+        'ModifiedLabel3
+        '
+        Me.ModifiedLabel3.AutoSize = True
+        Me.ModifiedLabel3.BackColor = System.Drawing.Color.Transparent
+        Me.ModifiedLabel3.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ModifiedLabel3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.ModifiedLabel3.Location = New System.Drawing.Point(133, 270)
+        Me.ModifiedLabel3.Name = "ModifiedLabel3"
+        Me.ModifiedLabel3.Size = New System.Drawing.Size(54, 15)
+        Me.ModifiedLabel3.TabIndex = 114
+        Me.ModifiedLabel3.Text = "Modified"
         '
         'OptionsSubforms
         '
@@ -373,8 +402,16 @@ Partial Class OptionsSubforms
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(750, 515)
-        Me.Controls.Add(Me.Guna2Button1)
-        Me.Controls.Add(Me.LogInBtn)
+        Me.Controls.Add(Me.ModifiedLabel3)
+        Me.Controls.Add(Me.ModifiedLabel2)
+        Me.Controls.Add(Me.ModifiedLabel1)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.textSizeCbo)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Guna2Shapes8)
+        Me.Controls.Add(Me.SavePassBtn)
+        Me.Controls.Add(Me.SetOptionsBtn)
         Me.Controls.Add(Me.repeatSetPassTxtBx)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Guna2Shapes6)
@@ -382,20 +419,14 @@ Partial Class OptionsSubforms
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Guna2Shapes5)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.setTextSizeTxtBx)
-        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.highContrastCheckBx)
         Me.Controls.Add(Me.Guna2Shapes2)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lblSignInDot)
         Me.Controls.Add(Me.lblSignIn)
         Me.Controls.Add(Me.darkThemeCheckBx)
         Me.Controls.Add(Me.Guna2Shapes1)
-        Me.Controls.Add(Me.Guna2Shapes4)
-        Me.Controls.Add(Me.Guna2Shapes3)
         Me.Name = "OptionsSubforms"
         Me.Text = "Options"
         Me.ResumeLayout(False)
@@ -406,15 +437,10 @@ Partial Class OptionsSubforms
     Friend WithEvents darkThemeCheckBx As Guna.UI2.WinForms.Guna2CustomCheckBox
     Friend WithEvents lblSignInDot As Label
     Friend WithEvents lblSignIn As Label
-    Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
     Friend WithEvents highContrastCheckBx As Guna.UI2.WinForms.Guna2CustomCheckBox
     Friend WithEvents Guna2Shapes2 As Guna.UI2.WinForms.Guna2Shapes
-    Friend WithEvents Guna2Shapes3 As Guna.UI2.WinForms.Guna2Shapes
-    Friend WithEvents setTextSizeTxtBx As TextBox
-    Friend WithEvents Guna2Shapes4 As Guna.UI2.WinForms.Guna2Shapes
     Friend WithEvents Label6 As Label
     Friend WithEvents setPassTxtBx As TextBox
     Friend WithEvents Label7 As Label
@@ -422,7 +448,14 @@ Partial Class OptionsSubforms
     Friend WithEvents repeatSetPassTxtBx As TextBox
     Friend WithEvents Label8 As Label
     Friend WithEvents Guna2Shapes6 As Guna.UI2.WinForms.Guna2Shapes
-    Friend WithEvents LogInBtn As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents SetOptionsBtn As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents SavePassBtn As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents textSizeCbo As Guna.UI2.WinForms.Guna2ComboBox
     Friend WithEvents Label5 As Label
+    Friend WithEvents Guna2Shapes8 As Guna.UI2.WinForms.Guna2Shapes
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents ModifiedLabel1 As Label
+    Friend WithEvents ModifiedLabel2 As Label
+    Friend WithEvents ModifiedLabel3 As Label
 End Class
