@@ -1,7 +1,23 @@
 ﻿Imports System.Data.OleDb
 
 Public Class ViewShifts
+    Sub GetLastWeekDates()
+        Dim today As Date
+        Dim startOfWeek As Date
+        Dim i As Integer
+        Dim lastWeekDates(6) As Date
+
+        today = Now()
+        startOfWeek = DateAdd("d", -Weekday(today, vbMonday) - 6, today)
+
+        For i = 0 To 6
+            lastWeekDates(i) = DateAdd("d", i, startOfWeek)
+            Debug.Print(lastWeekDates(i))
+        Next i
+    End Sub
     Private Sub ViewShifts_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        GetLastWeekDates()
         Dim connectionString As String = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=database.accdb"
         Dim sqlTimesheets As String = "SELECT ShiftID, ClockIn, ClockOut, ClockedOut, MinutesWorked FROM tblTimesheets WHERE MemberID = @MemberID"
 

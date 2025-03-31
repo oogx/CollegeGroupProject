@@ -24,19 +24,19 @@ Partial Class ViewShifts
     Private Sub InitializeComponent()
         Me.LblStaffName = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Shift1TxtBx1 = New System.Windows.Forms.TextBox()
+        Me.Shift1TxtBx2 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.Shift3TxtBx2 = New System.Windows.Forms.TextBox()
+        Me.Shift3TxtBx1 = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.Shift2TxtBx2 = New System.Windows.Forms.TextBox()
+        Me.Shift2TxtBx1 = New System.Windows.Forms.TextBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -46,25 +46,25 @@ Partial Class ViewShifts
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.Shift5TxtBx2 = New System.Windows.Forms.TextBox()
+        Me.Shift5TxtBx1 = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.Shift6TxtBx2 = New System.Windows.Forms.TextBox()
+        Me.Shift6TxtBx1 = New System.Windows.Forms.TextBox()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
+        Me.Shift4TxtBx2 = New System.Windows.Forms.TextBox()
+        Me.Shift4TxtBx1 = New System.Windows.Forms.TextBox()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.lblTotalHours = New System.Windows.Forms.Label()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
+        Me.Shift7TxtBx2 = New System.Windows.Forms.TextBox()
+        Me.Shift7TxtBx1 = New System.Windows.Forms.TextBox()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
@@ -93,21 +93,21 @@ Partial Class ViewShifts
         Me.Label2.TabIndex = 32
         Me.Label2.Text = "19/03/2025"
         '
-        'TextBox1
+        'Shift1TxtBx1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(135, 81)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(148, 24)
-        Me.TextBox1.TabIndex = 33
+        Me.Shift1TxtBx1.Location = New System.Drawing.Point(135, 81)
+        Me.Shift1TxtBx1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Shift1TxtBx1.Name = "Shift1TxtBx1"
+        Me.Shift1TxtBx1.Size = New System.Drawing.Size(148, 24)
+        Me.Shift1TxtBx1.TabIndex = 33
         '
-        'TextBox2
+        'Shift1TxtBx2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(295, 81)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(148, 24)
-        Me.TextBox2.TabIndex = 34
+        Me.Shift1TxtBx2.Location = New System.Drawing.Point(295, 81)
+        Me.Shift1TxtBx2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Shift1TxtBx2.Name = "Shift1TxtBx2"
+        Me.Shift1TxtBx2.Size = New System.Drawing.Size(148, 24)
+        Me.Shift1TxtBx2.TabIndex = 34
         '
         'Label3
         '
@@ -153,21 +153,21 @@ Partial Class ViewShifts
         Me.Label5.TabIndex = 40
         Me.Label5.Text = "Hours: 9:00"
         '
-        'TextBox3
+        'Shift3TxtBx2
         '
-        Me.TextBox3.Location = New System.Drawing.Point(295, 166)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(148, 24)
-        Me.TextBox3.TabIndex = 39
+        Me.Shift3TxtBx2.Location = New System.Drawing.Point(295, 166)
+        Me.Shift3TxtBx2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Shift3TxtBx2.Name = "Shift3TxtBx2"
+        Me.Shift3TxtBx2.Size = New System.Drawing.Size(148, 24)
+        Me.Shift3TxtBx2.TabIndex = 39
         '
-        'TextBox4
+        'Shift3TxtBx1
         '
-        Me.TextBox4.Location = New System.Drawing.Point(135, 166)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(148, 24)
-        Me.TextBox4.TabIndex = 38
+        Me.Shift3TxtBx1.Location = New System.Drawing.Point(135, 166)
+        Me.Shift3TxtBx1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Shift3TxtBx1.Name = "Shift3TxtBx1"
+        Me.Shift3TxtBx1.Size = New System.Drawing.Size(148, 24)
+        Me.Shift3TxtBx1.TabIndex = 38
         '
         'Label6
         '
@@ -203,21 +203,21 @@ Partial Class ViewShifts
         Me.Label8.TabIndex = 45
         Me.Label8.Text = "Hours: 9:00"
         '
-        'TextBox5
+        'Shift2TxtBx2
         '
-        Me.TextBox5.Location = New System.Drawing.Point(295, 124)
-        Me.TextBox5.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(148, 24)
-        Me.TextBox5.TabIndex = 44
+        Me.Shift2TxtBx2.Location = New System.Drawing.Point(295, 124)
+        Me.Shift2TxtBx2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Shift2TxtBx2.Name = "Shift2TxtBx2"
+        Me.Shift2TxtBx2.Size = New System.Drawing.Size(148, 24)
+        Me.Shift2TxtBx2.TabIndex = 44
         '
-        'TextBox6
+        'Shift2TxtBx1
         '
-        Me.TextBox6.Location = New System.Drawing.Point(135, 124)
-        Me.TextBox6.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(148, 24)
-        Me.TextBox6.TabIndex = 43
+        Me.Shift2TxtBx1.Location = New System.Drawing.Point(135, 124)
+        Me.Shift2TxtBx1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Shift2TxtBx1.Name = "Shift2TxtBx1"
+        Me.Shift2TxtBx1.Size = New System.Drawing.Size(148, 24)
+        Me.Shift2TxtBx1.TabIndex = 43
         '
         'Label9
         '
@@ -319,21 +319,21 @@ Partial Class ViewShifts
         Me.Label11.TabIndex = 63
         Me.Label11.Text = "Hours: 9:00"
         '
-        'TextBox7
+        'Shift5TxtBx2
         '
-        Me.TextBox7.Location = New System.Drawing.Point(295, 252)
-        Me.TextBox7.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(148, 24)
-        Me.TextBox7.TabIndex = 62
+        Me.Shift5TxtBx2.Location = New System.Drawing.Point(295, 252)
+        Me.Shift5TxtBx2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Shift5TxtBx2.Name = "Shift5TxtBx2"
+        Me.Shift5TxtBx2.Size = New System.Drawing.Size(148, 24)
+        Me.Shift5TxtBx2.TabIndex = 62
         '
-        'TextBox8
+        'Shift5TxtBx1
         '
-        Me.TextBox8.Location = New System.Drawing.Point(135, 252)
-        Me.TextBox8.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(148, 24)
-        Me.TextBox8.TabIndex = 61
+        Me.Shift5TxtBx1.Location = New System.Drawing.Point(135, 252)
+        Me.Shift5TxtBx1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Shift5TxtBx1.Name = "Shift5TxtBx1"
+        Me.Shift5TxtBx1.Size = New System.Drawing.Size(148, 24)
+        Me.Shift5TxtBx1.TabIndex = 61
         '
         'Label12
         '
@@ -369,21 +369,21 @@ Partial Class ViewShifts
         Me.Label14.TabIndex = 58
         Me.Label14.Text = "Hours: 9:00"
         '
-        'TextBox9
+        'Shift6TxtBx2
         '
-        Me.TextBox9.Location = New System.Drawing.Point(295, 294)
-        Me.TextBox9.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(148, 24)
-        Me.TextBox9.TabIndex = 57
+        Me.Shift6TxtBx2.Location = New System.Drawing.Point(295, 294)
+        Me.Shift6TxtBx2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Shift6TxtBx2.Name = "Shift6TxtBx2"
+        Me.Shift6TxtBx2.Size = New System.Drawing.Size(148, 24)
+        Me.Shift6TxtBx2.TabIndex = 57
         '
-        'TextBox10
+        'Shift6TxtBx1
         '
-        Me.TextBox10.Location = New System.Drawing.Point(135, 294)
-        Me.TextBox10.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(148, 24)
-        Me.TextBox10.TabIndex = 56
+        Me.Shift6TxtBx1.Location = New System.Drawing.Point(135, 294)
+        Me.Shift6TxtBx1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Shift6TxtBx1.Name = "Shift6TxtBx1"
+        Me.Shift6TxtBx1.Size = New System.Drawing.Size(148, 24)
+        Me.Shift6TxtBx1.TabIndex = 56
         '
         'Label15
         '
@@ -419,21 +419,21 @@ Partial Class ViewShifts
         Me.Label17.TabIndex = 53
         Me.Label17.Text = "Hours: 9:00"
         '
-        'TextBox11
+        'Shift4TxtBx2
         '
-        Me.TextBox11.Location = New System.Drawing.Point(295, 209)
-        Me.TextBox11.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(148, 24)
-        Me.TextBox11.TabIndex = 52
+        Me.Shift4TxtBx2.Location = New System.Drawing.Point(295, 209)
+        Me.Shift4TxtBx2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Shift4TxtBx2.Name = "Shift4TxtBx2"
+        Me.Shift4TxtBx2.Size = New System.Drawing.Size(148, 24)
+        Me.Shift4TxtBx2.TabIndex = 52
         '
-        'TextBox12
+        'Shift4TxtBx1
         '
-        Me.TextBox12.Location = New System.Drawing.Point(135, 209)
-        Me.TextBox12.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(148, 24)
-        Me.TextBox12.TabIndex = 51
+        Me.Shift4TxtBx1.Location = New System.Drawing.Point(135, 209)
+        Me.Shift4TxtBx1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Shift4TxtBx1.Name = "Shift4TxtBx1"
+        Me.Shift4TxtBx1.Size = New System.Drawing.Size(148, 24)
+        Me.Shift4TxtBx1.TabIndex = 51
         '
         'Label18
         '
@@ -490,21 +490,21 @@ Partial Class ViewShifts
         Me.Label20.TabIndex = 77
         Me.Label20.Text = "Hours: 9:00"
         '
-        'TextBox13
+        'Shift7TxtBx2
         '
-        Me.TextBox13.Location = New System.Drawing.Point(295, 336)
-        Me.TextBox13.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(148, 24)
-        Me.TextBox13.TabIndex = 76
+        Me.Shift7TxtBx2.Location = New System.Drawing.Point(295, 336)
+        Me.Shift7TxtBx2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Shift7TxtBx2.Name = "Shift7TxtBx2"
+        Me.Shift7TxtBx2.Size = New System.Drawing.Size(148, 24)
+        Me.Shift7TxtBx2.TabIndex = 76
         '
-        'TextBox14
+        'Shift7TxtBx1
         '
-        Me.TextBox14.Location = New System.Drawing.Point(135, 336)
-        Me.TextBox14.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(148, 24)
-        Me.TextBox14.TabIndex = 75
+        Me.Shift7TxtBx1.Location = New System.Drawing.Point(135, 336)
+        Me.Shift7TxtBx1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Shift7TxtBx1.Name = "Shift7TxtBx1"
+        Me.Shift7TxtBx1.Size = New System.Drawing.Size(148, 24)
+        Me.Shift7TxtBx1.TabIndex = 75
         '
         'Label21
         '
@@ -538,8 +538,8 @@ Partial Class ViewShifts
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.Label20)
-        Me.Controls.Add(Me.TextBox13)
-        Me.Controls.Add(Me.TextBox14)
+        Me.Controls.Add(Me.Shift7TxtBx2)
+        Me.Controls.Add(Me.Shift7TxtBx1)
         Me.Controls.Add(Me.Label21)
         Me.Controls.Add(Me.lblTotalHours)
         Me.Controls.Add(Me.Button4)
@@ -547,36 +547,36 @@ Partial Class ViewShifts
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label11)
-        Me.Controls.Add(Me.TextBox7)
-        Me.Controls.Add(Me.TextBox8)
+        Me.Controls.Add(Me.Shift5TxtBx2)
+        Me.Controls.Add(Me.Shift5TxtBx1)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label14)
-        Me.Controls.Add(Me.TextBox9)
-        Me.Controls.Add(Me.TextBox10)
+        Me.Controls.Add(Me.Shift6TxtBx2)
+        Me.Controls.Add(Me.Shift6TxtBx1)
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.Label16)
         Me.Controls.Add(Me.Label17)
-        Me.Controls.Add(Me.TextBox11)
-        Me.Controls.Add(Me.TextBox12)
+        Me.Controls.Add(Me.Shift4TxtBx2)
+        Me.Controls.Add(Me.Shift4TxtBx1)
         Me.Controls.Add(Me.Label18)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox6)
+        Me.Controls.Add(Me.Shift2TxtBx2)
+        Me.Controls.Add(Me.Shift2TxtBx1)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.Shift3TxtBx2)
+        Me.Controls.Add(Me.Shift3TxtBx1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Shift1TxtBx2)
+        Me.Controls.Add(Me.Shift1TxtBx1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.LblStaffName)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -590,19 +590,19 @@ Partial Class ViewShifts
     End Sub
     Friend WithEvents LblStaffName As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Shift1TxtBx1 As TextBox
+    Friend WithEvents Shift1TxtBx2 As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents Shift3TxtBx2 As TextBox
+    Friend WithEvents Shift3TxtBx1 As TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents Shift2TxtBx2 As TextBox
+    Friend WithEvents Shift2TxtBx1 As TextBox
     Friend WithEvents Label9 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
@@ -612,25 +612,25 @@ Partial Class ViewShifts
     Friend WithEvents Button6 As Button
     Friend WithEvents Label10 As Label
     Friend WithEvents Label11 As Label
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents Shift5TxtBx2 As TextBox
+    Friend WithEvents Shift5TxtBx1 As TextBox
     Friend WithEvents Label12 As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents Shift6TxtBx2 As TextBox
+    Friend WithEvents Shift6TxtBx1 As TextBox
     Friend WithEvents Label15 As Label
     Friend WithEvents Label16 As Label
     Friend WithEvents Label17 As Label
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents TextBox12 As TextBox
+    Friend WithEvents Shift4TxtBx2 As TextBox
+    Friend WithEvents Shift4TxtBx1 As TextBox
     Friend WithEvents Label18 As Label
     Friend WithEvents lblTotalHours As Label
     Friend WithEvents Button8 As Button
     Friend WithEvents Label19 As Label
     Friend WithEvents Label20 As Label
-    Friend WithEvents TextBox13 As TextBox
-    Friend WithEvents TextBox14 As TextBox
+    Friend WithEvents Shift7TxtBx2 As TextBox
+    Friend WithEvents Shift7TxtBx1 As TextBox
     Friend WithEvents Label21 As Label
     Friend WithEvents Label25 As Label
 End Class
