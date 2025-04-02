@@ -19,7 +19,7 @@ Public Class ViewShifts
 
         GetLastWeekDates()
         Dim connectionString As String = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=database.accdb"
-        Dim sqlTimesheets As String = "SELECT ShiftID, ClockIn, ClockOut, ClockedOut, MinutesWorked FROM tblTimesheets WHERE MemberID = @MemberID"
+        Dim sqlTimesheets As String = "SELECT ShiftID, ClockIn, ClockOut, ClockedOut, MinutesWorked FROM tblTimecards WHERE MemberID = @MemberID"
 
         Using connection As New OleDbConnection(connectionString)
 
@@ -34,9 +34,7 @@ Public Class ViewShifts
                 connection.Close()
 
                 If dataSetTimesheets.Tables("TimesheetData").Rows.Count > 0 Then
-                    For Each row As DataRow In dataSetTimesheets.Tables("TimesheetData").Rows
 
-                    Next
                 Else
                     MessageBox.Show("No timesheet data found for the specified MemberID")
                 End If

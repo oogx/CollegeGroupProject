@@ -29,9 +29,9 @@ Public Class ViewPayslip
                     lblTotal.Text = lblValue.Text
 
                     If lblValue.Text >= 1047 Then
-                        lblTotalNetPay.Text = lblValue.Text * 0.8
+                        lblTotalNetPay.Text = $"£{lblValue.Text * 0.8}"
                     Else
-                        lblTotalNetPay.Text = lblValue.Text
+                        lblTotalNetPay.Text = $"£{lblValue.Text}"
                     End If
                 End If
             End Using
