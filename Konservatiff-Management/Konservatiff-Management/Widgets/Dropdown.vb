@@ -18,8 +18,8 @@
         OpenChildForm(New ChangeInformation) ' Opens the widget change information.
     End Sub
 
-    Private Sub ViewShiftsBtn_Click(sender As Object, e As EventArgs) Handles ViewShiftsBtn.Click
-        OpenChildForm(New ViewShifts) 'Opens the widget to view shifts.
+    Private Sub PDFPayslipBtn_Click(sender As Object, e As EventArgs) Handles PDFPayslipBtn.Click
+        OpenChildForm(New ViewPayslip)
     End Sub
 
     Private Sub DeleteMemberBtn_Click(sender As Object, e As EventArgs) Handles DeleteMemberBtn.Click
@@ -38,10 +38,6 @@
             MsgBox("Deleted the selected member.")
             OpenChildForm(MembersSubform)
         End If
-    End Sub
-
-    Private Sub PDFPayslipBtn_Click(sender As Object, e As EventArgs) Handles PDFPayslipBtn.Click
-        OpenChildForm(New ViewPayslip)
     End Sub
 
 End Class

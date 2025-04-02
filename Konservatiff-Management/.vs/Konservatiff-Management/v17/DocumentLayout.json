@@ -1,12 +1,53 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\q2656\\OneDrive - St John Rigby College\\GitHub\\CollegeGroupProject\\Konservatiff-Management\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87FD0F62-0F12-4FB6-909B-8A9BC861CFCB}|Konservatiff-Management\\Konservatiff-Management.vbproj|c:\\users\\q2656\\onedrive - st john rigby college\\github\\collegegroupproject\\konservatiff-management\\konservatiff-management\\widgets\\dropdown.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{87FD0F62-0F12-4FB6-909B-8A9BC861CFCB}|Konservatiff-Management\\Konservatiff-Management.vbproj|solutionrelative:konservatiff-management\\widgets\\dropdown.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87FD0F62-0F12-4FB6-909B-8A9BC861CFCB}|Konservatiff-Management\\Konservatiff-Management.vbproj|c:\\users\\q2656\\onedrive - st john rigby college\\github\\collegegroupproject\\konservatiff-management\\konservatiff-management\\widgets\\dropdown.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{87FD0F62-0F12-4FB6-909B-8A9BC861CFCB}|Konservatiff-Management\\Konservatiff-Management.vbproj|solutionrelative:konservatiff-management\\widgets\\dropdown.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dropdown.vb",
+              "DocumentMoniker": "C:\\Users\\q2656\\OneDrive - St John Rigby College\\GitHub\\CollegeGroupProject\\Konservatiff-Management\\Konservatiff-Management\\Widgets\\Dropdown.vb",
+              "RelativeDocumentMoniker": "Konservatiff-Management\\Widgets\\Dropdown.vb",
+              "ToolTip": "C:\\Users\\q2656\\OneDrive - St John Rigby College\\GitHub\\CollegeGroupProject\\Konservatiff-Management\\Konservatiff-Management\\Widgets\\Dropdown.vb",
+              "RelativeToolTip": "Konservatiff-Management\\Widgets\\Dropdown.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-02T10:45:38.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dropdown.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\q2656\\OneDrive - St John Rigby College\\GitHub\\CollegeGroupProject\\Konservatiff-Management\\Konservatiff-Management\\Widgets\\Dropdown.vb",
+              "RelativeDocumentMoniker": "Konservatiff-Management\\Widgets\\Dropdown.vb",
+              "ToolTip": "C:\\Users\\q2656\\OneDrive - St John Rigby College\\GitHub\\CollegeGroupProject\\Konservatiff-Management\\Konservatiff-Management\\Widgets\\Dropdown.vb [Design]",
+              "RelativeToolTip": "Konservatiff-Management\\Widgets\\Dropdown.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-04-02T10:45:36.746Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
