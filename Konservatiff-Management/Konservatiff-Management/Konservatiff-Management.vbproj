@@ -171,12 +171,6 @@
     <Compile Include="Widgets\WidgetForms\ViewPayslip.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Widgets\WidgetForms\ViewShifts.Designer.vb">
-      <DependentUpon>ViewShifts.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Widgets\WidgetForms\ViewShifts.vb">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="frmSignInPage.resx">
@@ -217,9 +211,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Widgets\WidgetForms\ViewPayslip.resx">
       <DependentUpon>ViewPayslip.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Widgets\WidgetForms\ViewShifts.resx">
-      <DependentUpon>ViewShifts.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

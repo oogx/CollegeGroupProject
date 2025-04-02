@@ -1,70 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\q2656\\OneDrive - St John Rigby College\\GitHub\\CollegeGroupProject\\Konservatiff-Management\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{87FD0F62-0F12-4FB6-909B-8A9BC861CFCB}|Konservatiff-Management\\Konservatiff-Management.vbproj|c:\\users\\q2656\\onedrive - st john rigby college\\github\\collegegroupproject\\konservatiff-management\\konservatiff-management\\widgets\\widgetforms\\viewshifts.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{87FD0F62-0F12-4FB6-909B-8A9BC861CFCB}|Konservatiff-Management\\Konservatiff-Management.vbproj|solutionrelative:konservatiff-management\\widgets\\widgetforms\\viewshifts.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87FD0F62-0F12-4FB6-909B-8A9BC861CFCB}|Konservatiff-Management\\Konservatiff-Management.vbproj|c:\\users\\q2656\\onedrive - st john rigby college\\github\\collegegroupproject\\konservatiff-management\\konservatiff-management\\frmsigninpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{87FD0F62-0F12-4FB6-909B-8A9BC861CFCB}|Konservatiff-Management\\Konservatiff-Management.vbproj|solutionrelative:konservatiff-management\\frmsigninpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87FD0F62-0F12-4FB6-909B-8A9BC861CFCB}|Konservatiff-Management\\Konservatiff-Management.vbproj|C:\\Users\\q2656\\OneDrive - St John Rigby College\\GitHub\\CollegeGroupProject\\Konservatiff-Management\\konservatiff-management\\widgets\\widgetforms\\viewshifts.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{87FD0F62-0F12-4FB6-909B-8A9BC861CFCB}|Konservatiff-Management\\Konservatiff-Management.vbproj|solutionrelative:konservatiff-management\\widgets\\widgetforms\\viewshifts.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmSignInPage.vb",
-              "DocumentMoniker": "C:\\Users\\q2656\\OneDrive - St John Rigby College\\GitHub\\CollegeGroupProject\\Konservatiff-Management\\Konservatiff-Management\\frmSignInPage.vb",
-              "RelativeDocumentMoniker": "Konservatiff-Management\\frmSignInPage.vb",
-              "ToolTip": "C:\\Users\\q2656\\OneDrive - St John Rigby College\\GitHub\\CollegeGroupProject\\Konservatiff-Management\\Konservatiff-Management\\frmSignInPage.vb",
-              "RelativeToolTip": "Konservatiff-Management\\frmSignInPage.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-04-02T09:46:15.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ViewShifts.vb",
-              "DocumentMoniker": "C:\\Users\\q2656\\OneDrive - St John Rigby College\\GitHub\\CollegeGroupProject\\Konservatiff-Management\\Konservatiff-Management\\Widgets\\WidgetForms\\ViewShifts.vb",
-              "RelativeDocumentMoniker": "Konservatiff-Management\\Widgets\\WidgetForms\\ViewShifts.vb",
-              "ToolTip": "C:\\Users\\q2656\\OneDrive - St John Rigby College\\GitHub\\CollegeGroupProject\\Konservatiff-Management\\Konservatiff-Management\\Widgets\\WidgetForms\\ViewShifts.vb",
-              "RelativeToolTip": "Konservatiff-Management\\Widgets\\WidgetForms\\ViewShifts.vb",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBwAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-03-26T11:24:20.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ViewShifts.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\q2656\\OneDrive - St John Rigby College\\GitHub\\CollegeGroupProject\\Konservatiff-Management\\Konservatiff-Management\\Widgets\\WidgetForms\\ViewShifts.vb",
-              "RelativeDocumentMoniker": "Konservatiff-Management\\Widgets\\WidgetForms\\ViewShifts.vb",
-              "ToolTip": "C:\\Users\\q2656\\OneDrive - St John Rigby College\\GitHub\\CollegeGroupProject\\Konservatiff-Management\\Konservatiff-Management\\Widgets\\WidgetForms\\ViewShifts.vb [Design]",
-              "RelativeToolTip": "Konservatiff-Management\\Widgets\\WidgetForms\\ViewShifts.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-03-31T09:16:24.139Z",
-              "EditorCaption": " [Design]"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
