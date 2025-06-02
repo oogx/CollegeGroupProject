@@ -25,15 +25,32 @@
 - **OleDB** (for database connectivity)
 
 ## Getting Started
+To get started with Konservatiff Management, simply clone this repository:
+
+```bash
+git clone https://github.com/oogx/Konservatiff-Management.git
+```
 
 To run the application locally:
 
 1. Open the project in **Visual Studio**.
 2. Ensure that **Microsoft Access** is installed on your machine.
-3. Place the `.accdb` database file in the project’s `/bin` directory.
-4. Build and run the solution.
+3. Build and run the solution.
+4. *(Optional)* If you wish to use custom login credentials, modify the `.accdb` database file located in the project's `/bin` directory.
 
 > 💡 *Note: Update the database connection string in the code if the file path (Bin Folder) or Access version differs.*
+
+## Default Credentials
+
+Use the following test accounts to log into the system:
+
+- **Administrator Account**  
+  - **MemberID**: `1`  
+  - **Password**: `AdminTest`
+
+- **Regular Member Account**  
+  - **MemberID**: `2`  
+  - **Password**: `RegTest`
 
 ## Credits
 
